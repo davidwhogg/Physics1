@@ -1,0 +1,961 @@
+2003-09-03
+
+good morning class
+
+[good morning]
+
+one of the themes so there is a lot of themes in this class and their
+is a lot of things we try to get across, but one of the most important
+things is that physics, the real study of physics is totally different
+from anything that you learn in high school.  who here had really good
+physics in high school? who had a really bad physics teacher in high
+school?  You answered both!
+
+Whether your physics teacher in high school was really good or really
+bad, one of the things you are going to discover very quickly in this
+class is that university physics is very very different from what you
+learn in high school.  In high school a lot of what you did was learn
+about equations and how to use equations and how to derive equations.
+you learned about problems certain kind of problems you can solve and
+you learned techniques you can use to solve them.  in this class we
+are going to learn about principles.  we are going to use problems and
+we are going to sue equations and we are going to use math and we are
+going to use all sorts of techniques for understanding the universe.
+I don't care whether or not you can solve some particular problem, you
+can always type into a web search the problem you are trying to solve
+and you can find a solution.  The goal of this class is not to learn
+how to solve problems, the goal of this class is to learn about
+fundamental things in the Universe.  And those fundamental things, the
+fundamental properties of the universe appear in all sorts of things
+around you.  Here's an example.
+
+I was walking down the street this morning and above me on the third
+story there was one of those contraptions from which they wash
+windows.  Here's the guy washing windows up above me.  And the guy
+washing windows up above me -- this is three stories -- I am looking
+checking it out, because you know there is physics up there, there is
+all sorts of physics up there, there are all sorts of pulleys up
+there, and tensions in the ropes, and I am imagining all of the forces
+in this platform, and its sagging and so on.  so I am checking it out
+thinkuoung about that and all of a sudden he accidentally knocks his
+bucket and the bucket starts to fall.
+
+here is the bucket starting to fall.  I see the bucket falling towards
+me, and I think to myself am i dead, or do I have time to jump out of
+the way, or should I write a little sign saying please move out of the
+way, there is a falling bucket, install that sign, and then get out of
+the way.  so which should you do?  should you just think I'm dead and
+wait for the moment of destruction, or should you jump out of the way,
+or should you paint a little sign saying caution, falling bucket, and
+install that sign and then jump out of the way so that no one else
+gets hurt?
+
+[how fast is it moving]
+
+I've told you everything you need to know.  The bucket is three
+stories up; it has just fallen off.
+
+[how many meters is a story?]
+
+How many meters is a story?  You know how many meters is a story as
+much as I do.
+
+[three meters?]
+
+Maybe.  what do you think it is?  how tall do you think this room is
+here?  is this room one story, two stories, three stories?
+
+[confusion]
+
+Here's some practical suggestions from the bottom: just jump out of
+the way, and think about it later.  that's a good suggestion, and if
+you are in this scenario, I suggest that's what you do.
+
+Now, one of the things you could have said, is, obviously, you are not
+dead as soon as you see it, because here I am, I survived.  so I am
+something that survived, so you can rule out that possibility already.
+What I am trying to get at is that every day, when you are walking
+down the street, physics things happen, and you have quite abit of
+intuition about how physics works, and you need to use it to solve the
+problem.
+
+So let's just imagine the scenario now.  I want you to imagine the
+scenario, I want you to imagine three stories.  How many stories is
+this room?  It is at least two.  In fact, if I open this door, you
+will find that I am on the basement level, you entered this room on
+the first floor, and the ceiling in this room goes up, so in fact this
+room is nearly three stories tall.  And you can tell that because you
+have a pretty good idea of what a story is like.  For example, you
+can;t quite touch the ceiling ina typical building in new York, if you
+jump you can usually just get it
+
+[jump]
+
+so even that TV is on the second story.  and so we're like two and a
+half stories.  so I want you to think about things like that.  you
+might think well my ability to estimate the height of this room has
+nothing to do with anything, but actually it has a lot to do with
+physics, because one of the things we want to do in this class is use
+everyday experiences to solve physics problems.
+
+It is important to remember that physics is not a subject that exists
+on pieces of paper with little integral signs.  physics is not a
+formal system, it is not mathematics, it is something that describes
+the actual behavior of actual things.
+
+Okay, so now visualize this, and think about how long it takes the
+bucket to fall.  and I am going to give you some options, and we are
+going to vote.
+
+One option is that it takes 100 seconds for the bucket to fall.  how
+long is 100 seconds?
+
+[a long time!]
+
+It is almost two minutes.
+
+so that seems a bit too long.
+
+maybe it takes 10 seconds?  maybe it takes 1 second?  maybe it takes
+0.1 seconds?  these are we are going to do a lot of problems in class
+where we just try to get rough estimates.  today is one of those days
+in which we try to use just basic physics principles, basic ideas you
+already know, and your own experiences to get answers to physics
+problems.
+
+okay, you must vote.  think about it.  don't do a calculation.  well,
+you can do a calculation, but you don't need to do a calculation,
+because you probably have a pretty good idea.  think about a bucket
+falling from way up there?  wham!  does it fall like that?  No, it
+doesn't fall like that.  how does it fall?
+
+[vote: 100s 0, 10s 11, 1s N-11, 0.1s 0]
+
+how big is N, anyway? it is about well there are about 5 of you there,
+1,2,3,4,5,6,7,8,9, so we have about 40 people here, so this is
+something like 30.
+
+One thing I want to be clear about is that it is almost never
+necessary in this class to give me an exact answer for anything.  so
+one of the things that people think about physicists is that I should
+have come in here in a lab coat.  You think of physicists as being in
+lab coats and they have all this big equipment and they have all this
+big equipment and they are turning dials and they are recording all of
+these really long numbers and there are computers crunching the
+numbers and they say: yes, the magnetic moment of the electron is
+[long number].
+
+But of course that is a very specialized part of physics where we have
+in the rare moments of physics in which we have an exact model which
+we can exactly understand a physical experiment and we have an exact
+experiment we can talk about many digits of accuracy.  In most of the
+physics we are talking about it is things like this chair, and when I
+slide it alnogn the floor, how far will it go?  we will never predict
+the outcome of an experiment like that with high accuracy, we will
+always have to make approximations.
+
+Even in this problem, we are going to have to make approximations, and
+we are not going to get a precise problem.  In fact I never want
+precise answers.  Just forget about precision; that is not what we are
+doing in this class; we are learning about principles.
+
+This guess was based on your intuition.  How would you go about
+solving this problem?
+
+[]
+
+Okay, good, one thing that came up is that gravity 9.8 m/s^2 good,
+lets hold that thought for a second.
+
+Is gravity the only thing we have to worry about in this problem?  No.
+What else do we have to worry about?
+
+[]
+
+the wind!  Okay so there's wind, and in fact if it had been windier
+out there today, I might have been able to like -- no problem -- and
+just waited for it to go whoom and get blown out of the way.
+
+so wind is something, and I am going to add to wind just generally the
+air.
+
+now when you solve how many of you have solved a problem like this
+back in high school.  Almost all of you.  Now when you solved that
+problem what did you do about the wind or the air?
+
+[ignored it]
+
+You neglected it!
+
+Okay so here we are going to start to see -- we are going to get a
+little bit of a peek into the differences between physics now from
+physics back then [meaning high school].
+
+The difference is not going to be that we solve this problem correctly
+now, including air resistance.  That is not the difference.
+
+What's the difference?  the difference is that in high school you
+solved this problem over and over again and problems like it -- things
+sliding down ramps and blocks on ropes over pulleys -- and you always
+said oh ignore air resistance.  So who's going to tell me when that
+approximation is valid?
+
+[]
+
+Nobody?  Did you say never?  So its not never allowable to ignore air
+resistance, however, if you don't understand when you can ignore air
+resistance and when you can't ignore air resistance, then you never
+solved this problem!  You have solved some math problem where you
+plugged 1/2 a t squared and some v naught and something like that into
+an equation.  But that problem had nothing to do with physics, because
+it is not even physics if you haven't answered the question "can I
+ignore air resistance"
+
+One of the points of this class is to understand the approximations we
+are making.  It is a huge huge thing here: we are always
+approximating.  In fact all of the laws of physics are approximations.
+Quantum mechanics, general relativity, the standard model of particle
+physics, qed, qcd, everything electromagnetism, every law of physics
+is an approximation.  how is it an approximation?  well it turns out
+that all of these laws work in certain regimes but we can't
+stitchethem together into a theory of everything.  and that means
+that every law of physics you have ever learned or will ever learn
+here in the next four years -- unless there is a major breakthrough
+in the next four years -- is going to be an app;roximation.
+
+So when I when we drop this bucket.  Even if we consider all the air
+resistance and all the complexities of this bucket of water, we still
+would only have an approximate answer for how long it is going to take
+to fall.  It is very important to understand that everything is an
+approximation and remember that we will have to justify our
+approximations.  Lets remember that and come back to that.
+
+What else could matter to this problem?
+
+[]
+
+Contents of the bucket.  Good.  Now, why could the contents of the
+bucket matter?  Can anyone think of an extreme example in which the
+contents of the bucket would matter?
+
+[]
+
+Filled with lead?  If the bucket was filled with lead versus filled
+with water, what would be the difference in how it gets down here?
+
+[]
+
+It would be faster.  Its true that the lead-filled bucket will fall
+faster.  Why will it fall faster?
+
+[]
+
+The mass is greater; that is not quite the reason that it would be
+faster.  What is the reason it would be faster?  What if I made a
+really really really hugely massive hot air balloon here?  Its really
+massive.  What would happen?  It would go up!  So its not really the
+mass that matters, since I can come up with a more massive object that
+would not fall faster.  What is it?
+
+[]
+
+[okay lets come back to that -- because that is part of the struggle.
+yes]
+
+[]
+
+Its sort of density that matters, and even that is not quite right,
+but it is closer, because if I had a really dense object, its not so
+much affected by...
+
+[]
+
+Air resistance!  Okay, so some good ideas are coming out here, and we
+are going to have to put it all together.  The whole point of this
+class is that we have are going to get really really confused before
+we put it all back together.
+
+[]
+
+Buoyancy!  What does air do?  Air resists the motion, meaning that if
+you are running very fast, there is air like blowing back at you, but
+it is also the case that if you get on a scale, does the scale
+measure your mass,? it measures your weight.
+
+I get measured in a vacuum [draws person being weighed in a bell jar],
+but if you get weighed in air, it turns out that you are displacing
+some air, and therefore there is some buoyancy.  So I have already
+said hot air balloon.  Imagine that his bucket is a novelty bucket, it
+looks like a bucket, but is helium baboon that he knocked off, it
+mould go up, right? not because it has negative mass, not because
+there is an upward wind, but because there is buoyancy.
+
+So there is air resistance, and there is also buoyancy, which I can
+never spell.  I didn't get this job for spelling.
+
+Contents of the bucket.  So we are going to come back to how the
+contents of the bucket matter.  Does any one want to throw anything
+else into the mix of what matters to this problem?
+
+Surface area?  So the shape of the bucket generally.  I'm going to
+generalize it, surface area, volume, shape of the bucket.
+
+The contents of the bucket includes the mass, but it also includes
+things like the dynamics of the stuff inside.  So say, for instance,
+that this wasn't a bucket, but it was a helium tank, compressed helium
+tank, and when he knocked it off, he accidentally punctured it.
+
+okay so then the bucket has a little hole in it out of which
+decompressing helium is spewing.  Then this bucket becomes what?
+
+[]
+
+A little rocket -- whooooooosh wham!  I had like two seconds to say
+wow!
+
+Okay, so its also kind-of the dynamics of the stuff inside the bucket.
+There is a dynamics issue.
+
+when you solved this problem in high school, which of these
+properties did you use when you were estimating the fall of the bucket.
+
+[]
+
+Gravity, mass, you used the mass.
+
+[]
+
+height of the thing -- how high up it is.
+
+But you didn't use the area or volume.  You didn't consider these
+other things, but there is no reason they shouldn't matter, and in
+fact if you are doing an accurate calculation they do matter.
+
+I have told you that I am not doing an accurate calculation.  so I ask
+you in all seriously, how much do you thin air resistance does
+matter?  Its falling and in one second you have time to have a few
+thoughts.  One thought you could have is "well, I think its going to
+take a second", you should think it more quickly than this " but maybe
+air resistance is great enough that it is going to flutter down here
+and I have lots of time".
+
+so is it?  what do you think?
+
+[]
+
+it does, absolutely, so I am asking you to use some common sense, if
+you see a guy on a window washing platform kick a zinc bucket off,
+what do youothink it is going to contain?
+
+[]
+
+water, along with a polymer emulsion in it, known as soap.  and that
+of course changes things like surface tension.  this bucket has got
+this surface -- one thing that is very interesting -- in the Courant
+institute is one of the premier applied mathematics institute in the
+world and its here at NYU.  At the C I, people try to simulate with
+huge computers and mathematical and phsycal apprixmaitions, complex
+physical phenomena.  For example, Charlie Peskin over there has a
+model of the human heart.  An incredibly accurate simulation of the
+human heart with which you can study blood flow and pathologies in a
+completely theoretical way.  It is an incredible simulation they do.
+Bucket of water?  they can't do.  A bucket of water is an astoundingly
+difficult thing to simulate. Anyone know why?
+
+[]
+
+The mere fact that it is water matters, because it has turbulent
+eddies and so forth in it, but with enough computer time, they can do
+the water itself.  Yeah?
+
+That's getting at it.  There's all sorts of stuff going on in the
+surface of the water have you ever looked at the surface of water in a
+glass?  You probably had to in high school.  It has a meniscus.  But
+its that free surface, a surface that is completely free, and the
+surface has tension, but it can also break and drops can come off the
+surface.  That changes the topology of the surface.  So there's all
+sorts of interactions between the dynamics of the water and the
+dynamics of the surface and the topology of the surface and in fact
+no one can model that accurately right now.
+
+So in fact if you wanted to do an incredibly accurate calculation of
+this problem you actually couldn't with current technology!  So maybe
+when supercomputers get a hundred times faster than they are now,
+maybe they can just simulate the whole system, but they can't do it
+now.
+
+So, this is actually a problem that no living physicist can actually
+answer precisely.  Therefore were not going to try and answer it
+precisely.  we are going to ry to figure out what matters most.
+
+And try to get an approximate answer.
+
+okay so, who here thinks that air resistance is going to dramatically
+affect the behavior of this bucket?  You can look up now and say oh
+the air is here, so i have tons of time!  like the guy had dropped the
+front page of the new York times.
+
+if air resistance isn't going to be a big deal, someone give me an
+argument that it isn't going to be a big deal.
+
+we all pretty much know it isn't going to be big deal.  in fact even
+for this bit of chalk, air resistance isn't a big deal.  the chalk
+doesn't float down in the air, it basically accelerates down by
+gravity.  unlike this piece of paper.  there's something for which
+air resistance matter s a lot. [drops chalk] here's something for
+which air resistance doesn't matter much at all.
+
+what is the difference between these things?
+
+[chalk is smaller]
+
+chalk is smaller.  these two pieces of paper have almost exactly the
+same mass.  actually this has a staple, let me take off the same
+amount of paper off of each.  now these have basically the same mass.
+one has a bit more ink; you can compute how much that matters.
+
+now these have basically the same mass.  i crumple one up.  there's no
+contest.  So does that refine what you were saying?  okay so area as
+area goes down, air resistance gets less important.  that's a very
+good thing.
+
+lets do another experiment.  [borrows ??]  this notebook and this
+piece of paper have very similar areas.  which will fall faster?
+
+why?  because it is heavier.  it is more massive.  good.  so, as mass
+goes up, air resistance gets less important.  So what do you think the
+relevant thing is?
+
+the mass of the bucket is pretty massive and...
+
+...good here we go, we are nearly there; this is good.  very big deal.
+huge, this is as big as the wod approximation.  comparisons when i
+compare something when i say the mass of the bucket is really big and
+the area of the bucket is really small you should ask, its like on TV,
+now with new great taste. tastes better?  tastes better than what?  my
+gramma's wig?  that's not what it tastes better than.  you need to
+compare it with something that's similar.  okay getting scared?  nope?
+not scared at all?
+
+so what are we comparing the mass of the bucket to?
+
+oooh, that's good, something that would be affected by air resistance,
+like what?  the piece of paper, so one thing you can say is that the
+mass of the bucket is greater than a piece of paper of the same area.
+that's true, but its not sufficient, because a stack of three sheets
+of paper is also more massive than a sheet of paper.
+
+what's the really relevant thing.  we are asking if the bucket is
+affected by what?
+
+its air resistance, so surface area comes in, mass comes in, but
+what's the surface area and mass of the air?
+
+we are asking whether or not air is important. and we are asking if
+the mass of the bucket is large.  So we are comparing the mass of the
+bucket to the mass of what?  All of the air on the surface of the
+Earth?
+
+That weighs a lot!
+
+right, so ..
+
+ooh, surface area of the air the bucket traveled through.  so here we
+have a bucket, and the bucket is going to fall.  it sill fall l.ike
+this towards us, and it might turn, or whatever, but basically it is
+going to carve a path like this.  it carves a path like this.  now we
+can compare the mass of the bucket to what?
+
+we can compare the bucket's mass to the mass of this column of air and
+that would start to get at the question of whether air resistance
+matters.  now how much does this column of air weigh?
+
+[not much]
+
+not that much?
+
+okay we will come back to that in a minute.
+
+lets assume for now -- this is a good thing to keep in mind, remember
+that we are playing around.  we are not going to get a precise answer.
+yoppu are waiting for some square roots and 2s and hs and some kind
+of equation.  your lucky if we get some kind of thing written on the
+board but we re not really ogin to solve this problem today.  too
+hard.
+
+lets make the approximation.  we can solve under an approximation.
+lets try the approximation you learned in high school and then we are
+going to come back and ask what the approximation is about.
+
+so what is the approximation you learned in high school?
+
+no, don't give me an equation.  I want a phyiscial description of it.
+
+the approximation was constant acceleration.
+
+Now this approximation means you are assuming you are effectively
+assuming a very important thing about the air, which we just
+discussed, which is that you are assuming that you can ignore air
+resistance.
+
+what else are you assuming?  it is a wierder thing that you are
+assuming.
+
+the mass stays constant.  okay that's a really weird thing, and you
+are assuming that, so its not jetting stuff out.
+
+where does that constant acceleration come from?  who said this?
+
+before newton?
+
+Galileo said this -- in fact Galileo is famous for an experiment that
+he never did.  what is it?
+
+he dropped two balls off of the leaning tower of Pisa with
+different...
+
+...masses and they fell and what happened??
+
+they hit the ground at the same time.  that's an experiment he never
+did, and we know that for a lot of reasons, not the least of which is
+that in fact, if you do that experiment, and you watch carefully, you
+will see that they hit at different times.  because even with
+cannon balls, there is enough air resistance to make them hit at
+slightly different times.  They go thump-thump.
+
+Like that and people at the time wouldn't have been all that convinced
+by it anyway, because what's the really big difference between a ten
+pound cannonball and a twenty pound cannonball? who cares?  And they
+hit at different times anyway.
+
+Of course Galileo was really really sneaky, so Galileo probably would
+have done the experiment the night before, checked, found that the
+ten pound ball fell a little bit slower, and would have then released
+the ten pound ball a little earlier to compensate.  Because Galileo
+had no principles.
+
+Galileo knew that what he was doing is correct because he did some
+brilliant experiments that showed it correctly.  We will come to them
+later.  They are incredible experiments.  Because he was working he
+was figuring out the kinematics of falling objects and he didn't even
+have a clock.  Galileo didn't even have a clock and in fact he designed
+experiments that would make noises in a rhythm because in fact your
+sense of rhythm is more accurate than any clock he had.
+
+He would roll things down ramps, and the ramps were grooved so that
+the rolling objects would go click click click in a rhythm because he
+could feel a rhythm better than he could make a clock.  So he was a
+very good example of someone who used the things around him and his
+experiences to figure out things about the physiucsal world he was not
+afraid to use his own experience.
+
+okay so we were assuming ignoring air resistance and then the
+constant acceleration with which everything accelerates at 9.8 m/s^2
+or whatever assumes something else.  it assumes that the composition
+internal composition properties of the bucket don't matter.
+
+so we are kind-of treating the bucket as a point particle.  and I just
+emphasized to you that the bucket is not a point particle.  it is
+in fact something so complex that no physicist and no engineer can even
+simulate it on a supercomputer.  so approximating it as a point
+particle is kind0-of insane, but we are cing to come pack to that and
+it is going to turn out that for almost anything there is a way of
+making this approximation correct
+
+so for ex if I throw this chair across the room, it will do something
+complicated, it will spin around -- you have probably seen something
+like this on WWF, with folding chairs or something like that?  but if
+i throw this chair it is going to go all over the place it will be
+spinning and vibrating and stuff like that, but one point in the chair
+will actually describe a very close to a perfect parabola.  what
+point is that?
+
+[]
+
+its the center of gravity or center of mass.  there is a location in
+this chair.  lets see if we can locate it.
+
+[hangs chair from various points to "triangulate" the center of mass]
+
+its about there.  yeah that point there will describe something very
+close to the sort of ideal trajectory.  so actually we are relying on
+a lot of physics.  this is relying on a lot of physics we haven't done
+yet.  one of the weird things about this course is that we kind of go
+backwards.  we start by making approximations we don't know how to
+justify, and later in the class when we study real objects, were going
+to get to why this approximation works, how the center of mass works
+and why the center of mass can why you can treat the object as if it
+is all at the center of mass.  and you can't for everything, but you
+can for some things.  You can't when you describe the spin of this or
+when you describe the temperature of this or when you describe the
+surface of the water, you can't treat it as a point.
+
+but for this thing, lets just try this approximation.
+
+now in this approximation, what things can possibly matter?  if I
+treat this approximation, what things can matter?  Well, Galileo said
+
+"all things fall at the same rate" but of course he said something
+much more detailed than that: he said
+
+"all sufficiently dense things sufficiently close to the earth fall
+with the same acceleration $g$"
+
+of course Galileo didn't say that in fact Galileo didn't have any idea
+that being close to the center of the earth matters.  but it does
+matter.  it matters for a number of reasons.
+
+say, when I looked up, say i looked up and the window washer was not
+on the third story, but in fact was washing a window on the moon and
+dropped the bucket.  how long would it take the bucket to hit me?
+
+[]
+
+it wouldn't!  it would hit the moon!  okay, yeah yeah
+
+so say here's the earth, here's me, wa;king, and the window washer is
+on an incredibly tall platform like this. and dropped the bucket.
+would this be true?
+
+[]
+
+why not?
+
+[]
+
+It would?  Oh very good, we have a lawyer in the house.  it would be
+true because the bucket isn't "sufficiently close" -- the rule
+specifies sufficiently close so the rule is inapplicable.  its true
+but inapplicable!
+
+but why wouldn't it be the case that it falls with the same constant
+acceleration g ?
+
+right!  you already know that if I throw something near the surface of
+the earth, it goes on a parabolic trajectory.  if it can be treated as
+a point particle.
+
+Say I throw some thing so hard it goes like this? is that still a
+parabola?
+
+it goes like that and lands over there.  in France.
+
+is that a parabola, that trajectory?
+
+its elliptical!@ orbits in gravity are ellipses, right?  so there is
+some transition from parabola to ellipses.  all sorts of craziness is
+happening.  so there is a THIRD approximation we are making that we
+haven't even figured out until now, which is that we are close to the
+earth.
+
+we haven't even solved the damn problem!
+
+everything falls at the same acceleration g.  we want to figure out
+what time, how long it takes to fall, so what can be relevant?
+
+is the mass of the bucket relevant?
+
+its not relevant -- why not?
+
+right.  we are assuming that galileo's law applies.  its sufficiently
+dense, its sufficiently close to the earth, and so everything falls
+with the same acceleration g.  that means my keys and this chalk fall
+at the same acceleration
+
+looked pretty good didn't it?
+
+that means that the mass of the bucket doesn't matter.  does the area
+of the bucket matter?
+
+volume?
+
+composition?
+
+contents?
+
+so none of that matters, and I want to compute the time it takes to
+fall, so what matters?
+
+height matters!  what matters?
+
+height and I'm just gonna call it h for now.
+
+the acceleration itself g.
+
+this is all that matters.  that's pretty restrictive!
+
+can anyone going to predict what I'm going to talk about next?
+
+not the answer, that's for sure!
+
+aah!  starting velocity does matter.  lets go back and look at that.
+
+starting velocity it does matter absolutely.  I attempted to imply,
+and I was not explicit, that its initial velocity was zero.  but very
+good, it does matter, and we can see where it comes in as soon as we
+are done.
+
+we'll come back to that -- don't let me forget that although we may
+run out of time.
+
+those of you who came in late make sure that you get a copy of the web
+page before you leave.
+
+here we go.  anyone want to predict what I am going to talk about
+next?
+
+NO! not accuracy.  we will come back to that.
+
+now we have identified these two quantities; what should we talk about
+in these two quantities?
+
+yes, sort of but they are sort-of unrelated.  but we just know that
+this is much less than the radius of the earth.
+
+that's a start.  this is what we need to solve the problem with.  lets
+ask two really simple questions.  the first is, rough scaling, and by
+this all i mean is, which of these quantities matters positively and
+which matters negatively?
+
+we are computing the time.  lets say the window washer was not at the
+3rd story but the 30th story.  more time or less time?
+
+more time!
+
+lets say we are not on the planet earth, but we are on --- some other
+planet where the gravity is stronger.  no lets go to the moon, the
+moon has much less strong gravity at the surface than the earth.  if I
+had happened to be walking along watching this in the moon, and the
+window-washer had been on the third story of a building on the moon
+(for your reference, stories are the same height on the moon as on the
+earth).  would it take longer or shorter?
+
+longer!
+
+the rough scaling is time increases as h increases and g decreases.
+
+okay, so that's a very useful thing.  its a very useful when you are
+doing a problem like this to work that out.  hopefully in the future
+it won't take you this long to do this proibelm, on the other hand it
+is very useful to have these skills.  the important point of this
+problem is not to get the solution of this problem; the point of this
+problem is to talk about how to approach a physics problem, which will
+in the future be far harder than this.  or perhaps not far harder than
+this one, because when you approach a problem this way they are not
+far harder than this because if you just work through what can matter,
+which is more important than what , which physical effects matter, and
+then you take the things you have decided could matter and you ask
+
+what are the dimensions of those quantities?
+
+Okay, lets do a little practice with dimensions.
+
+if I measure the width of this door and I get L, the width of this
+door, what are the dimensions of that quantity?  Do people know what I
+mean by dimensions?
+
+units!  the units in which I measure L would be, say, cm, or m.  The
+dimensions are the generalization of cm or m, and the dimensions would
+be length in this case.
+
+if I measure in inches, it would be different units but the same
+dimensions which would be length.
+
+Lets say I give you an energy.
+
+like you pick up a snickers bar oops that sounds like a product
+placement you pick up a candy bar and it has a certain number of
+calories.  that calories is a measure of energy, and energy has what
+dimensions>
+
+joules are units, it has units of joules or calories (actually
+kilocalories, but thats another story).  But what are the dimensions
+of energy?
+
+Okay I will give you a hint.  Any formula you have ever heard for
+energy has the right dimensions. so what is a formula you have heard
+for energy?  the popular culture.  like when you oooh someone said
+the formula someone said e = m c squared!  what is that formula>?  e
+equals m c squared?  what's that?
+
+a mass. what's that?
+
+a speed, a length over a time.  so the dimensions of energy is mass
+times length squared over time squared.  and thats the dimensions of
+energy.  crazy?> no its not crazy.  ever formula for energy you have
+ever heard has this property.  what's another formula you have heard
+for energy?
+
+one half m v squared.  a trivial one.  what's one half m v squared?
+speed squared times mass ooh.  another one, give me another one?
+
+m g h uh oh that looks more complicated.  it has three things in it
+but what's g?  acceleration, which is meters per second squared.  so
+this is mass times a length over a time squared times a length or mass
+times length squared over time squared.
+
+okay this is another one of those uge things like approximating and
+comparisons, it is dimensions.
+
+if you think of these objects, what is the dimensions of h?
+
+length
+
+what is the dimensions of g?
+
+its meter per second squared, right.  I want you to always, whenever
+you give me a number, you always have to have units on it.  don't ever
+tell me that the acceleration is 9.8.  that doesn't mean anything
+without units.  it is 9.8 meters per second squared.  because it is
+also 32 because it is 32 feet per second squared.  so you could have
+just said 32.  in fact, you could have just said "7" since you could
+have made up your own unit system in which g happens to have the value
+seven.  the answer is meaningless without units.
+
+but you've given me units and not dimensions.  so what are the
+dimensions of g?  they are length over time squared.
+
+i said, ever formula you have ever seen for energy has the same
+dimensions as energy, and you could generalize that.  any formula you
+see for any quantity, say time, has to have the dimensions of that
+quantity, which is, in this case...
+
+what are we trying to determine here?
+
+I have forgotten, because now we have been talking about this problem
+for 51 minutes and we still haven't gotten close to solving it, in fact
+we haven't written down any equation at all
+
+its because I am trying to deemphasize equation.  i am trying to
+emphasize that physics is not about equations on paper, physics is
+about physical arguments, approximations, comparisons, dimensional
+analysis, and thinking on your feet.
+
+we are trying to find a time.
+
+this is all that can matter -- h and g.  so I now want to give you
+sixty seconds to discuss with your neighbor actually first of all I
+want everyone to introduce themselves to their neighbors on both sides
+-- go.
+
+everyone comfortable?
+
+with your neighbors, i want you to figure out and you have sixty
+seconds, what combination of h and g or multiple combinations what
+multiple combinations of h and g can you find and by combinations i
+mean multiplications, divisions, exponentiations to the power of ten,
+whatever combinations you can find, that have the dimensions of time.
+Figure out how you are going to make these two symbols to combine to
+make a time.  you have sixty seconds.
+
+who here thinks they have a combination of h and g that has the
+dimensions of time.  quite a few of you?
+
+the square root of h divided by g?
+
+how many people like that?
+
+does anyone have any other suggestions for things with the dimensions
+of time.  okay so lets just look at this combination.  and nobody has
+any other combination than this?  good.
+
+I actually don't know of any other combinations other than this.
+
+who here wants to explain to me why this has dimensions of time, or
+justify that this has dimensions of time?  no wrong question; who here
+*can* justify that this has dimensions of time?
+
+h is a length.
+
+if I really wanted to labor he point, I could write this as length and
+I could write this reciprocal as time squared over length, and
+dimensionally this technique works -- I can just cancel the lengths,
+and then I have a square root of a time squared which is a time.
+
+now, little strange, have we written down any physics equations?  did
+we ever wright down one half a t squared is this the right answer?
+
+is it good enough?
+
+lets work out what it is and then well work out the real answer
+
+does this answer have to be exactly correct?  lets assume that the
+approximations are correct -- imagine that they are perfectly correct
+-- is this going to be the correct answer?
+
+why not?
+
+yes, but what kind of change could you make to this and have it be the
+right answer.  Here I am going to show you a combination of h and g
+that nobody thought of.
+
+pi rood h / g!  or 1/37! root h / g boom!  we don't actually have the
+right answer.  thats wrong by a factor of -- anybody know?
+
+it is wrong by a factor of radical 2.  do we care?
+
+right now we don't care because remember eventually we are going to
+care.  we do need to sometimes get right answers.
+
+but remember, when the bucket is falling, do you really care if it is
+on second or 1.4 seconds. you probably just want to get out of the
+way, so this answer, root h / g is not quite correct, but it contains
+almost all of the physics of the problem.  everything after this is
+just math,.  we just have to write down the correct equations and
+solve the equations.  but we know that our answer has to be some
+unknown constant times the suqre root of h / g it can involve pis and
+radicals and factorials and whatever, but it is going to be a
+dimensionless prefactor.
+
+All of the dimensional part of the answer is right here, and besides
+which, this answer is damn close to the right answer.  after all, we
+could have manipulated symbols all over the place and gotten 100 micro
+seconds, or we could have gotten 35 years.  but in fact when we made
+the only combination of things that we could possibly have written
+down that could possibly be close to correct, it is in fact close to
+correct.
+
+okay, what is this answer?  what is h for three stories?
+
+not 30 m
+
+its about 10 m its about 9 m lets call it 10 m for convenience.
+
+what's g?
+
+its about 10 m /s 2
+
+square root of 10 m / 10 m / s2 I'm gonna skip a couple steps here
+
+1 second!
+
+correct answer is not one second, right its actually square root of
+two longer, I think -- its gottaa be square root of two larger because
+its a parabola that way.  but we have gotten almost all of the way to
+the answer using nothing
+
+there was nothing there, its just we talked about approximations, we
+talked about galileo's principle, and then once we had Galileo s
+principle we knew that only these two quantities could matter.  once
+we knew that only these two quantities mattered, we get a formula
+which is correct up to a dimensionless favctror we don't know and so
+its actually not one second but actually one second times happy face
+and we just have to determine what happy face is so all of that math
+you did in high school, all of that crap, was just about determining
+that that is a square root of two.  all of the physics of this problem
+is in the dimensionless number
+
+i am trying to separate out the physics from the math the math just
+gets you the prefactor whih is not that interesting.  this tells you
+that if its higher it takes longer to fall if gravity is higher it
+takes less time to fall.
+
+now say the window washer was on the sixth story and not the third
+story, would it take twice as long, four times as long?
+
+less than twice it would take the square root of two times as long
+
+in fact there is a huge amount of information in this answer.
+
+i don't have time to continue, because I have to say a few things
+about what's in this handout...

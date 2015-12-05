@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset -.5cm
+\hoffset -1.5cm
+\textheight 21cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 13.}
+\end{center}
+
+{\bf Problem 1.}
+
+(a) Let's $M_M$ is mass of the Milky Way.
+$$\frac{M_{\odot}v^2}{R}=G\frac{M_{\odot}M_M}{R^2},\;\;\;\;M_M=\frac{v^2 R}{G}\approx1.9\times 10^{41}\;kg\approx 10^{11} M_{\odot}$$ 
+
+(b) Mass of the Earth is $M_E\approx6\times 10^{24}kg$, period of the moons orbit $T\approx 28$ days, $1\;AU\approx 1.5\times 10^{11} m$. Again, like in (a) writing that centripetal force is a gravitational attraction we get
+$v^2=G M_E/R$. Taking into account that $v=2\pi R/T$ we find for the distance
+$$R=\left(\frac{G M_E T^2}{(2\pi)^2}\right)^{1/3}\approx 3.9\times 10^8\;m\approx2.6\times 10^{-3} \;AU$$
+
+(c) $M_{\odot}=2\times 10^{30}kg$, mass of Jupiter $M_J=1.9\times 10^{27}$, period is $T\approx 11.86\;years\approx3.7\times 10^8 s$, radius of the Sun $R_{\odot}=7\times 10^8 m$. 
+Distance from sun to center of mass is $r_s$ distance from Jupiter to c.o.m. is $r_J$
+$$M_{\odot}\omega^2 r_s=M_J\omega^2 r_J=G\frac{M_{\odot}M_J}{(r_s+r_J)^2}$$
+from here we get
+$$r_s=M_J\left(\frac{G T^2}{(2\pi)^2(M_{\odot}+M_J)^2}\right)^{1/3}\approx7.3\times10^8 m,\;\;\;\;r_J=M_{\odot}\left(\frac{G T^2}{(2\pi)^2(M_{\odot}+M_J)^2}\right)^{1/3}\approx 7.7\times 10^{11}m$$
+ Thus, the c.o.m is just outside of the Sun. The orbital speeds are: for Jupiter $v_J=2\pi r_J/T\approx13\;km/s$,
+ for the Sun $v_s=2\pi r_s/T\approx12\;m/s$.
+ \\
+
+{\bf Problem 2.}   
+
+(a) Gravitational potential energy is $P=-G m M_E/R$, the kinetic energy due to rotation of the Earth is $K=m\omega^2 R^2/2$, where $R$ is radius of the Earth and $\omega=2\pi/T$, $T=24$ hours.
+Thus, the total energy is
+$$E=\frac{m (2\pi R)^2}{2 T^2} -G\frac{m M_E}{R}\approx-6.2\times 10^{7} J.$$
+(b) East, along rotation of the Earth
+
+(c) Orbiting means $m v^2/R=G m M_E/R^2$, from here we get for kinetic energy
+$K=mv^2/2=G m M_E/(2 R)$. The total mechanic energy is
+$$E=K-G\frac{m M_E}{R}=-G\frac{m M_E}{2R}\approx-3.1\times10^7 J.$$
+(d) The radius of geostationary orbit is defined from
+$m\omega^2 r=G mM_E/r^2$, $r=\left( GM_E T^2/(2\pi)^2\right)^{1/3}$.
+The total energy is
+$$E=\frac{m\omega^2 r^2}{2}-G\frac{m M_E}{r}=-m \frac{1}{2^{1/3}}\left(\frac{\pi G M_E}{T}\right)^{2/3}\approx-4.7\times 10^6 J.$$
+(e) If we would neglect rotation of the Earth, what is very reasonable see part (a), than
+$mv^2/2=G m M_E/R$ we get $v=\sqrt{2 G M_E/R}\approx11.2\;km/s$. To find correction due to
+rotation of the Earth we calculate equatorial speed of the rotation $v_e=2\pi R/T\approx0.47\;km/s$.
+Thus, if we'll launch the package to the east, along rotation of the Earth the sufficient speed
+would be $v_s=v-v_e\approx 10.7\;km/s$.
+\\
+
+{\bf Problem 3.}
+
+First conceptually, energy loss leads to "fall" of a satellite to lower orbit, lower orbit means higher
+speed of rotation.
+
+The total mechanical energy of an orbiting object is $E=-G m M/(2 R)$, or in "differentials"
+$\Delta E= \Delta R G m M/(2 R^2)$. The work done by a drag force is $W=\Delta E=-F 2\pi R$,
+here we neglected change of the radius of the orbit. Now we can find $\Delta R =-4\pi F R^3/(G m M )$, the satellite goes to the lower orbit.
+
+Since, for orbital motion $m v^2/R=G m M/R^2$, we can write $v\sim R^{-1/2}$, or 
+$\Delta v\sim -\Delta R R^{-3/2}/2 \sim -v\Delta R/(2 R)$. Here we see that for lower orbit we getting
+increase speed. Correspondingly for period $T=2\pi R/v$, or $\Delta T= 2\pi \Delta R/v -2\pi \Delta v R/v^2=3/2\; T\;\Delta R/R$.
+
+The torque is $\tau=F R=d L/dt$, from here we get  $\Delta L=F R \Delta T +F \Delta R T=5/2\; FT \Delta R$.
+
+
+
+
+\end{document}

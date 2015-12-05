@@ -1,0 +1,227 @@
+\documentclass[12pt]{article}
+\usepackage{graphics}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\s}{\mathrm{s}}
+\renewcommand{\deg}{\mathrm{deg}}
+\newcommand{\cm}{\mathrm{cm}}
+\newcommand{\mps}{\m\,\s^{-1}}
+\newcommand{\mpss}{\m\,\s^{-2}}
+\newcommand{\kgpmmm}{\kg\,\m^{-3}}
+\newcommand{\N}{\mathrm{N}}
+\newcommand{\J}{\mathrm{J}}
+\newcommand{\Npmm}{\N\,\m^{-2}}
+\newcommand{\tv}[1]{\mathbf{\vec{#1}}}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\cell}[1]{\texttt{{#1}}}
+\newcounter{problem}
+\addtolength{\oddsidemargin}{-1in}
+\addtolength{\textheight}{\headheight}
+\setlength{\headheight}{0in}
+\addtolength{\textheight}{\headsep}
+\setlength{\headsep}{0in}
+\setlength{\marginparwidth}{2in}
+\begin{document}
+
+\section*{NYU Physics 1---final exam}
+
+Wednesday 2008 December 17
+
+~ \vfill ~
+
+\section*{Name:}
+
+~ \vfill ~
+
+\begin{equation}
+\tv{v} = \frac{\dd}{\dd t}\,\tv{r}
+\quad ; \quad
+\tv{a} = \frac{\dd}{\dd t}\,\tv{v}
+\end{equation}
+\begin{equation}
+\omega = \frac{\dd}{\dd t}\,\theta
+\quad ; \quad
+\alpha = \frac{\dd}{\dd t}\,\omega
+\end{equation}
+\begin{equation}
+a_{\mathrm{circ}} = \frac{v^2}{R} = \omega^2\,R
+\end{equation}
+\begin{equation}
+\tv{F} = m\,\tv{a}
+       = \frac{\dd}{\dd t}\,\tv{p}
+       = \frac{\dd}{\dd t}\,(\gamma\,m\,\tv{v})
+\end{equation}
+\begin{equation}
+\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+       = \frac{1}{\sqrt{1 - \beta^2}}
+\end{equation}
+\begin{equation}
+\tv{r}\times\tv{F} = \tv{\tau}
+                   = \frac{\dd}{\dd t}\,\tv{L}
+		   = \frac{\dd}{\dd t}\,(\tv{r}\times\tv{p})
+\end{equation}
+\begin{equation}
+\tv{r}\times\tv{F} = \tv{\tau}
+                   = I\,\tv{\alpha}
+                   = \frac{\dd}{\dd t}\,\tv{L}
+                   = \frac{\dd}{\dd t}\,(I\,\tv{\omega})
+\end{equation}
+\begin{equation}
+|\tv{F}_{\mathrm{grav}}| = \frac{G\,M\,m}{r^2} = m\,g
+\end{equation}
+\begin{equation}
+|\tv{F}_{\mathrm{static}}| \leq \mu\,|\tv{N}|
+\quad ; \quad
+|\tv{F}_{\mathrm{kinetic}}| = \mu\,|\tv{N}|
+\end{equation}
+\begin{equation}
+U = -\frac{G\,M\,m}{r}
+\quad ; \quad
+\Delta U = m\,g\,\Delta h
+\quad ; \quad
+U = \frac{1}{2}\,k\,x^2
+\end{equation}
+\begin{equation}
+K = \frac{1}{2}\,m\,v^2
+\quad ; \quad
+K = \frac{1}{2}\,I\,\omega^2
+\end{equation}
+
+\clearpage
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+What combination of $G$, the speed of light $c$, and some (arbitrary)
+mass $M$ has units of \emph{length}?  Use the formulae on the formula
+sheet to infer or remind yourself of the units of $G$.
+
+~ \vfill ~
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+What is the mean acceleration $a$ of a dragster that can travel 1/4~mi
+in 5.5~s, starting from a dead stop?  Assume that the dragster
+accelerates with constant acceleration throughout the 5.5~s (not a
+terrible assumption, but not a good one either).  Give your answer in
+terms of the gravitational acceleration $g$.
+
+~ \vfill ~
+
+\clearpage
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+A block of mass $m$ sits on a plane inclined at $\theta=20\,\deg$ to
+the horizontal.  Between the block and the plane is a coefficient of
+friction $\mu=0.9$.  What is the magnitude of the frictional force on
+the block?
+
+~ \vfill ~
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+Roughly how many carbon atoms are there in a gallon of gasoline?
+State your assumptions clearly.  Recall that the atomic weight of
+carbon is 12.
+
+~ \vfill ~
+
+\clearpage
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+A Japanese Shinkansen (bullet train) (of mass $M=10^6~\mathrm{kg}$),
+moving at $v_S=300~\mathrm{km\,h^{-1}}$ with respect to the tracks,
+hits and collides elastically with a superball (of mass
+$m=30~\mathrm{g}$), which is initially at rest.  The front face of the
+train is inclined at an angle of $\theta=45~\mathrm{deg}$ to the
+horizontal, as shown here in the rest frame of the tracks.\\
+\rule{0.1\textwidth}{0pt}
+\resizebox{0.8\textwidth}{!}{\includegraphics{../mp/shinkansen.eps}}
+
+\textsl{(a)}~Draw a diagram of the ball--train system, just before the
+collision, in the center-of-mass rest frame.  Clearly show the
+velocities of the ball and train in this frame.
+
+\textsl{(b)}~Draw a diagram, just after the collision, in the
+center-of-mass frame.  Clearly show the velocities.
+
+~ \vfill ~
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+Immediately after being hit, at $t=0$, a cue ball of mass $M$, radius
+$R$, and moment of inertia $I=(2/5)\,M\,R^2$ slides along the felt at
+speed $v_i$, not rotating at all.  As time goes on, the ball slows
+down (because of friction) and, at the same time, starts to spin.
+Draw a free-body diagram for the cue ball.  At what time
+$t_\mathrm{r}$ does the ball get to the situation of ``rolling without
+slipping''?  Assume that there is a coefficient $\mu$ of sliding
+friction.
+
+~ \vfill ~
+
+\clearpage
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+A figure skater spins in place on frictionless ice at angular speed
+$\omega_i$ with her hands outstretched.  She has a total moment of
+inertia $I_i$.  As the skater draws her hands into her body, her
+moment of inertia decreases to $I_f=I_i/2$.  Does her kinetic energy
+$K$ increase, decrease, or stay the same?  If it increases, where does
+the energy come from?  If it decreases, where does the energy go to?
+Make sure your explanation is \emph{30 words or less}.
+
+~ \vfill ~
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+Draw a spacetime diagram showing the four events
+$A=(c\,t_A,x_A)=0\,\m,0\,\m)$, $B=(1\,\m,1\,\m)$, $C=(1\,\m,0\,\m)$,
+and $D=(0\,\m,1\,\m)$.  Clearly label the four events.
+
+Transform these events to a new frame using the Lorentz
+Transform
+\begin{eqnarray}\displaystyle
+c\,t' & = & \gamma\,c\,t - \beta\,\gamma\,   x \nonumber\\
+   x' & = & \gamma\,   x - \beta\,\gamma\,c\,t \quad ,
+\end{eqnarray}
+with $\beta=(3/5)$.  Draw \emph{another} spacetime diagram of the
+four events in the \emph{new} frame.
+
+~ \vfill ~
+
+\clearpage
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+What is the magnitude of the 4-vector
+$\vec{u}=(\gamma\,c,\gamma\,v_x,\gamma\,v_y,\gamma\,v_z)$?  Simplify
+your answer as much as you can.
+
+~ \vfill ~
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+What speed can you make by combining acceleration $g$ and length $R$?
+Evaluate your expression for the acceleration due to gravity at the
+Earth's surface and the radius of the Earth.  Estimate the radius of
+the Earth if you don't know it.
+
+~ \vfill ~
+
+\clearpage
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+Explain, in \emph{less than 30 words} why the astronauts in the Space
+Shuttle are (or feel) weightless.
+
+~ \vfill ~
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+Consider a particle subject to a potential energy of the form
+\begin{equation}
+U = \frac{B}{x^2} - \frac{A}{x} \quad ,
+\label{eq:hard}
+\end{equation}
+where $A$ and $B$ are positive constants.  Sketch the potential
+$U(x)$.
+
+By taking derivatives, compute the equilibrium position
+$x_\mathrm{eq}$.  That is, compute the $x$ position where there is no
+force and the potential is at a minimum.
+
+~ \vfill ~
+
+\end{document}

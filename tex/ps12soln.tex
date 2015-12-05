@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset -.5cm
+\hoffset -1.5cm
+\textheight 21cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 12.}
+\end{center}
+
+{\bf Problem 1.}
+
+$\Delta E=2\pi E/Q$, where $E=m\omega_0^2 A^2/2$ is the mechanical energy, $A$ is the initial amplitude. If we'd like to have constant amplitude we need pump in each cycle $\Delta E$.
+The corresponding power is $P=\Delta E/T=E\omega_0/Q=\gamma E$ (note, since we have 
+a motion under periodic force, the  frequency of oscillation is frequency of the force).
+
+For $m=2\;kg$, $T=1\;s$, $A=4\;cm$ and $Q=20$, we get $P=m(2\pi/T)^3 A^2/(2Q)\approx0.02\;Watt$.
+\\
+
+{\bf Problem 2.}   See graph.
+
+\begin{figure}[p]
+\begin{center}
+\epsffile{../eps/h12p2.eps}
+\caption{Problem 2.}
+\end{center}
+\end{figure}
+
+
+{\bf Problem 3.}
+
+(a) The speed of the wave in the rope is $c=\sqrt{T/\mu}=10\;m/s$.
+
+(b) See graph.
+\begin{figure}[h]
+\begin{center}
+\epsffile{../eps/h122.eps}
+\caption{Problem 3 (b,c).}
+\end{center}
+\end{figure}
+
+(d) All the energy is in the  kinetic form.
+\begin{figure}[h]
+\begin{center}
+\epsffile{../eps/h12d.eps}
+\caption{Problem 3 (d).}
+\end{center}
+\end{figure}
+
+{\bf Problem 4.}
+
+$\tau=I\alpha=-\kappa\theta$, where $\alpha =\ddot{\theta}$ is angular acceleration.
+Thus we can rewrite our equation in the form:
+$$\ddot{\theta}+\frac{\kappa}{I}\theta=0$$
+the solution is $\theta=\theta_0 \cos\left(\omega t +\phi \right)$, where $\omega=\sqrt{\kappa/I}$.
+The period is $T=2\pi\sqrt{I/\kappa}$.
+
+If one would change radius of the wheel (rise temperature) it would effect moment of inertia $I\sim R^2$. $T\sim\sqrt{I}\sim R$, thus the period would increase by $0.01\%$. The watch will lose
+$10^{-4}\times 3600\;s\times 24\;h\approx 8.6\;s$ a day.
+
+
+
+
+\end{document}

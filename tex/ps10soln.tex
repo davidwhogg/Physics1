@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset -.7cm
+\hoffset -1.5cm
+\textheight 22cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 10.}
+\end{center}
+
+{\bf Problem 1.}
+
+Total mass of the car $M=50\;g$, mass of each of 4 wheels is  $m=1\;g$, radius of a wheel
+is $r=2\;mm$. No slipping means that $r\omega=v$, where $\omega$ is angular speed of
+wheels and $v$ is speed of car. Kinetic energy of the car is
+$$K=\frac{Mv^2}{2}+4\frac{I\omega^2}{2}=\frac{Mv^2}{2}+4\frac{mr^2/2 (v/r)^2}{2}=\frac{Mv^2}{2}+2\frac{mv^2}{2},$$
+where we have used that moment of inertia of a wheel is $I=mr^2/2$ and no slip condition
+$\omega=v/r$. The potential energy of the car is $P=-mgx\sin\alpha$, where $x$ is coordinate
+along the slope (farther down bigger $x$), and $\alpha =20^o$. Thus, for total energy
+we have
+$$E=K+P=\frac{Mv^2}{2}+2\frac{mv^2}{2}-mgx\sin\alpha=Const$$
+Let's differentiate energy with respect to time
+$$\frac{d}{dt}E=Mv\frac{dv}{dt}+2mv\frac{dv}{dt}-mg\sin\alpha\frac{dx}{dt}=0,\;\;\mbox{or }\;\;Mv a+2mv a-mg\sin\alpha v=0,$$ 
+here we used the fact that $a\equiv dv/dt$ and $v\equiv dx/dt$ . So we get for acceleration
+$a=mg\sin\alpha/(M+2m)$. If we'd skip inertia of the wheels, we'd get $a=mg\sin\alpha/M$.
+Finally we can write  $a_{car}/a_{frictionless}=M/(M+2m)$.
+\\
+
+{\bf Problem 3.}
+
+Hooke's law is $F=k\Delta x$, thus we can find $k=F/\Delta x=200\;N/m$.
+From energy conservation $mgh_{max}=k x^2/2$, where $ x=h_{max}-h_{b}$, $h_b$ is
+length of the bungy cord at rest. Solving quadratic equation we get
+$$h_{max}=h_b+\frac{mg}{k}\pm\sqrt{\frac{mg}{k}\left(2 h_b+\frac{mg}{k}\right)}$$
+The relevant solution is with plus sign.
+
+The first 5m jumper gets in $t_1=\sqrt{2h_b/g}$.
+Afterwards we have equation of motion $m\ddot{x}=-kx+mg$, or $\ddot{x}+\omega^2 (x-mg/k)=0$,
+where $\omega=\sqrt{k/m}$ is frequency of oscillation. The solution is
+$x-mg/k=A\cos(\omega t +\phi)$, $v=dx/dt=-A\omega\sin(\omega t +\phi)$.
+Let's use new variable $y=x-mg/k,\;\;dy/dt=dx/dt$, it is zero at the point  of equilibrium $x=mg/k$
+or in other words $h_b+mg/k$ below the bridge.
+Starting time from equilibrium point we get $0=A\cos(\phi)$ and $v_0=-A\omega\sin(\phi)$, 
+from here $\phi=-\pi/2$, $A=v_0/\omega$, where $v_0$ is speed at equilibrium point defined from
+conservation of energy $$mg(h_b+mg/k)=k/2\;(mg/k)^2 +mv_0^2/2,\;\rightarrow\;\;v_0=\sqrt{g(2h_b+mg/k)}$$
+Thus total time is sum of time $t_1$ from $0$ to $h_b$ plus $t_2$ from $h_b$ to $h_b+mg/k$ plus $t_3=T/4$, where $T$ is  period of oscillation.
+At time  $-t_2$ $y=-mg/k=A\sin\omega(- t_2)$, we get $t_2=1/\omega \arcsin mg/(kA)$.
+$t_3=T/4=\pi/2 \sqrt{m/k}$. Thus for total time we get $t=\sqrt{2h_b/g}+ \sqrt{m/k} \arcsin mg/(kA) +\pi/2 \sqrt{m/k}$.
+
+{\bf Problem 2.}
+
+\begin{figure}[h]
+\begin{center}
+\epsffile{../eps/hogg10_gr1.eps}
+\end{center}
+\end{figure}
+
+
+\end{document}

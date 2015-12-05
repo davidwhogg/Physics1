@@ -1,0 +1,61 @@
+\documentclass[12pt]{article}
+\begin{document}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\rad}{\mathrm{rad}}
+\newcounter{problem}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---small variations}
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+You have a cubic block of ice, $1.000\,\m$ on a side.  By what
+fractional amount does its mass decrease if you shave a millimeter off
+of it in each dimension (ie, so that it becomes a cubic block of ice,
+$0.999\,\m$ on a side)?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Explain why your answer to the above was so close to $3\times
+10^{-3}$.  You have two explanations to give, \textsl{(a)}~one from
+the point of view of the three operations you did (shave one face,
+then the next, then the next), and \textsl{(b)}~one from the point of
+view of small variations (write the formula for the volume $V$ in
+terms of the side length $\ell$ and differentiate with respect to
+$\ell$).
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Give a general argument---using calculus---that
+\begin{equation}
+\lim_{\epsilon\rightarrow 0}\,(1+\epsilon)^n=1+n\,\epsilon \quad .
+\end{equation}
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+With a calculator, compute the sine of the angle $\theta=0.1\,\rad$.
+Now compute the error you make if you use $\sin\theta=\theta$.  Now
+compare that error to the quantity $\theta^2/2$ and $\theta^3/6$.  Is
+it close to either?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Now compute the error you make if you use
+\begin{equation}
+\lim_{\theta\rightarrow 0}\,\sin\theta=\theta-\frac{1}{6}\,\theta^3 \quad .
+\label{eq:third}
+\end{equation}
+Do you think the \emph{next} term in the Taylor series for sine will
+be negative or positive on this basis?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Inside of what angle is the approximation $\sin\theta=\theta$ good to
+one percent?  What is this angle in degrees?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Now square the expression in Equation~(\ref{eq:third}) and compare it
+to the second-order expression for cosine:
+\begin{equation}
+\lim_{\theta\rightarrow 0}\,\cos\theta=1-\frac{1}{2}\,\theta^2 \quad .
+\end{equation}
+Show that this is consistent with the trigonometric identity
+\begin{equation}
+\sin^2\theta = \frac{1 - \cos(2\,\theta)}{2} \quad .
+\end{equation}
+
+\end{document}

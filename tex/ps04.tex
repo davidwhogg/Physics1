@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\newcommand{\s}{\mathrm{s}}
+\renewcommand{\deg}{\mathrm{deg}}
+\newcommand{\m}{\mathrm{m}}
+\newcounter{problem}
+\begin{document}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---Problem set 4}
+
+Due Tuesday 2009 October 13 at the beginning of lecture.
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+\textsl{(a)}~In lecture we calculated the speed a car must go to get
+around a banked circular turn at constant speed, in the absence of
+friction.  Compute the value of this speed for a turn with radius
+$30\,\m$ banked at $10\,\deg$ to the horizontal.
+
+\textsl{(b)}~Now imagine that the car has a coefficient of static
+friction for transverse forces (that is, opposing sliding up or down
+the bank) of 0.2.  What is the maximum speed at which the car can go
+around the turn?  At the maximum speed, the transverse frictional
+force will be just 0.2 times the normal force.
+
+\textsl{(c)}~In coming to your answer, make sure you draw a very clear
+free-body diagram.
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+\textsl{(a)}~Estimate the amount of energy (in J) in a gallon of
+gasoline by imagining that there is about 4 eV of energy for every
+carbon atom.  You will have to make assumptions, since there is no
+simple molecular formula for gasoline!  Compare your answer to an
+answer on the web.  If they differ substantially, explain why you
+think that might be.  Be sure to use a reliable source on the web, or
+obtain multiple answers, since web pages can be mistaken.
+
+\textsl{(b)}~Now consider a kiloton of gasoline.  Does it have more or
+less energy than a kiloton of TNT?  By what factor?
+
+\textsl{(c)}~How much kinetic energy is there in a rock that is a
+cube, $10\,\m$ on a side, moving at speed $\sqrt{g\,R}$, where $g$ is
+the acceleration due to gravity and $R$ is the radius of the Earth?
+Give your answer in units of kilotons of TNT equivalent.  Why do you
+think I ask about that particular velocity?
+
+\paragraph{Problem~\theproblem}\refstepcounter{problem}%
+\textsl{(a)}~For a good golfer, a $150\,\m$ drive is easy.  If you
+assume that air resistance does not matter, how much kinetic energy
+$K$ does the ball have at the beginning of its flight?  (You will have
+to look up the mass online.)  Assume it is hit at $45\,\deg$ to the
+horizontal.
+
+\textsl{(b)}~Now consider a realistic (though not exact) air
+resistance force that is directly opposed to the direction of motion
+and has magnitude
+\begin{equation}
+F_\mathrm{air} = \frac{1}{2}\,\rho\,A\,v^2 \quad ,
+\end{equation}
+where $\rho$ is the density of air, $A$ is the cross-sectional area of
+the golf ball (you will have to look this up online) and $v$ is the
+speed of the ball through the air.
+
+Make a spreadsheet or computer program, with time in intervals of
+$0.01\,\s$, integrating the trajectory with gravity plus this air
+resistance force.  You will want columns or variables that are at
+least $t$, $x$, $y$, $v_x$, $v_y$, $v$ (magnitude of velocity),
+$F_\mathrm{air}$ (magnitude of air resistance force), $F_x$, and
+$F_y$, where the last two are the $x$ and $y$ components of the net
+force (gravity plus air resistance).  You will have to make sure you
+deal with the direction of the air resistance force correctly.
+
+Now adjust the initial speed until the shot goes approximately
+$100\,\m$.  That is, increase the velocity at $t=0$ until $x$ is
+approximately $150\,\m$ in the time interval at which $y$ goes
+negative (it hits the ground).  Assume that the shot is still at
+$45\,\deg$.
+
+Hand your spreadsheet or table of internal variables.
+
+\textsl{(c)}~Compute the initial kinetic energy for your computed
+trajectory and compare it to the value you got in part~(a).
+
+\textsl{(d)}~If you try to get your spreadsheet to make a shot that is
+$250\,\m$, you will find it is virtually impossible!  Why?  Good
+golfers can easily hit a ball $250\,\m$.  What do they do differently?
+
+\end{document}

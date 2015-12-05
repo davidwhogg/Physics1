@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage{graphics}
+\newcounter{problem}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\mps}{\m\,\s^{-1}}
+\newcommand{\hp}{\mathrm{hp}}
+\begin{document}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---Problem set 7}
+
+Due Tuesday 2009 November 3 at the beginning of lecture.
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+A Japanese Shinkansen (bullet train) (of mass $M=10^6~\mathrm{kg}$),
+moving at $v_S=300~\mathrm{km\,h^{-1}}$ with respect to the tracks,
+hits and collides elastically with a superball (of mass
+$m=30~\mathrm{g}$), which is initially at rest.  The front face of the
+train is inclined at an angle of $\theta=45~\mathrm{deg}$ to the
+horizontal, as shown here in the rest frame of the tracks.\\
+\rule{0.1\textwidth}{0pt}
+\resizebox{0.8\textwidth}{!}{\includegraphics{../mp/shinkansen.eps}}
+
+\textsl{(a)}~Draw a diagram of the ball--train system, just before the
+collision, in the center-of-mass rest frame.  Clearly show the
+velocities of the ball and train in this frame.
+
+\textsl{(b)}~Draw a diagram, just after the collision, in the
+center-of-mass frame.  Clearly show the velocities.
+
+\textsl{(c)}~Draw a diagram, just after, back in the rest frame of the
+tracks.  What is the final speed and direction of the ball,
+immediately after the collision, in the rest frame of the tracks?
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+What is the peak force between two pool balls in a pool shot?
+Estimate the momentum transferred to the object ball in a hard pool
+shot.  Estimate (or look up) masses and velocities.  For how long are
+two pool balls in contact?  The time can be approximated by the length
+of time it takes a sound wave to cross a pool ball.  Put it all
+together and compare it to the force of gravity or the normal force
+from the table on each ball.
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+\textsl{(a)}~Imagine an ideal car of mass $1000\,\kg$ with a
+cross-sectional area $A=3\,\m^2$, drag coefficient $1$ (so the
+air-resistance force is exactly $(1/2)\,\rho\,A\,v^2$) producing total
+mechanical power of $P=130\,\hp$.  At time $t=0$, the car is traveling
+at $5\,\mps$ in the $x$ direction.  Use a spreadsheet to compute the
+velocity as a function of time if the driver puts ``petal to the
+metal'' for the next $20\,\s$ (with a $0.1\,\s$ time-step) on a flat,
+straight, $x$-direction road.  You will have to use the fact that the
+force accelerating the car is the power over the velocity (why?) but
+subtracting off the air resistance force.  Make a plot of the velocity
+of the car as a function of time, with axes clearly labeled.  Note
+that this is only a ``first-order'' integration: You only need to keep
+track of the velocity, not the position.
+
+\textsl{(b)}~Why did I not have you start at a velocity of $0\,\mps$?
+What would limit the acceleration in the first fraction of a second in
+this case---for a car starting from rest?  It isn't the power of the
+engine!
+
+\end{document}

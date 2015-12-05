@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+\usepackage{graphics}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\mps}{\m\,\s^{-1}}
+\newcommand{\N}{\mathrm{N}}
+\newcommand{\Npm}{\N\,\m^{-1}}
+\newcommand{\Nspm}{\N\,\s\,\m^{-1}}
+\newcommand{\hp}{\mathrm{hp}}
+\newcommand{\percent}{\mathrm{percent}}
+\newcommand{\mph}{\mathrm{mi}\,\mathrm{h}^{-1}}
+\renewcommand{\vector}[1]{\mathbf{\vec{#1}}}
+\newcounter{problem}
+\begin{document}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---Problem set 6}
+
+Due Tuesday 2009 October 27 at the beginning of lecture.
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+Determine the acceleration $\vector{a}$ of block $m_1$ and the
+frictional force $\vector{f}$ acting on block $m_1$ in this system.
+Use $m_1= 30\,\kg$, $m_2=10\,\kg$ and do the three cases of $\mu=0$,
+$\mu=0.1$, and $\mu=1.0$.  Assume that the pulley and strings are
+massless and frictionless.\\
+~\hfill\includegraphics{../mp/pulley_table.eps}\hfill~
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+Imagine a mass $m$ on a spring moving in the $x$ direction, subject to
+a $x$-direction restoring force $-k\,x$ and subject to a ``viscous
+damping'' fource $-\beta\,v_x$ (that is, proportional to velocity but
+acting opposite to the direction of the velocity).
+
+\textsl{(a)}~Show that the differential equation for this system can
+be written as
+\begin{equation}
+\frac{\mathrm{d^2}x}{\mathrm{d}t^2}
++\gamma\,\frac{\mathrm{d}x}{\mathrm{d}t}
++\omega^2\,x = 0 \quad ,
+\end{equation}
+where $\gamma$ and $\omega$ are constants.  What are the units of
+$\gamma$ and $\omega$, and how are each of these constants related to
+$k$, $\beta$, and $m$?
+
+\textsl{(b)}~Make a spreadsheet with $t$, $x$, $v_x$, and $a_x$, with
+time going from 0 to $10.0\,\s$ in units of $0.01\,\s$, $x$ starting
+at $1.0\,\m$, and $v_x$ starting at $0.0\,\mps$, for a system with
+$m=1.0\,\kg$, $\beta=1.0\,\Nspm$, and $k=100\,\Npm$.  The spreadsheet
+should show an oscillation but with a decaying amplitude.
+
+\textsl{(c)}~Make plots of the kinetic energy $K$, potential energy
+$U$, and the sum $K+U$.  This energy ought to decrease with time.  By
+what factor does $K+U$ decrease in $10\,\s$?  Where is the energy
+going, physically?
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+A typical cheap American car has a mass of $1000\,\kg$, a
+cross-sectional area of $3\,\m^2$, and produces $100\,\hp$ of
+mechanical power.
+
+\textsl{(a)}~If air resistance doesn't matter, what is the time for
+the car to go from 0 to $60\,\mph$ if all this power really is used
+for acceleration?  Ignore air resistance.
+
+\textsl{(b)}~If air resistance \emph{does} matter, what is the top
+speed at which this car can drive, in $\mph$.  That is, at what speed
+does the $100\,\hp$ equal the power done against air resistance?  Use
+the air resistance approximation $F=\rho\,A\,v^2$.
+
+\textsl{(c)}~By what factor will the top speed be increased if the
+power of the car is increased to $130\,\hp$?
+
+\textsl{(d)}~Return to $100\,\hp$.  If all of that horsepower comes
+from gasoline, and if that gasoline is used at $100\,\percent$
+efficiency to make mechanical power (this assumption is off by a
+factor of $2$), how many miles per gallon will the car get at its top
+speed?  Use the energy content of gasoline you computed earlier, or
+else look up a value on the web.  Be clear what you are using to
+calculate.
+
+\textsl{(e)}~By what factor will the miles per gallon be increased if
+the car drives at half that speed?  All the assumptions are suspect,
+but the message is clear!
+
+\paragraph{Extra Problem (will not be graded for credit):}
+Imagine that the air resistance faced by an automobile can be thought
+of as tiny elastic collisions with $\mathrm{N}_2$ molecules, all
+initially at rest.  Model the car as a rectangular parallelepiped
+bashing through the air at speed $v$.  What do you get for the air
+resistance force $F$ in this case?  Give your answer in terms of the
+speed $v$, the cross-sectional area $A$ and the mass density of air
+$\rho$.  Note that the average force on the car can be estimated by
+the total mean impulse in a time interval, divided by that time
+interval (momentum per time is force).  How do you think your answer
+will change if you make the $\mathrm{N}_2$ molecules move in random
+directions to start, instead of starting with them at rest?
+
+\end{document}

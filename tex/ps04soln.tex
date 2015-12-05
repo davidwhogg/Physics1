@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset 0cm
+\hoffset -1.5cm
+\textheight 20cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 3.}
+\end{center}
+
+{\bf Problem 1.}
+
+Suppose, the force exerted by the poles on the wire is $T$ and it is $\alpha=10^o$ above the horizon. Correspondingly, tension in the wire (we suppose that tension is the same at
+each point of the wire) is the same but opposite direction at the fixing points. There is also force of gravity acting on the wire. Since, the wire is in equilibrium sum of all forces equals to zero:
+
+X-projection: $T\cos\alpha-T\cos\alpha=0$,
+
+Y-projection: $2T\sin\alpha-mg=0$,\\
+where $m$ is total mass of the wire, $g=9.8\;m/s^2$ is acceleration of gravity.
+Thus, tension is $T=mg/(2\sin\alpha)$. We can see that for the limiting case we get reasonable answers: for $\alpha=90^o$ we get $T=mg/2$ which is just half of the weight.
+To find out the mass of the wire one needs density of copper is $\rho=8900\; kg/m^3$,
+the mass equals $m=\rho \pi (d/2)^2 l\approx 21\;kg$, where $d=1\;cm$ is diameter of the wire, and $l=30\;m$ is length of the wire. Correspondingly, tension is $T\approx 593\;N$.
+\\
+
+{\bf Problem 2.}
+
+The system is static, that means sum of all forces and torques equal to zero.
+Thus, for mass $m_s$ we get $T_2=m_s g$.
+The forces acting on the beam are tensions $T_1$ and $T_2$, force of gravity
+$m_bg$ and force at the pivot $F$ (which can be written as 2 projections $F_x$ and $F_y$).
+$$T_1 \cos\alpha -F_x=0,\;\;\; T_1 \sin\alpha+F_y-T_2-m_bg=0,$$
+where $\alpha $ is the angle between the rope and  the beam.
+For the torque acting on the beam with respect to the pivot we get
+$$ m_b g \frac{L_x}{2} + T_2 L_x -T_1 \sin\alpha L_x=0.$$
+There 3 equations and 3 unknowns $T_1, F_x, F_y$. Thus, we get 
+$$F_y=\frac{1}{2}m_bg,\;\;\;T_1=\frac{\sqrt{L_x^2+L_y^2}}{L_y}(m_s+\frac{1}{2}m_b)g,\;\;\;F_x=\frac{L_x}{L_y}(m_s+\frac{1}{2}m_b)g.$$
+(here we used $\sin\alpha=L_y/\sqrt{L_x^2+L_y^2}$). If there were friction nothing would
+change since the problem is static.
+\newpage
+
+{\bf Problem 3.}
+
+$m_2$ doesn't move vertically, it means that tension equals to force of gravity $T=m_2g$.
+For $m_1$, since there are no friction, we have $m_1 a =T$, where $a$ is acceleration of mass $m_1$ in the inertial frame of reference. The acceleration of $m_1$ should be equal
+to the acceleration the system $(m_3+m_2) a=F-T=F-m_1a,\;\;$ . Thus, we get that force should be
+$$F=\frac{m_2}{m_1}(m_1+m_2+m_3)g.$$
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

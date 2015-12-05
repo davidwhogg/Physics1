@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage{graphics}
+\newcommand{\mi}{\mathrm{mi}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\rad}{\mathrm{rad}}
+\newcommand{\s}{\mathrm{s}}
+\newcounter{problem}
+\begin{document}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---Problem set 5}
+
+Due Tuesday 2009 October 20 at the beginning of lecture.
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+\textsl{(a)}~Draw free-body diagrams for all the masses and pulleys in
+this mechanism.  Find the tensions in all three strings and the
+accelerations of the two blocks.
+\\ \rule{0.35\textwidth}{0pt}
+\resizebox{0.3\textwidth}{!}{\includegraphics{../mp/tackle_blocks.eps}}
+\\
+Be careful with your kinematic constraints---the relationships among
+the accelerations of the blocks---and treat all the strings and
+pulleys as massless and frictionless.
+
+\textsl{(b)}~Now set the mass $m_2$ to the value it must have if the
+system is to be perfectly ``balanced''; that is, for there to be no
+net acceleration of either block.  In this situation, if block $m_1$
+is lowered a distance $h$, what is the net change in potential energy,
+accounting for displacements of both blocks?
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+Consider a simple harmonic oscillator with a mass of $m=0.5\,\kg$, an
+angular frequency of $\omega=3.9\,\rad\,\s^{-1}$, and oscillating with
+an amplitude of $0.03\,\m$.  Make time-aligned plots of the position
+$x$, velocity $v$, potential energy $U$, kinetic energy $K$, and total
+energy $U+K$, all as a function of time for the time period
+$0<t<3\,\s$.  Clearly label the period, amplitude, and maximum and
+minimum values of these plots.  In fact, label anything on your five
+plots that could be useful for understanding the system.
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+Determine the value of $\pi$ by integration!
+
+\textsl{(a)}~Make a spreadsheet with a dimensionless column marked
+``$t$'' that goes from 0.0 to 20.0 in units of 0.05.  Now make columns
+marked ``$c$'' and ``$s$''.  Integrate the functions $c(t)$ and
+$s(t)$ with the properties that:
+\begin{eqnarray}\displaystyle
+c(0) & = & 1.0 \\
+s(0) & = & 0.0 \\
+\Delta c & = & -s\,\Delta t \\
+\Delta s & = & c\,\Delta t
+\end{eqnarray}
+Make a graph of $c$ vs $t$ and $s$ vs $t$.  Remind you of anything?
+
+\textsl{(b)}~Make an expanded graph in the region $1.5<t<1.6$ and
+look where the curve crosses zero.  Multiply your answer by 2 and you
+have an estimate of $\pi$!  Why does that work?
+
+\textsl{(c)}~(Advanced) In part (a) you probably incremented $c$ using
+the previous-line value of $s$ and incremented $s$ using the
+previous-line value of $c$.  Now switch your spreadsheet to increment
+$s$ using the \emph{same-line} value of $c$ (keeping the incrementing
+of $c$ the same).  What changed about your graphs and why?  Did your
+estimate of $\pi$ get better or worse or stay the same?
+
+\paragraph{Extra Problem (will not be graded for credit):}\refstepcounter{problem}%
+\textsl{(a)}~How much energy does it take to raise a 1-ton airplane to
+a height of $100\,\mi$ above the Earth's surface?  This feat won an
+``X-prize''.
+
+\textsl{(b)}~Compare the answers you get using the standard formula
+for distances near the surface of the Earth with the correct formula
+taking into account the variation of the force of gravity with
+distance.  Is the discrepancy large or small?  Explain the
+discrepancy.
+
+\textsl{(c)}~Compute now the orbital speed---the speed required for
+the airplane to be in orbit, and not just ``flying''---at an altitude
+of $100\,\mi$, using that the orbital centripetal acceleration is
+provided by gravity.  Is the corresponding kinetic energy much larger
+or much smaller than the energy it took to get from the Earth's
+surface to the high altitude?
+
+\end{document}

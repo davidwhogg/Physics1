@@ -1,0 +1,292 @@
+\documentclass[12pt]{article}
+\usepackage[pdftex]{graphicx}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\cm}{\mathrm{cm}}
+\newcommand{\mi}{\mathrm{mi}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\ms}{\mathrm{ms}}
+\newcommand{\h}{\mathrm{h}}
+\newcommand{\N}{\mathrm{N}}
+\newcommand{\W}{\mathrm{W}}
+\newcommand{\J}{\mathrm{J}}
+\newcommand{\hp}{\mathrm{hp}}
+\newcounter{problem}
+\stepcounter{problem}
+\newcounter{answer}[problem]
+\newenvironment{problem}{\noindent\begin{minipage}{\textwidth}\sloppy\sloppypar\raggedright\textbf{\theproblem.}\refstepcounter{problem}\stepcounter{answer}---}{\end{minipage}\vspace{2ex}}
+\newcommand{\source}[1]{[{#1}]}
+\newenvironment{answers}{\\}{}
+\newcommand{\answer}[1]{\textbf{\Alph{answer}:}\refstepcounter{answer}~\mbox{#1}\hspace{3ex}}
+\begin{document}
+
+\section*{NYU General Physics 1---Term Exam 2}
+
+\begin{problem}
+  \source{from lecture 2013-09-26} When an airplane turns in a circle
+  at constant speed and constant altitude, the plane is banked at an
+  angle $\theta$ to the horizontal.  The total force from the wings
+  (what, in lecture, we called the ``normal force'' $\vec{N}$ from the
+  wings) had what property relative to the gravitational force
+  $m\,\vec{g}$?
+  \begin{answers}
+    \answer{$|\vec{N}| < m\,|\vec{g}|$}
+    \answer{$|\vec{N}| = m\,|\vec{g}|$}
+    \answer{$|\vec{N}| > m\,|\vec{g}|$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-10-01} We dropped a textbook onto the
+  stage.  What statement about the textbook falling and hitting the
+  stage was \emph{not} true?
+  \begin{answers}
+    \answer{The maximum acceleration occurred when the book was \emph{not} in contact with the stage.}
+    \answer{The maximum force of the stage on the book was much greater than $m\,|\vec{g}|$.}
+    \answer{The book compressed slightly when it hit the stage.}
+    \answer{The net force force from the stage on the book was (at some point) upwards.}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-10-03} I swung a cup fast over my head
+  with a shallot in the cup.  At the top of the swing, the shallot
+  \begin{answers}
+    \answer{was not accelerating}
+    \answer{was pushing upwards on the cup}
+    \answer{was pushing downwards on the cup}
+    \answer{was accelerating downwards faster than the cup}
+    \answer{was weightless (in free-fall)}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-10-08} In this problem, a block, starting
+  at rest, slid down a frictionless ramp and off a jump.  We concluded
+  that the block didn't make it back up to initial height from which
+  it was released.  What was the \emph{main reason?}
+  \begin{answers}
+    \answer{energy was not conserved, exactly}
+    \answer{gravity pulls the block downwards}
+    \answer{the acceleration is constant}
+    \answer{the block heated up, rotated, or made noise}
+    \answer{there is a non-zero horizontal component of velocity}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-10-10} A bullet was fired at a block.  In
+  the initial, very fast collision, when the bullet lodged in the
+  block, which statement is \emph{not} true?
+  \begin{answers}
+    \answer{momentum was conserved}
+    \answer{energy was conserved}
+    \answer{kinetic energy was conserved}
+    \answer{the collision was inelastic}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-10-17} In the lab frame, before the
+  collision we studied, we computed the total kinetic energy
+  $K_{\mathrm total}$, the total linear momentum $\vec{p}_{\mathrm
+    total}$, and the total mass $M_{\mathrm total}$.  How did we
+  calculate the velocity of the center of mass $\vec{v}_{\mathrm cm}$?
+  \begin{answers}
+    \answer{$\displaystyle \vec{v}_{\mathrm cm} = \frac{M_{\mathrm total}}{\vec{p}_{\mathrm total}}$}
+    \answer{$\displaystyle \vec{v}_{\mathrm cm} = \frac{\vec{p}_{\mathrm total}}{M_{\mathrm total}}$}
+    \answer{$\displaystyle \vec{v}_{\mathrm cm} = \sqrt{\frac{2\,K_{\mathrm total}}{M_{\mathrm total}}}$}
+    \answer{None of these}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 4, problem 1} A block rests on a plane
+  inclined at an angle $\theta$ to the horizontal.  The coefficient of
+  static friction $\mu$ is so large that the acceleration of the block
+  is zero.  What is the magnitude of the static frictional force acting on
+  the block?
+  \begin{answers}
+    \answer{$m\,|\vec{g}|\,\sin\theta$}
+    \answer{$m\,|\vec{g}|\,\cos\theta$}
+    \answer{$\mu\,m\,|\vec{g}|\,\sin\theta$}
+    \answer{$\mu\,m\,|\vec{g}|\,\cos\theta$}
+    \answer{none of these}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 4, problem 2} We analyzed this system:
+  \\ \includegraphics{../mp/pulley_table.pdf} \\
+  (Assume that $\mu$ is the coefficient of friction for both the static and the kinetic case.)
+  What acceleration do you expect when $m_2$ is \emph{far} greater than $m_1$?
+  \begin{answers}
+    \answer{zero}
+    \answer{roughly $0.5\,|\vec{g}|$}
+    \answer{roughly $|\vec{g}|$}
+    \answer{it depends on $\mu$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 4, problem 3} Which of the following
+  statements is true about the bob or mass at the end of a freely
+  swinging pendulum, when it is at the lowest point in the swing?
+  \begin{answers}
+    \answer{velocity is zero}
+    \answer{the acceleration is zero}
+    \answer{there is an upwards acceleration}
+    \answer{there is a horizontal component to the tension force}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 5, problem 1} A rubber ball of mass $m$ is
+  dropped from 1\,m onto a hard, horizontal surface.  It bounces.
+  During the roughly $0.001\,\s$ time the ball is in contact with the
+  surface, what is the approximate mean magnitude of the normal force
+  $|\vec{N}|$ applied by the surface to the ball?
+  \begin{answers}
+    \answer{$|\vec{N}| \approx m\,|\vec{g}|$}
+    \answer{$|\vec{N}| \approx 2\,m\,|\vec{g}|$}
+    \answer{$|\vec{N}| \approx 20\,m\,|\vec{g}|$}
+    \answer{$|\vec{N}| \approx 200\,m\,|\vec{g}|$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 5, problem 2} A car brakes with an
+  acceleration of $12\,\m\,\s^{-2}$.  It doesn't go into a skid.  What
+  can we conclude abou the coefficient of static friction between the
+  car tires and the road?  Use $|\vec{g}|=10\,\m\,\s^{-2}$.
+  \begin{answers}
+    \answer{$\mu = 0.8$}
+    \answer{$\mu = 1.2$}
+    \answer{$\mu > 0.8$}
+    \answer{$\mu > 1.2$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 5, problem 3} Why do astronauts in the
+  Space Station feel weightless?
+  \begin{answers}
+    \answer{the Space Station is falling}
+    \answer{there is no gravity in space}
+    \answer{they are moving at high velocity}
+    \answer{they are accelerating faster than the Station}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 6, problem 1} What combination of mass
+  density $\rho$, speed $v$, and length $L$ has units of energy?
+  \begin{answers}
+    \answer{$\rho\,L^2\,v$}
+    \answer{$\rho\,L^2\,v^2$}
+    \answer{$\rho\,L^3\,v$}
+    \answer{$\rho\,L^3\,v^2$}
+    \answer{none of these}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 6, problem 2} A student walking at normal
+  speed climbs 9 flights of stairs.  Compare the \emph{gain} in
+  potential energy in this 9-flight climb with the student's kinetic
+  energy.
+  \begin{answers}
+    \answer{the PE is far larger than the KE}
+    \answer{the PE is somewhat larger than the KE}
+    \answer{the PE is comparable to the KE}
+    \answer{the PE is somewhat smaller than the KE}
+    \answer{the PE is far smaller than the KE}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 6, problem 3} A student of mass
+  $m_\mathrm{student}=80\,\kg$ stands at rest next to a block of ice
+  of mass $m_\mathrm{ice}=320\,\kg$, also at rest, on a frictionless
+  frozen lake.  The student pushes on the block until the block is
+  moving away from the student at $1.5\,\m\,\s^{-1}$ (that is, until
+  $\left|\vec{v}_\mathrm{ice}-\vec{v}_\mathrm{student}\right|=1.5\,\m\,\s^{-1}$).
+  How much work did the student do?
+  \begin{answers}
+    \answer{$360\,\J$}
+    \answer{$90\,\J$}
+    \answer{$72\,\J$}
+    \answer{$58\,\J$}
+    \answer{$14\,\J$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 7, problem 1} What is the density of air,
+  approximately?
+  \begin{answers}
+    \answer{$10^{-9}\,\kg\,\m^{-3}$}
+    \answer{$10^{-6}\,\kg\,\m^{-3}$}
+    \answer{$10^{-3}\,\kg\,\m^{-3}$}
+    \answer{$1\,\kg\,\m^{-3}$}
+    \answer{far larger than $10\,\kg\,\m^{-3}$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 7, problem 2} You made a plot of the
+  kinetic energy as a function of time for a bouncing ball.  During
+  the free-fall of the ball, this plot (KE vs time $t$) has what
+  shape?
+  \begin{answers}
+    \answer{horizontal line}
+    \answer{straight line, but with a slope}
+    \answer{quadratic (parabola)}
+    \answer{cubic (goes like $t^3$)}
+    \answer{quartic (goes like $t^4$)}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 7, problem 3} A bus moving (in the lab
+  frame) at $15\,\m\,\s^{-1}$ hits a small elastic rubber ball, which
+  is at rest (in the lab frame) just before the collision.  The bus
+  has a mass of $2\times 10^4\,\kg$ and the ball has a mass of
+  $0.02\,\kg$.  What is the speed of the ball after the collision (in
+  the lab frame)?
+  \begin{answers}
+    \answer{zero}
+    \answer{$15\,\m\,\s^{-1}$}
+    \answer{$30\,\m\,\s^{-1}$}
+    \answer{$15,000\,\m\,\s^{-1}$}
+    \answer{$1.5\times 10^7\,\m\,\s^{-1}$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from \textit{Equilibrium of a Particle} lab} You put a
+  particle into equilibrium using three forces.  You made a plot of
+  the three force vectors.  If the experiment had been perfect, you
+  would have found that:
+  \begin{answers}
+    \answer{the three vectors all lie along the same direction}
+    \answer{the three vectors can be attached head-to-head to make a triangle}
+    \answer{the three vectors can be attached head-to-tail to make a triangle}
+    \answer{the three vectors all have the same $x$-component}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from \textit{Centripetal Force} lab} The angular velocity
+  $\omega$ can be measured in radians per unit time;  Radians are
+  dimensionless angle units.  In uniform circular motion, how is
+  $\omega$ related to the speed $v$ and radius $R$ of the motion?
+  \begin{answers}
+    \answer{$\omega = \frac{v}{R}$}
+    \answer{$\omega = \frac{v}{R^2}$}
+    \answer{$\omega = \frac{v^2}{R}$}
+    \answer{$\omega = \frac{v^2}{R^2}$}
+  \end{answers}
+\end{problem}
+
+\end{document}

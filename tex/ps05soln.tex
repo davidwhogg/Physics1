@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset 0cm
+\hoffset -1.5cm
+\textheight 20cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 5.}
+\end{center}
+
+{\bf Problem 1.}
+
+Since the string is continuous and the pulleys are frictionless, the tension is the same
+all over the string.  If we'll assume that acceleration of mass $m_2$ is $a$ down than
+acceleration of $m_1$ is $a/2$ up (move $m_2$ by $\Delta x_2$ down, then $m_1$ will
+move by $\Delta x_1=-\Delta x_2/2$, minus stays for up). Thus we can write equation of motion
+for both masses
+$$
+m_1 a/2=2 T -m_1 g,\;\;\;\;\;\; m_2 a= m_2 g - T.
+$$
+We get for accelerations and tension:
+$$
+a_2=a=\frac{2m_2 -m_1}{2m_2+m_1/2}g,\;\;\;a_1=-\frac{a}{2},\;\;\;T=\frac{3}{2}\frac{m_1m_2}{2m_2+m_1/2}g.$$
+(Check the limits for consistency $m_1\rightarrow 0,\;\;m_2\rightarrow 0,\;\; m_1\rightarrow m_2$.)
+\\
+
+{\bf Problem 2.}
+
+$1\;gal\approx3.5\;liters$, since gas is a bit less dense than water, the mass of $1\;gal$ of gas is
+about $3\;kg$. Atomic weight of gas is about $100$ it means that Avogadro's number
+$N_A\approx 6\times 10^{23}$ of
+gas molecules make $100\;gram$. Thus, there are $N=30 N_A$ molecules in $3\;kg$ of gas. 
+If the burning energy of a single molecule is $5\times 10^{-19}\;J$ than $3\;kg$ of gas produce
+energy $E\approx 30\times6\times 10^{23}\times 5\times 10^{-19}\;J\approx 10^{7}\;J$, which is enough to make $25\; miles\approx 4\times 10^4\;km$ at speed 55 miles/h. 
+
+The work done by friction forces equals to useful work done by the engine $W=F_f l=.25 E$,
+where $l$ is the path of the car. Thus, the total "friction" force  acting on the car at $55\;miles/h$
+is about $F_f\approx 50\;N$.
+
+Power is work done in a unit of time $P=.25 E/\Delta t$, where $\Delta t$ is time in which car makes
+$25\;miles$. $P\approx .25 E/25\;min\approx 1.7\times 10^3\; J/s=1.7\;kWatt\approx2.5\;hp$ it is about a percent of power for typical car, which is pretty reasonable.
+\\
+
+{\bf Problem 3.}
+
+If $m_2$ falls by a distance $\Delta h$,  $m_1$ would rise by $\Delta h/2$.
+Consequently, the change of potential energy is $\Delta U=m_1g\Delta h/2 -m_2g\Delta h=(m_1/2-m_2)g\Delta h$. If $m_1/m_2=2$ than $\Delta U=0$, so kinetic energy should not change as well.
+The acceleration for this ratio is zero.
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

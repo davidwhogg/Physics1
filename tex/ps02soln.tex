@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset -2cm
+\hoffset -1.5cm
+\textheight 20cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+
+\begin{document}
+{\bf Problem 1.}
+
+Centripetal acceleration is given by $a=v^2/R=\omega^2 R$, where $v$ is velocity, $R$ is radius of rotation, $\omega=v/R$ is angular velocity defined as change of angle in unit time
+(very useful for rotation problems). The Earth makes one rotation (angle $2\pi$) in 24 hours,
+that means $\omega=2\pi/24\;\;\mbox{hours}^{-1}=2\pi/24/3600\;\;s^{-1}$.  Radius of the Earth is
+$R=6370\;km\approx 6.4\times10^5\;m$. So, the centripetal acceleration at equator is
+$a=\omega^2 R\approx 0.034\;m/s^2 =3.4\times 10^{-3} g$, where $g=9.8\;m/s^2$.
+\\
+
+{\bf Problem 2.}
+
+see graphs.
+\begin{figure}[p]
+\begin{center}
+\epsffile{../eps/hogg2gr_gr1.eps}
+\epsffile{../eps/hogg2gr_gr2.eps}
+\epsffile{../eps/hogg2gr_gr3.eps}
+\caption{Problem 2.}
+\end{center}
+\end{figure}
+\\
+
+{\bf Problem 3.}
+
+(i) Constant acceleration $x_0=0$ and $v_0=0$, so $x=a t^2/2$.
+(ii) Constant speed $v_a=at_a$\\
+Total distance $x_f=at_a^2/2+v_a(t_f-t_a)=at_a^2/2+at_a(t_f-t_a)=at_a t_f -at_a^2/2$.
+There are 2 cases: {\bf (a)} $t_a<t_{1/2}$, {\bf (b)} $t_a>t_{1/2}$.
+
+{\bf (a)} $t_a<t_{1/2}$ -- half of the distance is $x_f/2=at_{a}^2/2 + v_a(t_{1/2}-t_{a})$ and
+ for total $x_f=at_{a}^2/2 + v_a(t_{f}-t_{a})$ . Substituting $v_a=at_a$ we get
+ \be
+x_f&=&at_a t_f -at_{a}^2/2 =at_a\left( t_f -t_a/2\right)\\
+x_f/2&=&at_a t_{1/2} -at_{a}^2/2 =at_a\left( t_{1/2} -t_a/2\right),
+\ee
+now let's divide one equation by the other
+$$2=\frac{at_a\left( t_f -t_a/2\right)}{at_a\left( t_{1/2} -t_a/2\right)}=\frac{ t_f -t_a/2}{ t_{1/2} -t_a/2}.
+$$
+From here we get for time of accelerated motion $t_a=2(2t_{1/2}-t_f)=1.84\;s$ and correspondingly for acceleration $a=5.9 \;m/s^2$.
+
+{\bf (b)} $t_a>t_{1/2}$ -- half of the distance is $x_f/2=at_{1/2}^2/2$  and
+ for total $x_f=at_{a}^2/2 + v_a(t_{f}-t_{a})$ .  From the first equation we get acceleration.
+ From the second we find time $t_a$ (by solving quadratic equation),  but both solution
+ are out of range: the first one is less then $t_{1/2}$ , the second is bigger then $t_f$. One
+ could see this by making graph $v$ vs. $t$.
+
+ 
+
+
+
+\end{document}

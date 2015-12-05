@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset 0cm
+\hoffset -1.5cm
+\textheight 20cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 3.}
+\end{center}
+
+{\bf Problem 1.}
+
+Since force of friction is constant, we have constant deceleration $a$, such that
+$v -at=0$, where $t$ is stopping time. For $v=60\;mi/h=26.7\;m/s$ stopping time is about $5\;s$,
+thus the acceleration produced by friction force is $a=5.4\;m/s^2$. Friction force is about
+$F_f=ma\approx 1500\;kg\times 5.4\;m/s^2\approx 8\times 10^3 \;N$. Friction force applied to
+ground is directed forward, correspondingly force acting on car is backwards.
+Distance which car will go is $at^2/2\approx 68\; m$.
+\\
+
+{\bf Problem 2.}
+
+The generic formula for each step is
+$$\sin x_{i+1}=\sin x_i +\cos x_i \Delta x,\;\;\;\;\; \cos x_{i+1}=\cos x_i -\sin x_i \Delta x,$$
+where $\Delta x$ is a step, for this problem 0.1 rad (one can think of this as Taylor series
+at each point to the first order, or you can make analogy with position, velocity and acceleration).
+Thus we get\\
+\begin{tabular}{|c|c|c||c|c|c||c|c|c|}
+\hline
+angle & Sin &Cos& angle& Sin &Cos &angle&Sin&Cos\\
+\hline
+0&0&1&0.7&0.665&0.79&1.4&1.06&0.19\\
+0.1& 0.1&1&0.8& 0.745&0.73&1.5&1.07&0.08\\
+0.2& 0.2&0.99&0.9& 0.82&0.65&1.6&1.08&-0.02\\
+0.3& 0.299&0.97&1.0& 0.88&0.571&1.7&1.07&-0.13\\
+0.4& 0.396&0.94&1.1& 0.94&0.48&1.8&1.06&-0.24\\
+0.5& 0.49&0.9&1.2& 0.988&0.39&1.9&1.04&-0.35\\
+0.6& 0.58&0.85&1.3& 1.03&0.29&2.0&1.00&-0.45\\
+\hline
+\end{tabular}\\
+We see that $\pi/2$ should be between 1.5 and 1.6 since Cos changes sign,
+which is approximately true. To increase accuracy one can take smaller step or
+improve algorithm by going to quadratic approximation.
+\\
+
+{\bf Problem 3.}
+
+To keep the package on the orbit "geometry" requires that centripetal
+acceleration was $a=v^2/R_{E}$. The physical force which produces this acceleration is 
+gravity, thus for stationary orbit one needs $a=g$ or velocity should be $v=\sqrt{g R_{E}}$.
+Period of the orbit is $T=2\pi R_{E}/v=2\pi \sqrt{R_{E}/g}\approx 5015\;s\approx 1\;hour\;23\;min$ this seems to be pretty close to the actual period of the Space Shuttle.
+\\
+
+{\bf Problem 4.}
+
+There is gravitational force, but the Cosmic Ship is in free fall, like elevator with cut
+support cable, like banjo jumper in a first few seconds. Nevertheless there is gravitational
+force, your scales  (which measure weight) will fall down with the same acceleration
+as you and you won't produce any pressure on scales, so they won't react and 
+thus your weight will be zero.
+\\
+
+{\bf Problem 5.}
+ 
+ First, why airplanes fly? - Because of lifting force perpendicular to wings.
+ Second, what we need to make a turn? - We need centripetal acceleration, so
+ we need some physical force which will act as centripetal. The only force we have
+ is lifting force (since gravity is always directed down it cannot produce centripetal force).
+ We should tilt the wings then horizontal projection of the lifting force will act as
+ centripetal. Thus, in the air one should tilt.
+
+
+
+
+\end{document}

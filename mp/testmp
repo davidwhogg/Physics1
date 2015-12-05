@@ -1,0 +1,10 @@
+#!/bin/sh
+# usage:
+#        testmp blah
+# makes blah.ps (and intermediate temp_blah.tex)
+
+mpost $1.mp
+/bin/echo "\\documentclass{article}\\usepackage{graphics}\\pagestyle{empty}\\begin{document}\\includegraphics{$1.1}\\end{document}" > /tmp/temp_$1.tex
+latex /tmp/temp_$1
+dvips -E temp_$1.dvi -o $1.ps
+/bin/rm /tmp/temp_$1.*

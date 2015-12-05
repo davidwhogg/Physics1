@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset -.5cm
+\hoffset -1.5cm
+\textheight 21cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 9.}
+\end{center}
+
+{\bf Problem 1.}
+
+(a) Conservation of momentum: $m\vec{v}_0 =2m \vec{v}$, thus $v=v_0/2$ in the same direction.
+Angular momentum should be also conserved: $mv_0 r= I_f \omega$.
+Moment of inertia of a puck regarding its center mass is $mr^2/2$, if we shift axes of rotation
+by $r$ it will be $mr^2/2 +mr^2$ and since we have two pucks we get $I_f=3mr^2$.
+So, $\omega=v_0/(3r)$.
+
+Initial kinetic energy is $K_i=mv_0^2/2$, final one is $K_f=2m v^2/2 +I_f \omega^2/2=5/6 \;K_i$.
+Fraction of energy lost is $(K_i-K_f)/K_i=1/6$.
+
+(b) Only $v$ would be the same (as stuck-dead defined $\omega=0$). Difference of energy
+would go to stop rotation, and for energy loss we would get $(K_i-K_f)/K_i=1/2$.
+\\
+
+{\bf Problem 2.}
+
+There are no vertical motion. Horizontally the only force is force of friction $F_f$.
+Equations of motion are $M a=F_f$ and $I \alpha =F_f R$, where $I=2/5\;MR^2$ is moment of
+inertia of the ball, $\alpha$ is angular acceleration. If the ball slides, it means that force of friction
+is maximal $F_f=\mu Mg$. We get $a=\mu g$ and $\alpha=5/2\;\mu g/R$. No sliding condition
+is $v=\omega R$ (ball i just rolling). Velocity is function of time $v=v_i -at$ (linear decreasing) ,  angular velocity is $\omega=\alpha t$ (linear increasing). Thus at time $t_r$  we should have
+$v=\omega R$, or $v_i -at_r=\alpha t_r R$. Solving for $t_r$ we get 
+$$t_r=\frac{v_i}{a+\alpha R}=\frac{2}{7}\frac{v_i}{\mu g}$$
+\\
+
+{\bf Problem 3.}
+
+Let's split cone on disk layers of radius $r=R y/h$ and thickness $dy$ , where $y$ is changing from $0$ to $h$ (we have cone with the pick at $y=0$ and getting wider at the top).
+Moment of inertia of the disk layer is $dI=dm r^2/2$, where $dm=\rho dV$ is mass of the layer,
+$\rho$ is density of the cone, $dV=\pi r^2 dy$ is volume of the layer. 
+
+Total moment of inertia is
+$$I=\int dI=\int \frac{1}{2}dm r^2= \frac{1}{2}\int dV \rho r^2= \frac{\pi}{2}\int_{0}^{h} dy r^2 \rho r^2=
+ \frac{\pi \rho R^4}{2 h^4}\int_{0}^{h} dy y^4= \frac{\pi \rho R^4 h}{10}.$$
+The volume of the cone is 
+$$V=\int dV = \pi \int_{0}^{h} dy r^2 = \frac{\pi R^2 h}{3}.$$
+Thus we can write $\rho=M/V$, or in other words 
+$$I=\frac{3}{10}MR^2.$$
+\\
+\\
+
+
+{\bf Problem 4.}
+
+Initial kinetic energy is $K_i=M v_i^2/2$, the final is $K_f=M v_f^2/2 +I\omega_f^2/2$,
+where $v_f=v_i-at_r=5/7\;v_i$, $\omega_f=\alpha t_r=5/7\;v_i/R$. Thus $K_f=5/7\;K_i$ and
+energy loss (for heat) is $\Delta K=2/7\;K_i$.
+
+Work done by friction force is $W=F_f x$, where $x=v_i t_t -a t_r^2/2=12/49\;v_i^2/(\mu g)$.
+So, for work we have $W=24/49\;K_i$, it is  bigger than $\Delta K$, because part of the
+work goes to make the ball rotate. You can check that $W-\Delta K=I\omega_f /2$.
+
+
+
+\end{document}

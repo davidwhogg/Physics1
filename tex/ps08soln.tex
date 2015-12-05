@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset -.5cm
+\hoffset -1.5cm
+\textheight 21cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 8.}
+\end{center}
+
+{\bf Problem 1.}
+
+Distance from the Earth to Sun is $R_{SE}\approx 1.5\times 10^{11} m$, radius of the Earth $R_E\approx 6.4\times 10^6 m$, mass of the Earth $M_E\approx 6\times 10^{24}kg$, angular velocity for rotation around
+Sun is $\omega_{orbit}=1\;year^{-1}\approx 3.2\times10^{-8}s^{-1}$, angular speed of the Earth's spin is
+$\omega_s=1/24\;hour^{-1}\approx 1.2\times 10^{-5} s^{-1}$.
+$$L_{orbit}=M_E R_{SE}^2 \omega_{orbit}\approx 4.3\times 10^{39}\frac{kg\;m^2}{s},\;\;\;\;\;
+L_{spin}=\frac{2}{5}M_E R_{E}^2 \omega_{s}\approx 1.2\times 10^{33}\frac{kg\;m^2}{s}$$
+here we have used that moment of inertia of a sphere is $I=2/5 \; mR^2$. The ratio is about $10^6$.
+For kinetic energy we have
+$$K_{orbit}=\frac{I_{orbit}\omega_{orbit}^2 }{2}=M_E R_{SE}^2 \omega_{orbit}^2/2\approx 7\times10^{31}J,\;\;\;K_{spin}=\frac{I_{spin}\omega_{s}^2 }{2}\approx2\times 10^{28}J$$
+the ratio is of order $10^3$.
+\\
+
+{\bf Problem 2.}
+
+Momentum conservation $\vec{p}_{ci}=\vec{p}_{5f}+\vec{p}_{cf}$,  conservation of energy
+$\vec{p}_{ci}^2/2m=\vec{p}_{5f}^2/2m+\vec{p}_{cf}^2/2m$. Suppose cue ball recoils at angle $\alpha$
+to the original direction. We get for projections
+$p_{ci}=p_{5f}\cos\theta +p_{cf}\cos\alpha,\;\;0=p_{5f}\sin\theta +p_{cf}\sin\alpha$ together with energy conservation $p_{ci}^2=p_{5f}^2 +p_{cf}^2$. Solving this system we get $\alpha =\pi/2 -\theta$.
+Or in other words $\theta +\alpha=\pi/2$.
+\\
+
+{\bf Problem 3.}
+
+We have only horizontal motion, all vertical forces are compensated. The only force acting on the pipe
+is force of friction $F_f$ in the direction of the truck's motion. It forces pipe to get linear and angular accelerations
+$a_p,\;\beta$:  $F_f=ma_p\,;\;\;F_f R=I\beta$. The condition of no slipping is $a=a_p+\beta R$ ("the distance which truck moved equals to the distance which pipe moved plus the distance pipe rolled back").
+From here we get
+$$\beta=\frac{mR^2}{I+mR^2}\frac{a}{R},\;\;\;a_p=\frac{I}{I+mR^2}a.$$
+
+(a) When speed of truck is $v_t=at$ and speed of pipe is $v_p=a_p t$ and $\omega_p=\beta t$ the condition
+of no slipping is $v_t=v_p+\omega_p R$.
+
+(c)  The pipe is moving with acceleration $a_p-a$ with respect to truck. Thus the fall time is defined by
+$(a-a_p)t_f^2/2=L$, or in other words time for rolling of the truck $\beta R t_f^2/2=L$:
+$$t_f=\sqrt{\frac{2L}{a}\left(1+\frac{I}{mR^2}\right)}.$$
+\\
+\\
+\\
+
+
+{\bf Problem 4.}
+
+(a) $300\;yards\approx 300\;m$, without air resistance optimal angle is $45^o$, kinetic energy is almost conserved (that's is not true for tennis or ping-pong), club head is 10 times as massive as the ball $m_c =10 m_b$. We have $m_c u_c=m_c v_c +m_b v_b,\;\;u_c+v_c=v_b$ (the second equation is conservation of energy), here $u_c$ speed of the club before strike, $v_c$ after. From here $u_c=.55 v_b\approx 30\;m/s$, where $v_b\approx54\;m/s$.
+
+(b) Diameter of golf ball is about $4\;cm$, cross-section area $A\approx 13\;cm^2$, mass $M\approx 45\;g$. Each molecule
+gets momentum $\Delta p = 2 m_N v_b$, where $m_N$ is mass of $N_2$ molecule.
+Number of molecules ball hits per second is $v_b A n$, where $n$ is number density of molecules (number per unit volume). Thus force acting on the ball is $F_a=2 m_N A n v_b^2=2\rho A v_b^2$, where $\rho=m_N n$ is density of the air. The force is naturally directed opposite to velocity. $F_a\approx 9\;N$, the force of gravity acting on the ball is $F_g=Mg\approx0.45\;N$, which is 20 times less than $F_a$. (However, note that if we 
+reduce speed of ball, for example, 4 times, we'll get $F_a$ 16 times less).
+
+(c) Work done is "force by path" $W\ge F_a L\approx 8100\;J$. Kinetic energy of the ball is $K=Mv_b^2/2\approx 65\;J$. This estimate does not make much sense since $F_a$ dramatically reduces for smaller speeds.
+
+(d) But anyway we can conclude that we should not neglect air resistance for realistic calculations.
+
+
+\end{document}

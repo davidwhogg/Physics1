@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset 0cm
+\hoffset -1.5cm
+\textheight 20cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 6.}
+\end{center}
+
+{\bf Problem 1.}
+\begin{itemize}
+\item {} Bullet fired from a rifle: speed $v\approx 1000\;m/s$,  mass $m\approx 10 \;g=.01\;kg$, momentum $p=mv\approx 10\;kg\;m/s$, energy $E=mv^2/2\approx 5000\;J$.
+\item {} A soccer ball kicked hard: speed $v\approx 30\;m/s$ (soccer field size is 100m, it takes
+about 3s for a ball to get a bit farther then middle of the field after goalkeeper kicks it),  mass $m\approx 500 \;g=.5\;kg$, momentum $p=mv\approx 15\;kg\;m/s$, energy $E=mv^2/2\approx 250\;J$.
+\item {} A three year old on tricycle: speed $v\approx .5\;m/s$,  mass $m\approx 20\;kg$, momentum $p=mv\approx 10\;kg\;m/s$, energy $E=mv^2/2\approx 2.5\;J$.
+\end{itemize}
+
+
+{\bf Problem 2.}
+
+Masses of the blocks $m_1=5\;kg$ and $m_2=2\;kg$, corresponding initial velocities
+$v_1=7\;m/s$ and $v_2=-2\;m/s$. The collision is {\bf elastic} that means the {\bf energy is conserved}. Let's velocities after collision be $u_1$ and $u_2$ then
+$$m_1 v_1 +m_2 v_2=m_1 u_1 +m_2 u_2,\;\;\;\mbox{-- conservation of momentum}$$
+$$
+\frac{m_1 v_1^2}{2} +\frac{m_2 v_2^2}{2}=\frac{m_1 u_1^2}{2} +\frac{m_2 u_2^2}{2},\;\;\;\mbox{-- conservation of energy.}$$
+Let's rewrite above formulas by taking terms with $m_1$ to the left and with $m_2$ to the right:
+\be
+m_1( v_1 - u_1) =m_2( u_2-v_2),\;\;\; \frac{m_1}{2}(v_1^2-u_1^2) = \frac{m_2}{2}(u_2^2-v_2^2)\nonumber
+\ee
+Dividing one equation by the other we get following system
+\be
+m_1( v_1 - u_1) =m_2( u_2-v_2),\;\;\; v_1+u_1 = u_2+v_2.\nonumber
+\ee
+It is now trivial to solve
+\be
+u_1=\frac{m_1-m_2}{m_1+m_2}v_1 +\frac{2 m_2}{m_1+m_2}v_2=1\frac{6}{7}m/s,\;\;\;\;
+u_2=\frac{2 m_1}{m_1+m_2}v_1 +\frac{ m_2-m_1}{m_2+m_1}v_2=10\frac{6}{7}m/s\nonumber
+\ee
+\\
+\\
+
+{\bf Problem 3.}
+
+Let's see what forces are acting on a car: force of gravity down $mg$, reaction force normal to the  to the road $N$ and friction force tangent to the road $F_f$ and we know
+that $|F_f|\le \mu N$ where $\mu$ is friction coefficient. Road have been optimize, that means reducing force of friction to zero. Thus centripetal force, necessary to make turn, is produced
+just by the projection of force of reaction to the center of curvature $F_c=mv_0^2/R=N\sin\theta$. At the same time, reaction force should compensate gravity $mg=N\cos \theta$. From here 
+we find slope $\theta$:  $\tan\theta = \frac{ v_0^2}{Rg}$ or $\theta\approx 51^o$, where $v_0=55\;mile/h$ is optimization speed.
+
+Now we know $\theta$, let's calculate the maximal safe speed. Centripetal force is produced
+by projections of force of reaction and force of friction $F_c=mv^2/R=N\sin\theta +F_f\cos\theta$. Since
+we are interested in the maximal speed we'll use maximal force of friction $F_f=\mu N$.
+Thus we get $mv^2/R=N\sin\theta +\mu N\cos\theta$.  Taking into account that now
+$mg=N \cos\theta-F_f \sin\theta $
+we get  for maximal safe speed 
+$$v^2=gR\frac{v_0^2 +\mu g R}{gR-\mu v_0^2}\approx 46.4\;m/s\approx 104.5\;mile/h.$$
+ 
+
+
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,282 @@
+\documentclass[12pt]{article}
+\usepackage[pdftex]{graphicx}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\cm}{\mathrm{cm}}
+\newcommand{\mm}{\mathrm{mm}}
+\newcommand{\km}{\mathrm{km}}
+\newcommand{\mi}{\mathrm{mi}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\ms}{\mathrm{ms}}
+\newcommand{\h}{\mathrm{h}}
+\newcommand{\N}{\mathrm{N}}
+\newcommand{\W}{\mathrm{W}}
+\newcommand{\Pa}{\mathrm{Pa}}
+\newcommand{\C}{\mathrm{C}}
+\newcommand{\hp}{\mathrm{hp}}
+\newcommand{\rad}{\mathrm{rad}}
+\newcounter{problem}
+\stepcounter{problem}
+\newcounter{answer}[problem]
+\newenvironment{problem}{\noindent\begin{minipage}{\textwidth}\sloppy\sloppypar\raggedright\textbf{\theproblem.}\refstepcounter{problem}\stepcounter{answer}---}{\end{minipage}\\[2ex]}
+\newcommand{\source}[1]{[{#1}]}
+\newenvironment{answers}{\\[0.5ex]}{}
+\newcommand{\answer}[1]{\textbf{\Alph{answer}:}\refstepcounter{answer}~\mbox{#1\hspace{3ex}}}
+\newcommand{\longanswer}[1]{\textbf{\Alph{answer}:}\refstepcounter{answer}~{#1}\\}
+\begin{document}\sloppy\sloppypar
+
+\section*{NYU General Physics 1---Term Exam 4}
+
+\begin{problem}
+  \source{from lecture 2013-11-19} We considered a ``block of water''
+  floating in water.  Which statement is \emph{not} true?
+  \begin{answers}
+    \longanswer{The gravitational force on the block points downwards.}
+    \longanswer{The buoyant force on the block points upwards.}
+    \longanswer{The buoyant force is related to a difference in pressure between the top of the block and the bottom.}
+    \longanswer{There is a net upward force on the block of water.}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-11-21} We considered the air pressure in a
+  bus (treated as a sealed box) accelerating forwards.  In our
+  two-dimensional picture of the bus, where was the pressure highest?
+  \begin{answers}
+    \answer{top front corner}
+    \answer{top rear corner}
+    \answer{bottom front corner}
+    \answer{bottom rear corner}
+    \answer{none of these}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-11-26} Water was flowing in a graduated
+  pipe from a wide part (large diameter) to a narrow part (small
+  diameter).  Which statement is true?
+  \begin{answers}
+    \longanswer{The speed of the water is the same everywhere.}
+    \longanswer{The water accelerates because of a pressure gradient.}
+    \longanswer{The pressure is higher in the narrow part.}
+    \longanswer{As the pressure increases, so does the speed of the water.}
+    \longanswer{The pressure is proportional to the square of the speed.}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-12-03} Bernoulli's constant
+  $(P+\frac{1}{2}\,\rho\,v^2+\rho\,g\,h)$ has what units?
+  \begin{answers}
+    \answer{energy}
+    \answer{volume per time}
+    \answer{momentum}
+    \answer{energy per volume}
+    \answer{momentum per area}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-12-05} If a cell or water droplet has its
+  pressure determined by its size and its surface tension, how does
+  the pressure inside the cell or droplet change with radius?
+  \begin{answers}
+    \answer{pressure decreases as radius increases}
+    \answer{pressure is independent of radius}
+    \answer{pressure increases as radius increases}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from lecture 2013-12-10} We computed the viscous stress
+  (pressure) in an artery of length $L$ and radius $R$ carrying blood at
+  mean speed $v$.  If you fix the length and the speed but increase
+  the radius of the artery, what happens to the volumetric flow (volume
+  of blood per unit time through the artery) and the viscous stress?
+  \begin{answers}
+    \longanswer{the volumetric flow increases and the stress increases}
+    \longanswer{the volumetric flow decreases and the stress increases}
+    \longanswer{the volumetric flow increases and the stress decreases}
+    \longanswer{the volumetric flow decreases and the stress decreases}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 11, problem 1} In part $(c)$, when you
+  plotted
+  $$\displaystyle y(x,t) = A \cos(\frac{2\pi\,x}{0.75\,\m})\,\cos(\frac{2\pi\,t}{0.25\,\s})$$
+  at time $t=0.05\,\s$, at which position $x$ did $y(x)$ become exactly zero?
+  \begin{answers}
+    \answer{$x=0.0\,\m$}
+    \answer{$x=0.1875\,\m$}
+    \answer{$x=0.25\,\m$}
+    \answer{$x=0.375\,\m$}
+    \answer{$x=0.75\,\m$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 11, problem 2} The bulk modulus of blood is
+  much greater than the bulk modulus of meat.  What does this mean?
+  \begin{answers}
+    \longanswer{blood is more easily compressible than meat}
+    \longanswer{blood is less easily compressible than meat}
+    \longanswer{blood is more solid than meat}
+    \longanswer{blood is less solid than meat}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 11, problem 3} What, roughly, is the
+  quality factor $Q$ of a piano string?
+  \begin{answers}
+    \answer{2}
+    \answer{60}
+    \answer{2000}
+    \answer{60,000}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 12, problem 1} What is the ratio of the
+  density of mercury to the density of air, approximately?
+  \begin{answers}
+    \answer{10}
+    \answer{100}
+    \answer{1,000}
+    \answer{10,000}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 12, problem 2} An ice cube (frozen water,
+  with no included air bubbles) at $0\,\C$ floats in a glass of water
+  at $0\,\C$.  Approximately what fraction of the cube is below the
+  surface of the water?
+  \begin{answers}
+    \answer{0.5}
+    \answer{0.9}
+    \answer{0.99}
+    \answer{0.999}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 12, problem 2} An ice cube at $0\,\C$
+  floats in a glass of water at $0\,\C$. When the ice cube melts, does
+  the water level go up or down?
+  \begin{answers}
+    \answer{down}
+    \answer{stays the same}
+    \answer{up}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 12, problem 3} How is the magnitude $F_b$
+  of the buoyant force on your body related to the magnitude $F_g$ of
+  the gravitational force on your body?  Assume that you are standing
+  on the surface of the Earth in air at STP.
+  \begin{answers}
+    \answer{$\displaystyle F_b \approx\frac{F_g}{800}$}
+    \answer{$\displaystyle F_b \approx\frac{F_g}{80}$}
+    \answer{$\displaystyle F_b \approx\frac{F_g}{8}$}
+    \answer{$\displaystyle F_b \approx F_g$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 13, problem 1} If $\rho$ is the density of
+  air, what is the pressure difference $\Delta P$ between the front
+  and back of a sealed bus of length $L$ moving at speed $v$ and
+  accelerating at acceleration $a$?
+  \begin{answers}
+    \answer{$\Delta P = \rho\,a\,L$}
+    \answer{$\Delta P = \rho\,g\,L$}
+    \answer{$\Delta P = \frac{1}{2}\,\rho\,v^2$}
+    \answer{None of the above}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 13, problem 2} You solved a problem about
+  the pressure difference $\Delta P$ created if an aorta carrying
+  $5\,\ell\,\min^{-1}$ narrows from a diameter of $3.5\,\cm$ to a
+  diameter of $2.5\,\cm$.  Now imagine instead that the aorta narrows
+  from a diameter of $3.5\,\cm$ all the way to a diameter of
+  $0.5\,\cm$.  What is the new pressure difference $\Delta P$ in this
+  case?  (\emph{Hint:} No need to calculate this exactly; use the fact
+  that $[0.5]^2$ is much smaller than $[3.5]^2$.)
+  \begin{answers}
+    \answer{$\Delta P = 17\,\Pa$}
+    \answer{$\Delta P = 170\,\Pa$}
+    \answer{$\Delta P = 1,700\,\Pa$}
+    \answer{$\Delta P = 17,000\,\Pa$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 14, problem 1} What is the surface tension of water, roughly?
+  \begin{answers}
+    \answer{$0.07\,\N\,\m^{-1}$}
+    \answer{$0.7\,\N\,\m^{-1}$}
+    \answer{$7\,\N\,\m^{-1}$}
+    \answer{$70\,\N\,\m^{-1}$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from problem set 14, problem 2} Which is larger, viscous
+  drag or ram-pressure force?  Consider a car moving at freeway
+  speeds, and consider a red blood cell sinking slowly in plasma.
+  \begin{answers}
+    \longanswer{ram-pressure is larger than viscous for the car, viscous is larger than ram-pressure for the cell}
+    \longanswer{viscous is larger than ram-pressure for the car, ram-pressure is larger than viscous for the cell}
+    \longanswer{ram-pressure is larger in both cases}
+    \longanswer{viscous is larger in both cases}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from \textit{Work--Energy} lab} How did you calibrate the
+  force sensor?
+  \begin{answers}
+    \longanswer{By hanging a known weight from it.}
+    \longanswer{By accelerating a known mass at a known acceleration.}
+    \longanswer{By stretching an elastic band attached to a cart.}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from \textit{Oscillations of a String} lab} The lab manual
+  explained that the normal-mode frequencies $\nu_n$ are
+  $$\displaystyle\nu_n = \frac{n}{2\,L}\,\sqrt{\frac{T}{\rho}}\quad,$$
+  where $L$ is the string length, $T$ is the string tension, and
+  $\rho$ is the string mass per unit length.  The normal-mode
+  wavelengths $\lambda_n$ are
+  $$\displaystyle\lambda_n = \frac{2\,L}{n}\quad.$$
+  How are these related?
+  \begin{answers}
+    \answer{$\nu_n\propto(\lambda_n)^2$}
+    \answer{$\nu_n\propto\lambda_n$}
+    \answer{$\displaystyle\nu_n\propto\frac{1}{\lambda_n}$}
+    \answer{$\displaystyle\nu_n\propto\frac{1}{(\lambda_n)^2}$}
+  \end{answers}
+\end{problem}
+
+\begin{problem}
+  \source{from \textit{Resonance Tube} lab} The speed of sound in air
+  at STP is roughly $340\,\m\,\s^{-1}$.  If you doubled the (absolute)
+  temperature of the air, what would you expect the speed of sound to
+  become?
+  \begin{answers}
+    \answer{$170\,\m\,\s^{-1}$}
+    \answer{$240\,\m\,\s^{-1}$}
+    \answer{$340\,\m\,\s^{-1}$}
+    \answer{$480\,\m\,\s^{-1}$}
+    \answer{$680\,\m\,\s^{-1}$}
+  \end{answers}
+\end{problem}
+
+\end{document}

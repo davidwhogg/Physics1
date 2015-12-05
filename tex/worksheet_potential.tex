@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\begin{document}
+\renewcommand{\deg}{\mathrm{deg}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\mps}{\m\,\s^{-1}}
+\newcounter{problem}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---potential energy}
+
+For a conservative force, the potential energy is the line integral of
+the force and the force is the derivative of the potential.  This is
+the fundamental theorem of calculus but also very fundamental in
+physics.  Here we do a non-trivial example.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Consider a particle subject to a potential energy of the form
+\begin{equation}
+U = \frac{B}{x^2} - \frac{A}{x} \quad ,
+\label{eq:hard}
+\end{equation}
+where $A$ and $B$ are positive constants.  If $x$ is measured in $\m$,
+what are the units of $A$ and $B$?
+
+Consider another particle subject to a potential energy of the form
+\begin{equation}
+U = \frac{1}{2}\,k\,(x-x_0)^2
+\label{eq:easy}
+\end{equation}
+where $k$ is a constant.  If $x$ is measured in $\m$, what are
+the units of $k$?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Sketch both potentials $U$ vs $x$.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+By taking derivatives, compute the equilibrium position
+$x_\mathrm{eq}$ for each of the potentials.  That is, compute the $x$
+position where there is no force and the potential is at a minimum.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Take a second derivative for each potential at the equilibrium point.
+What are the units of this second derivative?  Interpret it physically
+in terms of force and distance.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+In the second potential (\ref{eq:easy}), you know what the dynamics
+are: what happens to the system as a function of time if displaced
+from equilibrium?  How does this relate to what happens in the first
+potential (\ref{eq:hard})?  There is a limit in which these look
+\emph{very similar}; what is it?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Of what kind of system might potential (\ref{eq:hard}) be a model?
+
+\end{document}

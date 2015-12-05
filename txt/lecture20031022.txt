@@ -1,0 +1,552 @@
+2003 October 22
+
+I just graded your second exam and there was some very disturbing
+things on the second exam and so I'm going to postpone rotation for
+another half hour and talk about question two of the exam.
+
+now i want to put the fear of god in you because the in linear
+momentum is the easy part.
+
+we are about to do rotation so objects have three dimensional
+configurations and they are rotating in space and
+
+we have round things!
+
+so there are fun things to do but they are complicated.
+
+let me talk about exam 2.
+
+there's also something I didn't finish last time which is the rocket
+which is one of the coolest things that I get to talk about but I
+think that exam two trumps the rocket, so even though I want to finish
+the rocket lets talk about exam two.
+
+what do I want to say about exam two?
+
+who here watched the baseball game last night?
+
+It was all bad for me.  Yankees won.  and I don't really have any
+strong feelings about either the Yankees or the marlins but I did make
+the mistake of placing a pretty large bet on the marlins.
+
+so I'm rooting for the marlins.  suddenly my interest in baseball has
+greatly expanded.
+
+as you will recall, on exam two was the following
+
+a baseball pitcher has a ball here here's the before picture.
+
+now, after: how does a baseball pitcher throw?  you didn't really know
+how a baseball pitcher throws, because i didn't require a very
+accurate...
+
+anyone know what this is?
+
+its a hockey ball.  its a street hockey ball.  or whatever, or some
+game people play at schnmancy hoity toity universities.  I know that
+because i found this on the campus of Princeton university.
+
+how does a pitcher throw?  watch the ball!
+
+[throws]
+
+okay, everyone see that?  lets try that again.  watch the ball!
+
+[throws and it gets stuck in the wall -- laughter]
+
+i did work on the ball.  how much work did I do on the ball?  but I
+asked an easier question first, which was what was the impulse?
+
+here is before, and here is after.  lets see, what do I look like
+afterwards?  like that?
+
+[draws]
+
+I gave you that v is 100, but we don't have to deal with that just yet
+
+I asked for the impulse. and I even told you that it was delta p, so
+there was absolutely no excuse to get this wrong.  what is the impulse
+in this case.  describe it in words.  who knows what the impulse is?
+one person knows.  that would explain why so many did badly on exam 2.
+
+Change in momentum!  change in momentum; that's why I called it delta
+p, and I didn't put a vector hat on it because i didn't specify a
+direction.  so i was really talking about the magnitude of delta p.
+the change in momentum, that is p before minus p after.  like that.
+
+oops.  p after minus p before.  but I was taking the absolute value in
+the end so it doesn't matter.
+
+[fixes]
+
+what is the momentum before?
+
+zero!  because its just sitting here and what's after?
+
+mass times velocity!  mv so delta p is mv and I said that v is roughly
+40 m/s (because I said 100 mi/hr and there's 1600 m/mi and 3600 s/hr
+the ratio of 3600/1600 is a little bit bigger than two, so you divide
+by something a little bit bigger than two, so you get something like
+40 m/s for 100 mi/hr).
+
+the mass is the mass of the baseball which we will come to in a
+second.
+
+[question from audience]
+
+you can remember it as being all 4s; which is okay.  but I always
+remember things just by recomputing them.  I don't ever remember
+specific numbers; I just end up doing that calculation over and over
+again. its the kind of calculation you should be able to do fast.
+
+[question]
+
+absolutely right -- so we're going to come back to that, we haven't
+even talked about the configuration of the baseball player yet; we are
+about to get there.  remember that if the baseball player was, like a
+-- has anyone ever gone to a batting cage?
+
+in a batting cage you don't have a pitcher, unless you are a very
+w2wealthy person, when you go to a batting cage, what is there?  a
+machine going cachung cachung.  a pitcher doesn't erally work like
+that.  but even if you assumed the pitcher threw a ball like that, I
+graded you fine!
+
+how does a pitcher throw a ball?  a pitcher winds up and throws like
+that.  they can't move arbitrarily far, because they have to keep
+their foot on one spot.  but they do wind up, absolutely.
+
+we'll come back to that; that's very important.
+
+we need the mass of the baseball.  and I had a baseball in the room.
+and it did not weigh a kilogram.  on the other hand, if you put down a
+kilogram, I graded you just fine.
+
+if you put down five kilograms, I did not grade you just fine.  you
+lost a point for putting down five kilograms.
+
+remember I said explicitly in class at the beginning of the class: I
+am going to expect physics is not about a set of formulas.
+
+you can know all the formuulats you like.  but if you cannot compute
+the force that a baseball player applies to a baseball, you do not
+know physics.  that means part of physics is knowing how much is a
+kilogram is!
+
+right?
+
+if you do not know what a kilogram is, go figure out what a kilogram
+is.
+
+yes?
+
+[can you give me an example of something that weighs a kilogram?]
+
+a liter of water.  how many of you have ever drunk a pint of beer?
+
+report immediately to the deans.
+
+how much does a pint of beer weigh?
+
+a pound!  a pint's a pound!
+
+[really!?]
+
+a kilogram's a liter.
+
+a liter's a kilogram.  a pint is a pound.
+
+you know that's a kilogram, because a liter is 10 x 10x10 cm of water.
+that's 1000 cubic cm and a cubic cm is a gram.  compare a baseb all
+to this much water.  and you know when you buy a liter bottle of water
+or soda, its heavier than a baseball.
+
+[what's the mass of a baseball?]
+
+I have no idea.  if I was doing this problem., and I am doing this
+problem, I would say that a baseball is between a quarter pound and a
+half pound.  So it is something like a quarter of a kilogram.  0.1,
+0.2, 0.3 kg.
+
+Say again?
+
+0.5 pounds --- half a pound, which is quarter a kilogram.  so i figure
+  its about a quarter of a kilo but I don't know exactly and I don't
+  care exactly, because this is an estimation problem, so even if you
+  said a kilogram, I said okay -- but I didn't say okay, I said
+  "okay".
+
+so the mass is on the order of 0.2 Kg thats not a bad number and a lot
+of people had this number or something close to this.
+
+so what do we get for delta p?
+
+0.2 times 40 gives 8 kg m/s and that was delta p.  some got 11; thats
+  fine.  okay.
+
+work how much work does the pitcher do?
+
+the problem asked for these things in this order to clue you in to the
+right procedure. but you can use any procedure you like.  In fact many
+of you did a very convoluted thing but nonetheless got the right
+answer in the end and thats fine but grading this problem is a night
+mare because most of you wrote like ten pages about your personal
+experincees and the last boyfriend your had, and all this stuff.  of
+course you crushed it all into those two pages, so grading it is
+amusing.  and i am not quite done but I couldn't hold off on
+discussing this.
+
+what is the best way to compute the work.  think about this for a
+second.  you all have a formula for work in your head.  that formula
+is force times distance can any of you think of a reason *not* to use
+that formula right now?
+
+right!  because the final thing i am asking for in this problem is the
+force
+
+clearly the fact that work is force times distance is relevant to this
+problem. but right now we don't know the force so the force times
+distance isn't very useful.  so who here things they know a better way
+to compute the work?
+
+the problem said the work done by the pitcher on the ball.
+
+at this after point here, the ball is thrown and it is moving, what is
+the pitcher doing?
+
+following through!  not haningn out.  the pitcher doesn't throw it and
+is immediately like...
+
+no the pitcher comes off the mound, following through.  so actually
+the pitcher does work not just on the ball but also the pitcher
+himself after the throw is moving.  so there is kinetic energy
+imparted to the pitcher as well as the ball.  some of you included
+that, but of course the problem said haw much work does the pitcher do
+on the ball.
+
+I asked a question: does anybody here have a way of computing the work
+without doing force times distance?
+
+one...six...nine people.  what's your suggestion?
+
+momentum over time.  one thing that a bunch of people did is realize
+that momentum and energy are somehow related. and p/t would make a
+force, and then I can plug that into force times distance.  so a
+change of momentum over time is a force, multiply by a distance is an
+energy.  if I want to do that I have to estimate what about the throw?
+
+a time?
+
+what time do I have to estimate?  the time at which he threw?  no?
+what time?
+
+the time from here to here.  does anyone want to comment on that?
+
+its not very long -- that's true.
+
+how long is it?
+
+some of you just threw a time out there and said I'm just going to
+assume its half a second.  can it possibly be half a second?
+
+can any of you think of an argument, ,very straightforward argument,
+that it can't be half a second?
+
+yes?
+
+remember that this class is about learning!  in fact i would like
+people who got it wrong in the exam jumping in here because they are
+going to do it right next time.
+
+[long suggestion]
+
+when i throw the ball, I throw it about t this far.  that is about the
+distance I am throwing.  that's about that distance.  when I drop it
+that far, its about a second, maybe a bit more
+
+[drops, then throws]
+
+is that about a second that it is in my hands?  it wasn't even a
+second to the wall, let alone a second to the wall?
+
+can anyone come up with the argument that it can't be half a second?
+you have everything you need on the board.
+
+good!  nice!  actually that's a good argument.  if you don't know
+about baseball, that argument doesn't help you.  if you know about
+baseball, if the throwing of the pitch took a second, there would be
+stealing bases all over the place, because in a second, someone like
+Derek Jeter can go a long way.  I am hoping he breaks his ankle.
+
+I know some people in new York that can have that done for me.
+
+what's a really simple argument that it can't be a second or half a
+second?
+
+[correct suggestion...]
+
+boom!  what an argument!  say the throw took a second.  it is
+basically going from 0 to 40 m/s.  while its in my arm, its average
+speed is about 20 m/s, so if it is in my arm for a second, how long is
+my arm?
+
+3 m is not a bad guess, because it is longer than my arm.  how long is
+my arm, by the way?
+
+yeah, fingertip to fingertip is roughly your height, that's not a bad
+thing to know.  This distance for me is about six feet, a little
+bigger than my height.
+
+so, this distance here is about 2 m, and you will see that as I throw
+it I go at least that distance, maybe 2 2.5 m.  and a baseball pitcher
+goes futhere
+
+the thing about pitching fastballs is that you really extend that, so a
+professional baseball pitcher probably goes about three meters.
+
+so how long is the time?
+
+its about 0.1 seconds, is more like it!  not 0.5 sec.  but even people
+who just wrote down 0.1 seconds -- how did you estimate 0.1 seconds?
+Like how long is this on the ground when it bounces?
+
+[drops ball]
+
+is it on the ground for 0.1, 0.01, 0.001, 0.0001, 0.00001, 0.000001
+seconds?
+
+So I will accept a writing down of 0.1 s from anyone who can tell me
+how long that was on the ground.  I need an argument that it is 0.1
+seconds.  because if you can't estimate the time that the dropped ball
+is on the ground when it bounces, how can you estimate how long it is
+in the pitcher's hand when he throws?
+
+no one can judge short time intervals accurately from just looking at
+something.  I cant.
+
+my heartbeat -- actually, I might be able to if my heartbeat much
+faster than it does.  the accuracy with which you can estimate times
+is related to your heartbeat, I suspect.
+
+change in momentum over time would work if you went through all that
+argument about how long it is in my hand.  so there is an even easier
+way to estimate the work.  what is it?
+
+change in kinetic energy!  where did the work go?
+
+it went into moving th ball!  work is a transfer of energy.
+
+the work the player did on the ball is a transfer of energy from what
+form to what form?
+
+where is that energy stored?  In his arm! it is not exactly potential
+energy, it is something much more complicated that I don't really
+understand.  Actually I think for short motions, it is some kind of
+fluid hydrostatic energy, for short motions.  Then over time, through
+the game it is chemical energy.  some kind of combination of
+hydrostatic and chemical energy in the pitcher.  then the work
+transfers it to the ball.
+
+
+so the best way to estimate the work is to just see how much kinetic
+energy was transferred to the ball.
+
+what is the initial kinetic energy of the ball?  zero!
+
+what is the final? 1/2 m v^2 plugging in... we get 160...
+
+Joules!  or...
+
+kg m^2/s^2!  or...
+
+Newton meters.  good.
+
+Now you didn't have to do it in si units, and some of you had amazing
+expressions.  like lb meter mi per second hour.  The best one was lb
+meter mi per s hr.  and one of the exams that had it in those units
+actually had the right number.  and got full points.
+
+[but si units!]
+
+if its correct!  the units were correct.
+
+very important -- people who gave me answers with incorrect answers
+were crushed.  incorrect units was punished harshly on this exam.
+
+some of the exams in problem 1 have (m-1) somewhere in the expression.
+you lost points for doing that.  over and above the points you would
+have lost for just getting the problem wrong.  because that expression
+is so obviously wrong.
+
+why is that expression wrong?
+
+they have different dimensions!  you can't possibly compare them.
+
+Units are incredibly important.
+
+Being able to estimate things in the correct units is very important.
+
+But in terms of an answer, as long as its the write answer in the
+right units, you are fine.  so the way that person go the right
+answer.  they got the answer is they had the momentum as 50 lb mi/r --
+half a pound at 100 mi/hr and then multiplied that by the distance
+over the time, which they got as 3 m/ 0.1 s so they divided by time to
+get force and multiplied by distance to get energy.  The time in sec
+and the distance in meters.  so they got lb mi m / s hr.  if you do
+the right conversions you can get out of that, but it is a little bit
+hard to get out of that.
+
+here's the question.  how do we compute the force?
+
+we have delta p.  we have delta k.  and the last thing it asked you
+for is the force.  the average force.  I can think of two ways of
+computing the average force.  can anyone suggest one?
+
+good!  one would be the change in momentum over the change in time.
+that would be one way.  another?
+
+change in work over distance!
+
+I will accept either of these as long as delta t and delta l are well
+estimated.  we just talked about estimating delta t -- how did we
+estimate it?  we estimated it by estimating delta l and looking at how
+fast the ball is going.  so we can skip a step, and just estimate
+delta l and use this formula.
+
+right?
+
+what's a good estimate for delta l?  well if I was throwing a ball, it
+would be about 2 m; of course I can't throw at 100 mi/hr?  Anyone here
+can?
+
+have you been clocked?  you have never been clocked at like Disneyland
+and got clocked?
+
+I can throw a 60 or something; I can't throw very fast -- so that
+throw I threw earlier threw out my back and it was only a 40 or 50.
+so baseball pitchers throw very fast.  and they do it in a very
+interesting way.  the real biomechanics of pitching is amazing.  if
+you see a pitcher throw in slow motion, you see that they are yanking
+this part of their arm around, and this part whips around.  they throw
+their elbows and then this part flips around and then its all about
+telling your hand to release the ball at the right time so it goes in
+the right direction.  I can't imagine how people do it accurately.
+
+By the way, the force we are going to compute is the force is the
+force on the ball.  is that the largest force in this problem?  no --
+you can tell by the tone of voice I am using -- the pitcher is not
+just accelerating the ball, the pitcher is accelerating this part of
+his arm, which is much more massive than the ball.  so the forces on
+his elbow are probably much greater.
+
+We have estimated that this distance is about 2 m, so the force is 160
+J over 2m, which is 80 N because 1 J = 1 Nm.
+
+does that number seem reasonable?
+
+that was the last thing the problem asked, which most people forgot to
+answer.  but i was so nice to you guys, i didn't even take off points
+if you didn't answer the question of reasonableness.  But I did
+sometimes take off points if the answer was incredibly unreasonable.
+
+One of the answers I got was 44,000 N.  Can someone give me an
+argument that that is not reasonable?
+
+by the way, getting to that point, and then saying "that's not
+reasonable for the following reason" -- GOT you a point.  right?
+
+how many people did that?  Not many.
+
+Yes?  why is 44,000 not reasonable?
+
+Exactly!  a pitcher who can do this could lift a Volkswagen Jetta.
+Pretty easily.  In fact they could pitch a Volkswagen bug!
+
+the old bug, not the new one.
+
+okay good.  that's a good argument that that is not reasonable.  and
+that would have gotten someone with 44,000 N a point.
+
+Okay I love filling you guys with fear.  You look like you are at a
+funeral.  but like one of those old-time funerals, where you worry
+about the mortalities of your souls, which is good because physics is
+not a set of equations.
+
+the equations were not the hard part of this problem.  it was figuring
+out what it is you do know and what it is you don't know, and making
+sure that the simple things are things you know.  like nobody can
+complain to me that this wad mathematically sophisticated.
+
+now was this number a reasonable number?  we haven't answered that.
+we have only argued that 44000 isn't reasonable.  is this a reasonable
+number?
+
+the fact that 44000 is not reasonable is relevant.  so lets try
+another possibility.  what about if I had said it was 0.001 N.  Is
+that reasonable?
+
+No.  why not?  somebody give me a reason.
+
+[Force = mass * a that means the ball is accelerating really slow, and
+it will take forever to get to 100 mi hr]
+
+Okay, that's not a bad argument, but an even simpler one goes like
+this.  how much force am I applying to the ball right now
+
+[holds ball]
+
+mg!  what's mg well its about 0.2 kg times 10 m/s^2 which would be 2
+N.
+
+so if I got a number that was much less than 2 N then the baseball
+player would not even be applying this much force to the ball.  so I
+take that to be an argument about reasonableness.  If it was many
+orders of mag higher the pitcher could pitch cars.  If it was many
+order of mag smaller than the pitcher wouldn't even be able to lift
+the ball.
+
+[long question]
+
+its 400 m/s^2.  do you not believe it?  What have I done wrong?
+
+[if you accelerate at that rate for 0.1 s then you are going 40 m/s]
+
+good!  another way of thinking about whether it is reasonable!
+
+some people made the horrifying mistake of estimating both delta t and
+delta l and having those two estimates be totally inconsistent.  so if
+you think that delta t is 1 sec and delta l is 3 m, it can't possibly
+be consistent.  How are delta t and delta l related?  there is only
+one dimensionally correct relationship, what is it?
+
+delta l / delta t is v!  Now you have to modify that a bit because it
+is accelerating during the throw, so you probably want to put in a
+half there, but basically the ratio of this to this better by 40 m/s so
+if you assume both, they better both have that relationship to within
+a factor of a few; so if you got that relationship to within a factor
+of a few I let it go.
+
+Are there any questions about that?
+
+who here thinks that problem was hard?
+
+a few of you.
+
+somebody who thinks its hard, why did you think its hard?
+
+[I used the distance from the pitcher to the plate as delta l]
+
+good.  so a bunch of people made that mistake.  Can you tell me why
+that mistake is completely wrong?
+
+[because when it is flying to the plate, the pitcher is not pushing on
+it]
+
+Right -- its just in free fall once he has released it; although
+actually there is air resistance and air resistance is substantial.
+
+I want you to look inside and tell me why it was hard.
+
+You didn't think about the problem globally?  you were
+
+DS330052.dss 37 mins in or so

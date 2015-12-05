@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\s}{\mathrm{s}}
+\renewcommand{\d}{\mathrm{d}}
+\newcommand{\mo}{\mathrm{mo}}
+\newcounter{problem}
+\begin{document}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---Problem set 3}
+
+Due Tuesday 2009 October 6 at the beginning of lecture.
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+Chabay \& Sherwood problem 3.P.33.
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+Imagine a particle of mass $m$ moving back and forth in the $x$
+direction according to the equation
+\begin{equation}
+x(t)= A\,\cos\left(\omega\,t\right) \quad ,
+\end{equation}
+where $A$ and $\omega$ are constants.  \textsl{(a)}~What are the SI
+units for $A$ and $\omega$?  \textsl{(b)}~Derive an exact expression
+for the $x$ component $v_x(t)$ of the velocity as a function of time.
+\textsl{(c)}~Derive an exact espression for the $x$ component $F_x(t)$
+of the net force acting on the particle as a function of time.
+\textsl{(d)}~What is the ratio $F_x/x$ as a function of time?
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+The example problem on pages 85 and 86 of Chabay \& Sherwood gives
+masses for the Earth and Sun and an initial position and velocity for
+the Earth in its orbit.  Create a spreadsheet or computer program that
+integrates the same trajectory as that integrated in the example
+problem, but use $1\,\d$ ($8.64\times 10^4\,\s$) time steps instead of
+$1\,\mo$ time steps.
+
+I recommend that your spreadsheet or program keep track of the time
+$t$, the $x$ component of position $x$, the $y$ component of position
+$y$, the magnitude of the position $r=\sqrt{x^2+y^2}$, the $x$
+component of momentum $p_x$, the $y$ component of momentum $p_y$, the
+magnitude of the force $F$, the $x$ component of the force $F_x$, and
+the $y$ component of the force $F_y$.  You can test that you have your
+formulae correct by changing the timestep from $1\,\d$ up to $1\,\mo$
+and seeing that you reproduce all of the numbers in the textbook
+example problem (though check the errata referred to on the web site
+for the course).
+
+Integrate your orbit for $100\,d$ and hand in a plot of $x$ vs $y$ for
+those 100 days.  Define the time on the first line of your spreadsheet
+$t=0$.  On what day does the orbit cross the $y$ axis?  That is, on
+what day does the $x$ position become negative?
+
+\paragraph{Extra Problem (will not be graded for credit):}
+Imagine you plan a interstellar voyage in which your space ship
+accelerates at $g=10~\m\,\s^{-2}$ for two years.  What is wrong with
+your plan?  Now imagine you increase your momentum at a constant rate
+of momentum increase (that is, constant force) for two years, with
+your force set so that in the first few days (when you are not moving
+fast), you are accelerating at $g$.  What speed do you end up going at
+the end of the two-year period, relative to the frame at which you
+were at rest when you started?  \textit{Note: This problem is very
+  similar to the the problem done in lecture.}
+
+Recall that the change in momentum is the force times the time, and
+recall that momentum is $\gamma\,m\,v$.  You will have to assume that
+your spacecraft has some mass $m$, but you will find that the mass
+cancels out in your final answer.
+
+\end{document}

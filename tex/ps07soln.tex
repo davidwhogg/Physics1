@@ -1,0 +1,97 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig,latexsym}
+\voffset -.5cm
+\hoffset -1.5cm
+\textheight 21cm
+\textwidth 16cm
+\def\dspace{\baselineskip = .30in}
+
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\be{\begin{eqnarray}}
+\def\ee{\end{eqnarray}}
+
+\begin{document}
+\begin{center}
+{\bf\large Homework 7.}
+\end{center}
+
+{\bf Problem 1.}
+
+(a)  Due to conservation of momentum
+$$mv=(m+M)v',\;\;\;\; v'=\frac{m}{m+M}v$$
+
+(b) $$E_i=\frac{mv^2}{2},\;\;\;E_f=\frac{(m+M)v'^2}{2}=\frac{m}{m+M}\frac{m v^2}{2},\;\;\;\Delta K=E_i-E_f=\frac{M}{m+M}\frac{m v^2}{2}$$
+
+(c) After the collision energy is conserved
+$$mg\Delta h= E_f=\frac{m}{m+M}\frac{m v^2}{2},\;\;\;\Delta h= \frac{m}{m+M}\frac{ v^2}{2 g}$$
+
+(d) In part (a) we have inelastic collision kinetic energy is not conserved, in part (c) we consider what
+happened after collision (kinetic energy is already lost in collision), thus kinetic energy again is conserved.
+
+(e) Speed of the block is $u\le v'$. Let's find deflection angle $\alpha$ after collision. $\alpha l=u \Delta t\le v' \Delta t$, where $\Delta t$ is sticking time, $l$ length of the string. Velocity of bullet
+with respect to the block is $v_b$ and size of the block is  $a$, then $\Delta t=a/v_b$ and we get
+$\alpha\le\frac{v'}{v_b}\frac{a}{l}$. From here one can see if $l$ is big enough, $\alpha$ is negligible (moreover $h\sim\alpha^2$).
+\\
+
+{\bf Problem 2.}
+
+$$\frac{m<v^2>}{2}=\frac{3}{2}kT$$
+Mass of $N_2$ is 28 atomic units or in grams $m=28/N_A$ where $N_A$ is Avagadro's number.
+$v_{av}=\sqrt{3kT/m}\approx515\;m/s$ where we used $k=1.38\times 10^{-23} J/K$ and for room temperature $T\approx 300\;K$. 
+
+Speed of sound $v_s\approx 330\;m/s$ the result we got is about $1.5$ times bigger.
+
+The typical magnitude  of momentum is $\Delta p= 2 p=2mv_{av}\approx 5\times 10^{-23}kg\;m/s$ ($2p$ is because molecules bounce of a hand).
+
+The pressure is $P=15\;lb/in^2\approx 8\;N/in^2\approx 1.3\; N/cm^2\approx 1.3\times 10^{-4}Pa$.
+One molecule bounced of a hand produces force $F_1=\Delta p/1\;s$, for total force we should
+multiply this by number of molecules hitting hand per second $F=N \Delta p$. Pressure is force
+per unit area. Area of a hand is about $A=100\;cm^2$, thus for pressure we get $P=N\Delta p/A=1.3\;N/cm^2$. From here for number of molecules we have $N=P A/\Delta p\approx 2.5\times 10^{24}\;molecules/s$.\\
+\\
+
+
+{\bf Problem 3.}
+
+(a) Momentum which sail gets after collision with one molecule is $\Delta p\approx 2 p \cos\theta$,
+because the tangent  to the sail  component of momentum $p\sin\theta$ doesn't change, only 
+normal one get flipped. For $\theta=0$,  $\Delta p= 2 p $ and for  $\theta=\pi/2$,  $\Delta p= 0$
+(tangent wind).
+
+(b) If we'll look at one dimensional problem than for elastic collision
+$$m_1 v_1 +m_2 v_2=m_1 u_1 +m_2 u_2,\;\;\;\mbox{-- conservation of momentum}$$
+$$
+\frac{m_1 v_1^2}{2} +\frac{m_2 v_2^2}{2}=\frac{m_1 u_1^2}{2} +\frac{m_2 u_2^2}{2},\;\;\;\mbox{-- conservation of energy.}$$
+Resolving the system and making approximation $m_2\gg m_1$ (sail is much more heavy than a molecule)  we get
+\be
+u_1=\frac{m_1-m_2}{m_1+m_2}v_1 +\frac{2 m_2}{m_1+m_2}v_2\approx -v_1 +2v_2,\;\;\;\;
+u_2=\frac{2 m_1}{m_1+m_2}v_1 +\frac{ m_2-m_1}{m_2+m_1}v_2\approx v_2.\nonumber
+\ee
+Thus, perpendicular to the sail component of velocity just flips and gives $2p=2m_1v_1$ for change of momentum of the resting sail ($v_2=0$). Nothing happens to the tangent part of velocity (there are no collisions). 
+
+(c) Sailboat sails at $90^o$ to the wind. It gets momentum from a molecule
+$\Delta p=2 p\cos\theta$. Total momentum is proportional to the number of molecules
+and it is proportional to the effective (projected) area of the sail $p_{total}\sim\cos\theta\cos\theta$.
+This momentum should be projected on direction of the boat. Thus the momentum
+driving boat at angle $\beta=90^o$ to the wind is $p_d\sim  \cos^2\theta\cos(\beta-\theta)$.
+For $90^o$ we get  $p_d\sim  (1-\sin^2\theta)\sin\theta$ which maximizes at $\sin\theta=1/\sqrt{3},\;\;\theta\approx 35^o$.
+\\
+
+{\bf Problem 4.}
+
+Momentum is conserved. Let's write it for small times
+$-dm u=m dv$, where $u$ is speed of fuel expelling $dm$ is mass of expelled fuel in very small
+time, $dv$ is speed gained by rocket due to this. Integrating this we get 
+$$dv=-u\frac{dm}{m},\;\;\;\;\int_{v_0}^{v}dv=-u\int_{m_0}^{m_p}\frac{dm}{m},\;\;\;\;v=v_0 -u\log\frac{m_p}{m_0}=v_0+u\log\frac{m_0}{m_p},$$
+where $m_0=m_p+m_f$ is initial mass (package plus fuel), $m_p$ is final mass (probably just package itself),
+$v_0=0$ is initial velocity. To put package on the orbit it should get speed $v=\sqrt{g R}$ where
+$g$ is acceleration of gravity, $R$ is radius of the Earth.
+$$\sqrt{g R}=u\log\frac{m_p+m_f}{m_p},\;\;\;\;\;\; m_f=m_p\left(\exp\frac{\sqrt{gR}}{u}-1\right).$$
+
+Speed of sound  is relevant to speed of motion of molecules (it should be smaller), expel speed of propellant is due to motion of propellant molecules (they are about 3 times heavier than nitrogen) and they should produce pressure bigger then pressure of air. At higher temperatures, speed of molecules is higher so is for speed of waves in a gas.
+
+
+
+\end{document}

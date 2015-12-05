@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\begin{document}
+\renewcommand{\deg}{\mathrm{deg}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\mps}{\m\,\s^{-1}}
+\newcounter{problem}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---the spacetime interval}
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Draw a spacetime diagram showing the four events
+$A=(c\,t_A,x_A)=0\,\m,0\,\m)$, $B=(1\,\m,1\,\m)$, $C=(1\,\m,0\,\m)$,
+and $D=(0\,\m,1\,\m)$,
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Compute all six spacetime intervals between all pairs of events.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Now Lorentz Transform these events to a new frame using the Lorentz
+Transformation
+\begin{eqnarray}\displaystyle
+c\,t' & = & \gamma\,c\,t - \beta\,\gamma\,   x \nonumber\\
+   x' & = & \gamma\,   x - \beta\,\gamma\,c\,t \quad ,
+\end{eqnarray}
+with $\beta=(3/5)$.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Draw a spacetime diagram of the four events in the new frame.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Re-compute all six spacetime intervals in this new frame.  Which are
+null, which are spacelike, and which are timelike?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Now Lorentz Transform the events again using the opposite velocity, or
+\begin{eqnarray}\displaystyle
+c\,t'' & = & \gamma\,c\,t' + \beta\,\gamma\,   x' \nonumber\\
+   x'' & = & \gamma\,   x' + \beta\,\gamma\,c\,t' \quad .
+\end{eqnarray}
+Is everything okay?
+
+\end{document}

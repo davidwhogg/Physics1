@@ -1,0 +1,753 @@
+good morning class
+
+[]
+
+we talked about the falling bucket last time.  and were gonna complete
+that at the end of class so at the end of this class we will finish
+that problem and do it precisely.  and one of the issues that we will
+have to face in this calss is when we are being precise and when we
+are being accurate.
+
+and as we talked about last time there are a lot of issues in that
+problem about air resistance and thihns sloshing around and and all
+sorts of things we arent doing exactly and therefore any solution we
+have is inaccurate, but we can get a *precise* anser in the sens that
+we can do a acllculation and get an answer.
+
+but before lest to a completely different problme which is the
+follwing what is the mass of the earth?
+
+does anybody happen to know the earth of the mas -- dont say it --
+does anyone happen to know it?  does anybody know the first hundred
+digits of pi?
+
+[]
+
+20??  okay thats not bad. as you learn in thes class, i am very
+supportyive aof and very encouragging to the geeks i did my
+undergraduate degree at MIT where you learn about nerd pride and I
+have a lot of nerd pride.  and if you spend your time with your
+friends lazing on the beach memorizing digits of pi, i salute you.
+
+nobody knows more tha n 20 digits of pi inthe room , and nobody knows
+the mass of the earth in the room.  anybotdy know mroe than 20 digits
+of pi?  you can admit it.
+
+one of the gings we ar going to do in the problme set is work out some
+digits of pi with a physical argument.  but that's for later.
+
+but anywaht whba is the mass of the earth?  we are going tom ake ome
+guesses.  i am going to put up sonme guesses and everyone has to vote
+
+a. a million kg
+b. a million million kg
+c. a million million million kg
+d. a (million)^4 kg
+
+[laughter]
+
+that is not even a joke.  that is how you would write it.  in fact
+lets check exponential notation.  this is 10^6 kg this is 10^12, this
+is 10^18, and this is 10^24.
+
+i could go on.
+
+now who of you has a ballpark idea of what the mass of the earth ought
+to be in these units?  a few of you do.
+
+lets take a vote. 
+
+how many people think its a million kg?
+
+nobody
+
+a million million kg?
+
+we have one...  anybody want to join?  two. okay. three!
+
+a million million million kg?
+
+ooh now we are getting real numbers.  that looks to me like 27.
+
+[laughteer]
+
+a million to the fourth kg?
+
+we have eight
+
+nobody voted for a milllion kg.  does someone ant to give me an
+argument that it can't possibly be a million kg?
+
+[you can fit a ton on a truck, right?]
+
+you can fit a ton on a truck -- what is a ton?
+
+[]
+
+a ton is 2000 lb, or 1000 kg and then a metric tonne is exactly
+1000Kg.  now those are numbers that are easy to remember because, well
+to get a sense of what a tonne is, because what is something you might
+actually own that weighs a ton?
+
+[car]
+
+a car weighs a tone and a tow truck can carry a ton.  and a u-haul
+truck you can just rent is a 10-ton truck.  and then a semi or 18
+wheeler holds i don't know 20-30 tons.  So a fleet of trucks can
+actually MOVE a million KG no trouble.  in fact if you needed a
+million kg of tomatos delivered to NY in three days, you could
+actually get that.
+
+You could just call someone...
+
+its tomato season.
+
+so a million kg is a kind of number you have seen before.  in fact if
+you drove cross country you probably drove past 100 million kg of
+cargo just driving on the road.
+
+a million kg is nothing so clearly its not that its biggert than that.
+
+but the reality is that you can estimate pretty accurately what the
+mass of the earth is because you know lots about the earth!
+
+so, for instance, and this is the point of this calass. -- we don't
+actually care what the mass of the eart his but we might in some later
+class whn we do orbits around th e earth -- but we waqnt to show that
+you actuall know everything you need to compute the mass of the earth
+and we can do it right now.
+
+what od we need to compute hte mass of the earth?
+
+[radius]
+
+yeah -- radius.  what else?
+
+[made of]
+
+what its made of -- composition.
+
+so lets start with composition because its the easy one.  so what's
+the earth made of?  think about that for a second.  don't answe r
+right away.  think about it for a bit before you give me the answer
+that I usually get.  what's the answer I usually get that's completely
+wrong?
+
+[water?]
+
+water!  thats the answer that is completely wrogn but you have
+probably heard a statistica aobut water on the earth what statistic
+have you heard?  75 percent of the earth's surface is water.  Is 75
+percent of the earth water? no 75 percent of the survace of the earth
+is water.  here;s a picture of the earth if this is a scale picture of
+the earth, how deep are the oceans?  they are shallower than this
+chalk line.  how deep is the ocean, anyway?  yeah, a couple of miles
+it is on the order of miles and of course we will get a much bigger
+number than that, but we will come back to that.
+
+so the earth is not made of water, there is just a very thin surface
+of water on the outside.  you are actually made of water, you are
+water throught and through.  cut me in half and a whole bunch of water
+comes out.  a bunch of other stuff, but it is mainly water
+
+what is the earth actually made with?  iron!  what else is there?
+aluminum -- there is definitely aluminum there.  silicon silicon's
+very good.  so what are the most abundant elements in the universe?
+hydrogen - hydrogen is by far the most abundant element in the
+universe.  there are carbon nitrogen oxygen.  these are the most
+abundante elements in the unverse.  where is most of the hydrogen in
+the earth?  theres a lot of hydrogen on eatth, where is it?  there is
+a lot in the air in what form is it gaseous hydrogen.  what is gaseous
+hydrogen, assume I have some H2 here.  what happens to it?  It rises!
+not only odes it rise to the top of the atmosphere.  by the way, how
+thick is the atmosphere on this diagram?
+
+One of the huge cultural experienees of humanity, an experience that
+you never had, and I never had, was when the astronauts first made it
+to the moon one of the first things they did was just turn the camera
+around and take a photo of the earth.  and when they took a photo of
+the earth, you don't see this big ball with all these trees on it and
+people running around and monkeys in the jungle and big puffy
+atmosphere with clouds in it and stuff like that when you look back at
+the earth you don't see that, do you?  you see ap erfectly smooth ball
+with the atmosphere like painted onto it, it looks like the atmosphere
+is painted on because it is very very thin.  it is a very thin layer
+on the surface of the earth.  It was a big moment in the 70s because
+people realized that hey yeah, we can destroy the planet because this
+layer this bio layer in which everything lives is incredibly thin --
+this is worth remembering.  we are used to looking at this picture of
+the earth, but remember that noone ever saw this picture bevfore and
+they were shocked and that shock has disappeared because we got used
+to this picture and we don't think of it as surprising but it is worth
+keeping in mind how small this biolayer is that we all live in.
+
+what's the earth made of?  where is most of the hydrogen on eatrth.
+if you released a buch of hydrogen gas here it will go to the top of
+the atmosphere and actually evaporate back off into space, because the
+outer part of the atmosphere is being bombareded by cosmic rays and
+photons and it is being heated up etc.
+
+where is most of the hydrogen in the earth now?  water!  it is in all
+sorts of organic compounds too but the vast majority is in the form of
+water.  What about the carbon and oxygen in the earth?  and nitrogen?
+carbon, nitrogen and oxygen are all involved in all kinds of things in
+the earth.  then as you go up the periodic table, there are lots of
+other common elements.  these are the most common in the universe but
+on earth there are many others.  What are some examples of the most
+common elements?  Silicon, iron, aluminum?  Iron is in fact the most
+common element; most of the earth is in fact made of iron.
+
+the vast majority of the earth is actually iron.  outside the iron,
+what's here?  what's the earth basically made of?  Its rock!  like MTV
+(laughter--why?)  elements like aluminum and the other metals are
+pretty rare.  aluminum, gold, things like that.  In fact, they exist
+in this rock form.  When aluminum is -- by the way, aluminum --
+talking about environmentalism -- well you find aluminum in rocks in
+the form of aluminum oxide.  so how do they turn it into tinfoil?
+They have to use an immense amount of electrical power to extract the
+aluminum from aluminum oxide, because aluminum is highly reactive.  it
+is an amazingly painful and environmentally expensive process
+extracting aluminum, and if you want to have a small environmental
+footprint, you should try to use as little aluminum as possible.
+
+its not like there are rivers of aluminum in the earth they just mine.
+aluminum is highly reactive adn only exists naturlaly in its rusted
+form which gets mined and turned into tinfoil by some horrible
+process.
+
+so most of the elements that youhave heard of are in fact extracted
+from ores, most of the metals you have heard of.  but rocks are
+basically made up of many different combinations of elements, and in
+fact different rocks have different compositions, which make rocks
+very differennt and intereesting.  this is why while you were
+memorizing digits of pi, some other nerds out there were collecting
+rocks.
+
+who clledcted rocks?
+
+so the earth si something like 50505 rock and metal, and rock contains
+all different elemnents lots of different elements silicon iron
+aluminoum are all in there along with everything else you ahve ever
+heard of -- europium and all sorts of craxy stuff is all inc there.
+it is included in the rock or trapped in the rock or in chemical
+compounds in the rock.
+
+so what we want to know is the mass of the earth so what do we care
+about in here?  do we care about all the chemical comompositions of
+the interior of theearth?  what do we care about?
+
+[]
+
+metal? we care about the metal and the rock.  what do we care about
+them?
+
+do we care about the chemical composition or the hardness?
+
+[]
+
+mass?  we care about the mass...
+
+[]
+
+mass density! the mass per unit volume.  we've got some radius okay so
+
+what is the density of rock?
+
+say imagine that you didn't know all sorts of geophysics, we know lots
+of geophysics now -- and it is very interesting if you are interested
+in geophysics how we *know* that the earth is made of rock and metal,
+and how we know that for the metal part some of it is solid and some
+of it is liquid, and we even know that the solid part is spinning.
+There is a huge amount known about the earth and its internal
+structure.  that's a really interesting and difficult subject.
+
+now imagine that you lived in a cave.  you wouldn't know about all
+that geophysiucs, so your natural assumption would be that the earth
+was entirely made of rock because you are in a cave and totally
+surrounded by rock.  it turns out that assumption issn't that bad.
+now lets make an estimate.
+
+we are not trying to make a precise estimate -- in fact i have only
+asked you to narrow it down to a factor of a MILLION.  I haven't even
+asked you to get it to a factor of ten -- i have only asked for a
+factor of a million.  that's not very precise. 
+
+to put that in context, imagine that your bank, on your bank
+statement, made a mistake by a factor of a million.
+
+[]
+
+that would change your circumstances!  either way.
+
+[]
+
+in fact there aren't even a million CENTS in my bank account.  funny
+how the banks rarely make a mistake in THAT direction
+
+so what's the question?
+
+we want to know the density of rock?
+
+what are things you *do* know the density of?
+
+[]
+
+a lot of you know the density of water.  what is the density of water?
+
+[]
+
+its 1!  someone said the density of water is 1!  that answer is
+unacceptable for all the reasons we know.  one what?
+
+[]
+
+ooh.  some of you said its one kilogram per liter.  and some of you
+said its 1 gram per centimeter cubed.  who's right?
+
+[]
+
+oh both are right!  good.  its also 10^3 kg per cubic meter.
+
+right?   because, well, lets do that.
+
+1 g per cubic centimeter -- lets try to convert it into these units.
+
+I don't care about units very much because its all trivial, but these
+are the SI units, whats known as systeme internationale units, which
+are metric units but a specific choice of the metric untis.  lets
+convert 1 g per cu cm into the SI units, just as an exercise.
+
+you will consider this trivial, but this is how I convert nitys.  this
+is a trivial example, but sometimes thigns will get confusing, and
+this method is very robust in confusing situations.
+
+what i need to do is to convert grams into kg and cm into m.
+
+lets do grams to kg.  1000 g is a kg and a kg is 1000g.
+
+so I write a factor here which is equal to unity but has the right
+units up and down to cancel stuff out.  so g is on the top here so I
+want 1000 g on the botom and 1kg on the top to make the g cancel out.
+Units cancel out here just like dimensions or like numbers.
+
+now i do the same thihng for centimeters.  i want to go from
+centimeters to meters.  how many centimeters in a meter?
+
+[]
+
+100!  centimeters are on the top or bottom here?
+
+[]
+
+bottom!  So I want to put 100 cm on the top here and 1 m on the
+bottom.  and many of my students end here.  have they done the right
+thing?
+
+[]
+
+no!  why not?
+
+[]
+
+cause this is cm to the minus three!  there are three factors of cm
+here, so I have to cube this.  And if I cube that, then these cm take
+out all 3 of these cm, and I have m cubed and I have kg and I just
+have to multiply it out.  what's 100 cubed?
+
+[]
+
+10^6 !  100 is 10^2.  everyone happy with that?  if you are at all
+unhappy with this way of manipulating numbers, go back to the books.
+we are going to get faster with this as we go and everyone has to be
+able to follow calculations like this.
+
+that's 10^2 cubed thats 10^6 whats 10^6 over 1000?
+
+[]
+
+its 10^3 and so its 10 3 and all thats left over are kg and m cubed on
+the bottom. meters to the minus three and that's the SI way of writing
+1 g cm^-3
+
+I don't realy care about si units i was just using this as an example
+of conversion.
+
+but we might as well do this problem in si units because it doesnt
+really matter; all unit systems are equivalent.  we could be doing
+this problem in stones and furlongs.  what's this density in stones
+per cubic furlong?
+
+i don't know.  and I don't care; its not illuminating.
+
+so now we have to figure out the radius of the earth
+
+the radius of the earth is not so easy.  some of you already know it
+and I knnow a couple of ways to compute it, so i know the radius of
+the earth really well.  the thing thats easier to figure out than the
+radius of the earth is the circumference of the earth.
+
+now what i want you to do -- do you have a question or are you going
+to suggest something?
+
+[]
+
+oh we haven't got to the density of rock -- thank yoyu for stopping me
+there.  i completely forgot we have to do rock!  this was water!
+
+thank you!
+
+that could have been a huge disaster -- we would have been off by....
+
+would we have bbeen off by a factor of a million if we had used the
+water density for rock?  
+
+[]
+
+
+
+no!  recall that we only need to get the answer correct to a factor of
+one million!  so in fact we would have been just fine using the
+density of water in stead of the density of rock.  but lets try to
+estimate the density of rock because then our answer will be more
+accurate.
+
+so what is the density of rock?
+
+who has any expereinece they can bring to bear on what the density of
+rock is?
+
+[]
+
+ooh rock sinks!  its more than 1.  thats a relevant fact!  so rock
+sinks in water.  anybody seen a really radical demonstration in which
+the rock floats?
+
+pumice! yeah, so if you have ever been to a really volcanic place like
+nz, there are actually beaches where the rocks float.  now those are
+really unusual rocks because they are all pumped up with...
+
+[]
+
+air! they are an air rock matrix, so they float.
+
+imagine if there is some pumice here inside the earth.  what would
+happen to it?
+
+[]
+
+it would be crushed down to very high density.  in fact the density of
+the earth increases as you go in as you go to highter and higher
+pressures.  so it gets more and more dense so in fact the rock right
+at the rock metal transition is much more dense than the rocks at the
+surface.  so the rocks like pumice only exist at the surface and the
+amazing thing is that the pressures and the temperatures are so high
+inside the earth that the rock actually flows like a fluid.  but its
+not molten rock -- for the fluid to turn around like this takes tens
+or hundreds of millions of years.  The rock is flowing, convecting,
+heat transport [etc irrelevant stuff about mantle convection].
+incredibly slow flow.
+
+anybody else see an extreme demo in which rock floats?
+
+[]
+
+you can skip a rock!  but that has nothing to do with bouyancy, it has
+to do with hydrodynamic forces when the thing is planing on the water.
+once the skipping rock slows down, and the hydrodynamics becomes less
+important, it sinks like any other rock.
+
+so no-one has seen a demo in which a rock is floating?
+
+[]
+
+oh, where there is like an electrostatic force that holds the rock up?
+yeah, there are crazy things like that.  anything else?
+
+[]
+
+it does float in mercury!  has anyone seen that?  a floating rock in
+mercury?  its a really neat demo.  Unfortunately, it is hard demo to
+do because it is hard to get safety approval for it!
+
+because its mercury is not that dangerous, but about one ina hundred
+times you do that deom you actually tip over the mercury dish, and you
+have to get the guys in the white suits in here to clean up.  so it is
+only dangerous because of spills.
+
+but anyway rocks do float in mercury.
+
+Okay, so we are not going to get a precise answer this way, so what's
+another experience?  Here is an experience you might have had.  Who
+here has lifted a bucket of water?
+
+[]
+
+good, many of you!  Now imagine you had a bucket of rocks instead of a
+bucket of water.  and you know what it is like to lift a bucket of
+water, its not that bad, you can lift it but it kind of gets tireing
+if you have to lift it and carry it 20 or 30 miles.  now a bucket of
+rocks is harder to lift than a bucket of water, obviously because
+rocks sink in water, but is it a lot harder? is it hundreds of time
+harder?  like do you need a crane to lift a bucket of rocks?  no you
+can still lift it, right?  so are rocks a million times -- well we
+don't even care about a million, are they a thousand times -- not even
+a thousand, not even a hundred times more dense than water.
+
+Now does
+anyone happen to know the density of something really dense, say
+uranium?  say you had a bucket of uranium.  bucket of water, buchet of
+uranium.
+
+[6?]
+
+no it is much more.  Uranium is about 20 or 21 times the density of
+water.  so urantim is very very dense.  if you had a bucket of uranium
+you would have a lot of trouble lifting it.  even a block or uranium
+the size of a brick is really really hard to lift.  at one point we
+had a block of lead in the class room.  Even a brick-sized block of
+lead is really hard to lift, and lead is much less dense than uranium.
+
+anybody want to make a guess for what the density of rock is?
+
+[]
+
+Maybe three times the density of water?  Anybody want to go up or down
+with an argument?
+
+[uh oh - with an argument?]
+
+yeah, with an argument.
+
+[]
+
+fourteen!  three is a good number of because it is the square root of
+an order of magnitude.  is everyone comfortable with orders of
+magnitude?  a factor of ten would be an order of magnitude, and a
+factor of a hundred would be two orders of magnitude.  And clearly a
+factor of one hundred is ruled out.  But its somewhere around half to
+one order of magnitude, but we only have to get an answer to within a
+factor of a million!  so lets go with a factor of three unless anyone
+objects?  Its your class!  Okay, we will go with three.
+
+In fact, typical rocks are about three times water, but the only issue
+is that when you go very deep in the earth it starts to get really
+dense, so the tru average density of the earth is really greater than
+that, we are going to find how much greater by the end of this
+
+the last class you all introduced yourself to your neighbors.  lets do
+that again, because you have got something to discuss.  take a few
+minutes to introduce yourself to your neighbor, remind them of your
+name, even if you think they should remember it.
+
+[chaos]
+
+okay here we go!
+
+what I want you to discuss with your neighbor is how -- so we have a
+density three times water.  now what we need to know is the radius of
+the earth.  we also need to know the shape of the earth?
+
+[]
+
+Not exactly a sphere!  Yes, but to within a factor of a Million, what
+shape is the earth?
+
+[]
+
+yeah, a sphere.  but to within a factor of a million its shape is a
+cube!
+
+[laughter]
+
+i mean, to a factor of a million, we have a lot of space to work with.
+
+but anyway, what I want you to discuss with your neighbor -- you are
+going to have 90 seconds -- is to work out a way that you, with your
+current knowledge, can estimate the circumference of the earth.
+
+so we are going to infer the radius of the earth from the
+circumference.
+
+but before I do that, someone could know the radius of the earth if
+they had happened to walk that way [points radially] through to the
+other side.  anyone done that?
+
+[]
+
+no!  in fact I know that no-one has done that because even if you had
+a diamond-walled tunnel, it would have been crushed by the pressure
+force inside the earth.  So nobody has gone all the way through.
+
+but some of you have done things on the outside so maybe you know
+something about the curvature or circumference or something about the
+earth. so discuss with your neighbor and i want proposals at the end
+for how we are going to estimate the circumference of the earth
+
+go.
+
+[chaos]
+
+[Dwh: I think the above needs some talk of "you all live on the earth,
+so you must be very familiar with it..." etc.]
+
+okay I want to interrupt for a second to make sure of one thing.  you
+are not allowed to come up with some kind of experiment you might do
+or we could do; you have to use knowledge you already have on hand to
+figure out the circumference of the earth.  okay?  so no laser ranging
+experiments.  okay back to work.  i'll give you 60 seconds.
+
+[chaos]
+
+okay time's up!
+
+hello.  okay.  let's go.
+
+who here has a suggestion for how we can estimate the circumference of
+the earth that they want to describe to me?
+
+[silence]
+
+okay that they *can* describe to me?
+
+[]
+
+yes, flight to china.  24 hours.  That's pretty good...
+
+[]
+
+and about 500
+miles per hour.
+
+[]
+
+so for about half the thing you got about 12,000, or a total of about
+24,000 miles.  that is a pretty good suggestion for how to get the
+circumference of the earth.
+
+anyone want to give me another one?
+
+[]
+
+good.  here's another one: 3000 miles from New York to California.
+Who has driven that?  I drove it the other way.  I got my PhD at
+Caltech, I am all nerd all the way, and then drove to Princeton (not
+New York City) it was 2700 miles and I think it is a little further if
+you drive from San francisco to new york.
+
+so we have 300 miles, what do you do with that?
+
+[]
+
+it's three time zones!  Now there is a clever idea.  How many time
+zones are there if you go the entire way around the earth?
+
+[]
+
+24! That's good.  Well, 3000 miles is about 3 time zones, so how far
+is 24 time zones?
+
+[]
+
+24,000 miles.  I like that very much.  Any other suggestions?  Yes
+
+[]
+
+Good -- just piece it together.  Just say, well after all it takes
+just about the same amount of time to fly to London as it does to
+California.  So you have 3000 plus 3000 equals about 1/4 of the
+circumference, which gives you about 24 my god they are all giving
+24.
+
+Yeah, another one?
+
+[]
+
+Yes...
+
+[]
+
+You would get a large distance, but would it be larger by a factor of
+a million?  No, but it might be significantly larger.
+
+There is another issue with this method.  This method which I love,
+but there is an issue with it.  You are not going -- yeah -- around
+the equator of the earth, and the earth is narrower here than it is
+here.
+
+These methods are all really imprecise.  On the other hand, if we
+wanted a really precise measure, what would we do?
+
+[]
+
+yeah, we would go out and measure the damned thing!  In fact there is
+a really good book out there called Longitude, which is the first
+attempts to map out the lines of longitude on the earth and how far
+apart they are etc. and it took a long time, and was very hard before
+there were accurate clocks.
+
+now it is very easy to do...
+
+Anybody want to give me any other suggestions for the circumference of
+the earth?
+
+I've got one!
+
+Mine is that the original - does anyone know what the original
+definition of the meter was?  
+
+[]
+
+Very close...
+
+[]
+
+Its a quarter.  Its from the north pole to the equator through Paris!
+
+[]
+
+The benefits of being a history major!
+
+This was the original definition of the meter was that this be 10,000
+km.  or 10 million meters.
+
+this tells you that the circumference of the earth equals 40,000 km.
+roughly.  because of course as was just pointed out, this
+circumference is actually a different length than this circumference,
+because the earth is not exactly a sphere, it is an oblate spheroid,
+with a few perturbations on it.
+
+so is this estimate consistent with this estimate?  well first of all,
+it it consistent at the factor of a million level?
+
+[]
+
+ok duh
+
+is it consistent at the factor of two level?
+
+[]
+
+they are different units right, how many km in a mile, miles in a km?
+
+[]
+
+1609 meters in a mile!  miles and km are pretty similar, but they
+differ by a factor of 
+
+[]
+
+1.6 or .6, which is the reciprocal of 1.6.  and which direction?  if I
+  turn this into miles, will it be a smaller number or a bigger?
+
+[]
+
+smaller!   smaller by a factor of 1.6, which gets you what?
+
+[]
+
+24,000!  Now that's pretty spooky, because I didn't organize that in
+advance, but in fact everyone has a pretty good estimate of the
+circumference of the Earth!
+
+----
+41mins 30sec into file

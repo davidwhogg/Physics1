@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\begin{document}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\mps}{\m\,\s^{-1}}
+\newcommand{\mpss}{\m\,\s^{-2}}
+\newcounter{problem}
+\thispagestyle{empty}
+
+\section*{NYU Physics 1---numerical integration}
+
+The question here is: How long does it take for an object to fall
+$10\,\m$ near the surface of the Earth in the absence of air
+resistance?  You will need to perform numerical integrations
+throughout this course, so we begin by solving the problem that way.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Obtain a sheet of notebook paper and put your name on it.  Start a
+table with 21 rows and four columns for four variables $t$, $a$, $v$,
+and $x$.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+In the $t$ column, put in times $0.0\,\s$, $0.1\,\s$, $0.2\,\s$,
+\ldots, $2.0\,\s$.  In the $a$ column, put $-9.8\,\mpss$ in all 21
+rows.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+In the first entry of the $v$ column, put $0.0\,\mps$.  In each
+subsequent row $i+1$ put in for the $v$ entry $v_{i+1}$:
+\begin{equation}
+v_{i+1}= v_i + a_i\,\Delta t = v_i + a_i\,\left[t_{i+1}-t_i\right] \quad .
+\end{equation}
+Do that for all 20 subsequent rows.  Keep ``sufficient'' accuracy as
+you go.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+In the first entry of the $x$ column, put $10.0\,\m$.  In each
+subsequent row $i+1$ put in for the $x$ entry $x_{i+1}$:
+\begin{equation}
+x_{i+1}= x_i + v_i\,\Delta t = x_i + v_i\,\left[t_{i+1}-t_i\right] \quad .
+\end{equation}
+Do that for all 20 subsequent rows.  Keep ``sufficient'' accuracy as
+you go.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+(Answer this and the following parts on your sheet of paper, below the
+table or on the other side.)  Does the object get to $x=0\,\m$ within
+the time span in your table?  If it does, make an estimate of the time
+$t$ at which the object gets to $x=0\,\m$.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Do you expect your answer to be an overestimate or underestimate of
+the true time obtained by an analytic calculation?  Give a written
+explanation.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Do you recall this equation?
+\begin{equation}
+x = x_0 + v_0\,t + \frac{1}{2}\,a\,t^2
+\end{equation}
+Use this to compute the true time it takes the object to fall
+$10\,\m$.  Were you correct in your expectation?  How far off was your
+numerical answer?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Name two things you could have done to make your integration more
+accurate.
+
+\end{document}
