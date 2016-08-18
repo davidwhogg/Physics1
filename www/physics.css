@@ -1,6 +1,7 @@
 /* basic text */
 body{
-	font-family: Times, serif;
+	font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
 }
 p{
 	margin: 0ex 0em 0ex 0em;
@@ -14,12 +15,13 @@ p{
 	padding: 2.0ex 0em;
 	text-indent: 0.0em;
 	font-size: 75%;
-	color: #7f7f7f;
+	color: #777;
 }
 
 /* headers */
 h1, h2, h3, h4, h5, h6{
 	font-weight: normal;
+	color: #222;
 	margin: 0ex 0em 0ex 0em;
 	padding: 1.0ex 0em;
 }
@@ -38,7 +40,8 @@ h4{
 
 /* general containers formatting */
 #container{
-	width: 40em;
+	width: auto;
+	max-width: 40em;
 	background: #fff;
 	padding: 3em;
 }
@@ -48,17 +51,17 @@ a{
 	text-decoration: none;
 }
 a:link {
-  color: #0000ff;
+  color: #00f;
 }
 a:visited {
-  color: #00009f;
+  color: #009;
 }
 a:active {
-  color: #ff00ff;
+  color: #f0f;
 }
 a:hover {
 	text-decoration: underline;
-  	color: #3f3fff;
+  	color: #33f;
 }
 
 /* Lists */
