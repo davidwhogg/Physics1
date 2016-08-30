@@ -6,7 +6,7 @@ body{
 p{
 	margin: 0ex 0em 0ex 0em;
 	padding: 0ex 0em;
-	text-indent: 1.0em;
+	text-indent: 1.5em;
 }
 .noindent {
 	text-indent: 0.0em;
@@ -84,8 +84,8 @@ dt{
 	padding: 0.5ex 0.0em;
 }
 li{
-	margin: 0ex 0em 0ex 1em;
-	padding: 0.5ex 0.0em;
+	margin: 0ex 0em 0ex 0.75em;
+	padding: 0ex 0.0em;
 }
 
 /* tables */
