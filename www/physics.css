@@ -67,21 +67,21 @@ a:hover {
 /* Lists */
 ul{
 	margin: 0ex 0em 0ex 0em;
-	padding: 0.0ex 0em; /* add to "li" padding to get 0.5ex */
+	padding: 0ex 0em;
 	list-style: disc outside;
 }
 dl{
 	margin: 0ex 0em 0ex 0em;
-	padding: 0.5ex 0em; /* add to "dd" and "dt" padding to get 1.0ex */
+	padding: 0ex 0em;
 	list-style: none;
 }
 dd{
 	margin: 0ex 0em 0ex 1em;
-	padding: 0.5ex 0.0em;
+	padding: 0ex 0.0em;
 }
 dt{
 	margin: 0ex 0em 0ex 0em;
-	padding: 0.5ex 0.0em;
+	padding: 0ex 0.0em;
 }
 li{
 	margin: 0ex 0em 0ex 0.75em;
