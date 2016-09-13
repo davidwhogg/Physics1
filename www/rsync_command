@@ -1,0 +1,1 @@
+rsync -avrz ~/Physics1/www/ howdy:www/physics1/
