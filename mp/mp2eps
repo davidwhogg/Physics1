@@ -1,0 +1,50 @@
+#!/bin/bash
+######################################################################
+# name:
+#   mp2eps
+# purpose:
+#   convert MetaPost to displayable encapsulated PostScript using
+#     LaTeX (yes, this is a hack)
+# usage:
+usage="    mp2eps [-s suffix] [-o output] name  "
+#   (makes name.eps from name.mp)
+# options:
+#   -s <suffix>   - use MetaPost output name.<suffix> rather than the
+#                   default name.1
+#   -o <outfile>  - make output <outfile> rather than name.eps
+# bugs:
+#   PS files look ugly when incorporated into PDF documents.  This can
+#     be "fixed" by making the dvips command -Ppdf, but then all greek
+#     symbol characters disappear!  So for now, ugly it is.
+# revision history:
+#   2002-10-19  - revamped old legacy code - Hogg
+######################################################################
+
+# set defaults
+prefix="temp_testmp"
+suffix="1"
+output="temp_testmp.eps"
+
+# read command-line options
+while getopts ":s:o:" opt; do
+    case $opt in
+        s  ) suffix=$OPTARG ;;
+        o  ) output=$OPTARG ;;
+	\? ) echo "usage:$usage"
+	     exit 1
+    esac
+done
+shift $(($OPTIND - 1))
+
+# set filenames
+input=$1.mp
+if [ $output = "temp_testmp.eps" ]; then
+    output=$1.eps
+fi
+
+# do the work
+mpost $input
+/bin/echo "\\documentclass{article}\\usepackage{graphics}\\pagestyle{empty}\\begin{document}\\includegraphics{$1.$suffix}\\end{document}" > ${prefix}_$1.tex
+latex ${prefix}_$1
+dvips -E ${prefix}_$1.dvi -o $output
+/bin/rm -fv ${prefix}_$1.*

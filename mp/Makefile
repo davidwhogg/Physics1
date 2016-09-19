@@ -15,7 +15,7 @@ all: $(ALLFILES)
 	epspdf $< $@
 
 .mp.eps:
-	mp2eps $*
+	./mp2eps $*
 
 clean:
 	/bin/rm -f *.[1-9] *.log *.mpx mpx* *.dvi *.aux *.1
