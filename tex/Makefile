@@ -8,6 +8,7 @@ PS2PDF = ps2pdf
 .SUFFIXES: .tex .dvi .ps .pdf
 
 ALLFILES = $(patsubst physics1_ps%.tex,physics1_ps%.pdf,$(wildcard *.tex)) \
+	$(patsubst physics1_exam%.tex,physics1_exam%.pdf,$(wildcard *.tex)) \
 	$(patsubst worksheet_%.tex,worksheet_%.pdf,$(wildcard *.tex))
 all: $(ALLFILES) clean
 
