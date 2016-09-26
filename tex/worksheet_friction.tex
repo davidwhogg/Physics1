@@ -1,17 +1,11 @@
 \documentclass[12pt]{article}
-\renewcommand{\deg}{\mathrm{deg}}
-\newcommand{\kg}{\mathrm{kg}}
-\newcommand{\m}{\mathrm{m}}
-\newcommand{\s}{\mathrm{s}}
-\newcommand{\mps}{\m\,\s^{-1}}
-\newcounter{problem}
+\input{physics1}
 \begin{document}\sloppy\sloppypar\raggedbottom\frenchspacing\thispagestyle{empty}
 
 \section*{NYU Physics 1---friction}
 
-In lecture you did a problem of a block on an inclined plane, but for
-the somewhat complicated case of a car sliding around a banked turn.
-Here we consider the simpler ``block on plane'' problem but with
+In lecture we did a problem of a block on an inclined plane.
+Here we consider the same ``block on plane'' problem but with
 friction.  When we ``switch on'' friction, the contact force between
 the block and the plane is no longer purely normal but has both normal
 and transverse (frictional) components.  For definiteness, imagine a
@@ -19,10 +13,21 @@ plane or bank inclined at about $20\,\deg$ to the horizontal in what
 follows.
 
 \paragraph{\theproblem}\refstepcounter{problem}%
-Work out the problem of a block on an inclined plane in the
-\emph{absence of friction}.  That is, compute the magnitude of the
-normal force and the magnitude and direction of the acceleration of
-the block.
+Following lecture, or whatever method you like, work out the problem
+of a block on an inclined plane in the \emph{absence of friction}.
+That is, compute the magnitude of the normal force and the magnitude
+and direction of the acceleration of the block.
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+Make dimensional and scaling arguments that it makes sense for the
+frictional force magnitude to be some dimensionless constant $\mu$
+times the normal force magnitude. What typical values of $\mu$ do you
+find in the world?
+
+\paragraph{\theproblem}\refstepcounter{problem}%
+There are two kinds of friction, sliding (or kinetic) and static. What
+is the difference between them? You might want to use the internet or
+a book to find this out.
 
 \paragraph{\theproblem}\refstepcounter{problem}%
 Imagine that between the block and the plane there is a coefficient of
@@ -31,19 +36,19 @@ contact force into its normal and transverse components.
 
 \paragraph{\theproblem}\refstepcounter{problem}%
 Solve for the frictional (transverse) component of the contact force.
-Do you get a magnitude of $\mu\,m\,g\,\cos\theta$?  Which way does it
-point?
+Which way does it point, and why?
 
 \paragraph{\theproblem}\refstepcounter{problem}%
 What is the acceleration of the block in this case?
 
 \paragraph{\theproblem}\refstepcounter{problem}%
 Describe a situation in which the frictional force would point
-\emph{down} the plane.  When you answered the previous question, you
+\emph{down} the plane.  When you answered the previous questions, you
 made an assumption.  What was it?
 
 \paragraph{\theproblem}\refstepcounter{problem}%
 Now imagine that $\mu=0.9$.  What is the magnitude of the frictional
-force?  Explain why it \emph{cannot} be $\mu\,m\,g\,\cos\theta$.
+force? Give a simple argument that it \emph{cannot} be
+$\mu\,m\,g\,\cos\theta$.
 
 \end{document}
