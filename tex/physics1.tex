@@ -1,3 +1,5 @@
+\usepackage{graphics}
+
 % page layout
 \setlength{\topmargin}{-0.25in}
 \setlength{\textheight}{9.5in}
@@ -7,13 +9,27 @@
 % problem formatting
 \newcounter{problem}
 
-% units
-\renewcommand{\deg}{\mathrm{deg}}
+% math
+\newcommand{\dd}{\mathrm{d}}
+
+% primary units
+\newcommand{\rad}{\mathrm{rad}}
 \newcommand{\kg}{\mathrm{kg}}
 \newcommand{\m}{\mathrm{m}}
 \newcommand{\s}{\mathrm{s}}
+
+% secondary units
+\renewcommand{\deg}{\mathrm{deg}}
+\newcommand{\km}{\mathrm{km}}
 \newcommand{\mi}{\mathrm{mi}}
 \newcommand{\h}{\mathrm{h}}
+\newcommand{\ns}{\mathrm{ns}}
 \newcommand{\J}{\mathrm{J}}
 \newcommand{\W}{\mathrm{W}}
+
+% derived units
 \newcommand{\mps}{\m\,\s^{-1}}
+\newcommand{\mpss}{\m\,\s^{-2}}
+
+% random stuff
+\sloppy\sloppypar\raggedbottom\frenchspacing\thispagestyle{empty}
