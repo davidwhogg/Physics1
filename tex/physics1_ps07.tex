@@ -7,10 +7,10 @@
 Due Thursday 2016 October 27 at the beginning of lecture.
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
-A typical adult man is holding his left arm at a right angle, so the
+A typical adult is holding her or his left arm at a right angle, so the
 upper arm is pointing straight down, and the forearm is pointing
-horizontally forwards.  His hand is oriented palm-up.  He is holding a
-$20\,\kg$ grocery bag by its handle in his left hand.  Look up the
+horizontally forwards.  The hand is oriented palm-up.  The arm is holding a
+$20\,\kg$ grocery bag by its handle in the hand.  Look up the
 point of attachment of the relevant tendon and make sensible estimates
 (or look them up) for all lengths and masses.  In what follows, treat
 the ``hand plus forearm'' to be one monolithic object; that is, we
@@ -34,25 +34,64 @@ Why would evolution (such a brilliant designer) decide to put tendons
 under this kind of stress?
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
+Consider a mass $M$ attached to a spring of natural (equilibrium)
+length $\ell$, with spring constant $k$, and hanging from the
+ceiling. The system is subject to gravity with gravitational
+acceleration $g$.
 
+\textsl{(a)}~Because gravity is acting, the equilibrium position of
+the mass will not be at the equilibrium length of the string, but
+instead stretched. Compute the amount the spring is stretched at
+equilibrium.
+
+\textsl{(b)}~Carefully choose the following coordinate system:
+$\hat{y}$ points upwards (opposite to gravity), and the position $y=0$
+is where the spring has length $\ell$. That is, the zero of the
+coordinate system is where the spring would be unstretched in the
+absence of gravity. Make $y=0$ also the zero of the gravitational
+potential energy. In this coordinate system, plot the potential energy
+as a function of $y$ position. You need to take into account both the
+gravitational potential energy and the spring potential energy. Show
+that the equilibrium position you computed in the previous part is the
+minimum of this potential energy curve.
+
+\textsl{(c)}~Compare the second derivative of the potential energy at
+the minimum to the same for the same spring \emph{not} subject to a
+gravitational force. What are the implications of this calculation?
+
+\textsl{(d)}~Write down the differential equation relating $y$ to its
+second derivative, and show that this differential equation is solved
+by sinusoidal motion. What are the angular frequency and period of the
+oscillating solutions?
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
 Determine the value of $\pi$ by integration!
 
 \textsl{(a)}~Make a spreadsheet with a dimensionless column marked
-``$t$'' that goes from 0.0 to 20.0 in units of 0.05.  Now make columns
+``$t$'' that goes from 0.0 to 20.0 in steps of 0.05.  Now make columns
 marked ``$c$'' and ``$s$''.  Integrate the functions $c(t)$ and
 $s(t)$ with the properties that:
 \begin{eqnarray}\displaystyle
-c(0) & = & 1.0 \\
-s(0) & = & 0.0 \\
-\Delta c & = & -s\,\Delta t \\
-\Delta s & = & c\,\Delta t
+  c(0) & = & 1.0 \\
+  s(0) & = & 0.0 \\
+  \Delta c & = & -s\,\Delta t \\
+  \Delta s & = & c\,\Delta t
+  \quad .
 \end{eqnarray}
-Make a graph of $c$ vs $t$ and $s$ vs $t$.  Remind you of anything?
+That is, you are integrating functions that are each other's derivatives:
+\begin{eqnarray}\displaystyle
+  \frac{\dd c(t)}{\dd t} &=& -s(t) \\
+  \frac{\dd s(t)}{\dd t} &=& +c(t)
+  \quad .
+\end{eqnarray}
+Make a graph of $c(t)$ vs $t$ and $s(t)$ vs $t$.  Remind you of anything?
 
 \textsl{(b)}~Make an expanded graph in the region $1.5<t<1.6$ and
-look where the curve crosses zero.  Multiply your answer by 2 and you
+look where one of the curves crosses zero.  Multiply your answer by 2 and you
 have an estimate of $\pi$!  Why does that work?
+
+\textsl{(c)}~There are many estimates of $\pi$ you can make, given
+your spreadsheet. What do you think will be the most accurate one and
+why? Check.
 
 \end{document}
