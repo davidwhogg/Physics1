@@ -6,19 +6,100 @@
 
 Due Thursday 2016 November 03 at the beginning of lecture.
 
-\paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
-Show that the solution to the damped equation is the damped oscillation.
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+A very thin ladder of length $L$ and mass $M$ leans against a vertical
+wall, on a horizontal floor, making an angle of $\theta$ with respect
+to the wall.  Imagine that there is a large coefficient of friction
+$\mu$ at the floor so that the ladder is in static
+equilibrium, but assume that the wall is effectively frictionless.
+
+\textsl{(a)} Draw a free-body diagram for the ladder, showing all
+forces acting.
+
+\textsl{(b)} Using the bottom of the ladder as the axis of rotation or
+origin, compute all the forces and torques on the ladder such that it
+is in equilibrium.
+
+\textsl{(c)} Why did I make the wall ``effectively frictionless''?
+
+\textsl{(d)} Re-solve the problem using the \emph{top} of the ladder
+as the axis of rotation or origin.  What is different in the end?
+
+\textsl{(e)} At what angles $\theta$ would the ladder start to slip?
+If $\mu=0.8$ (not unreasonable for a ladder with hard rubber feet on a wood
+floor), what is the maximum angle at which you could lean the ladder?
+
+\paragraph{Problem~\theproblem:}\refstepcounter{problem}%
+A long, thin rod of length $L$ and cross-sectional area $A$ and
+elastic (Young's) modulus $E$ has mass $M$.
+
+\textsl{(a)} Think of the rod as being like a Hooke's Law spring; it
+can be stretched by applying a force.  What is the spring constant $k$
+for this spring?
+
+\textsl{(b)} By dimensional analysis, can you combine $L$, $A$, $E$,
+and $M$ into a frequency $\omega$?  Do you have more than one choice?  If so,
+which of the choices makes most sense? That is, think about how your
+answer should scale with changes to the problem.
+
+\textsl{(c)} Look up the properties of a femur bone and compute this
+the constant $k$ and the frequency $\omega$ for the femur bone, and
+then for a steel rod with the same properties, and then for a
+(hypothetical) diamond (!) rod.
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
-Piano string, perhaps?
+In lecture, you saw something like the damped harmonic oscillator
+differential equation
+\begin{equation}
+m\,\frac{\dd^2 x}{\dd t^2} + c\,\frac{\dd x}{\dd t} + k\,x = 0 \quad ,
+\end{equation}
+where $m$ is the mass, $c$ is a damping coefficient, and $k$ is a
+restoring constant (a spring constant).  Here we are going to show
+that
+\begin{equation}
+x(t) = A\,\e^{-\frac{\gamma}{2}\,t}\,\cos (\omega\,t + \phi)
+\end{equation}
+can be a solution to the differential equation.
 
-\paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
-Look up the value and units of Newton's constant $G$.
-\textsl{(a)}~Find some combination of $G$, the speed of light $c$, and
-some (arbitrary) mass $M$, that has units of \emph{length}.
-\textsl{(b)}~Evaluate your expression for the mass of the Sun (you
-will have to look it up); that is, find the characteristic length
-associated with that mass.  Give your answer in units of km.  What is
-the physical meaning of this length (approximately)?
+\textsl{(a)} What are the units of $c$, $A$, $\gamma$, and $\phi$?
+
+\textsl{(b)} Take a derivative of $x(t)$ to get $v(t)$. Take another
+to get $a(t)$.
+
+\textsl{(c)} If your derivatives are correct, what is the potential
+energy and the kinetic energy as a function of time? Recall that
+potential energy for a spring is $(1/2)\,k\,x^2$. What is the total
+mechanical energy of the system as a function of time? \emph{Hint:}
+The sines and cosines should disappear from this total energy
+expression!
+
+\textsl{(d)} Now plug your derivatives into the differential equation,
+and see if there is a setting of the parameters $\gamma$ and $\omega$
+such that the differential equation can be satisfied? \emph{Hint:}
+Group sine and cosine terms separately; both sets of terms must sum to
+zero for the differential equation to be satisfied. This is related to
+the concept of \emph{detailed balance}.
+
+\textsl{(e)} Did you have to assume things about $m, c, k$ to make
+your answer work? What things?
+
+\paragraph{Extra Problem (will not be graded for credit):}%
+Re-do the previous problem using complex exponentials. That is, assume
+\begin{equation}
+x(t) = Z\,\e^{\alpha\,t}
+\end{equation}
+where $Z$ and $\alpha$ are complex numbers. What's different, and
+what's the same?
+
+\paragraph{Extra Problem (will not be graded for credit):}%
+Show that these two descriptions of a simple harmonic oscillator
+\begin{equation}
+x(t) = A\,\cos(\omega_0\,t) + B\,\sin(\omega_0\,t)
+\end{equation}
+\begin{equation}
+x(t) = X\,\cos (\omega_0\,t+\phi)
+\end{equation}
+are completely equivalent by finding the relationship between $A, B$
+and $X, \phi$ that makes them identical.
 
 \end{document}
