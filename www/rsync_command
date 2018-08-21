@@ -1,1 +1,1 @@
-rsync -avrz --exclude="200?" --exclude="201[0-6]" --delete-excluded ~/Physics1/www/ howdy:www/physics1/
+rsync -avrz --exclude="200?" --exclude="201[0-7]" --delete-excluded ~/Physics1/www/ howdy:www/physics1/
