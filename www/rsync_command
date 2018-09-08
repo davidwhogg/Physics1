@@ -3,7 +3,9 @@
 CHANGED=$(git diff-index --name-only HEAD --)
 if [ ! -z $CHANGED ]
 then
-    echo "YOU NEED TO COMMIT $CHANGED"
+    echo
+    echo "   >>>  YOU NEED TO COMMIT $CHANGED  <<<"
+    echo
 else
     git pull
     git push
