@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ]
+if [ ! -z "$CHANGED" ]
 then
     echo
     echo "   >>>  YOU NEED TO COMMIT $CHANGED  <<<"
