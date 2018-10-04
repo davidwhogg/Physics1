@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CHANGED=$(git diff-index --name-only HEAD --)
+CHANGED=$(git diff-index --name-only HEAD -- | grep -v exam) # what changed, excluding exams
 if [ ! -z "$CHANGED" ]
 then
     echo
