@@ -1,10 +1,12 @@
 \documentclass[12pt]{article}
 \input{physics1}
+\newcommand{\ap}{\mathrm{ap}}
+\newcommand{\peri}{\mathrm{peri}}
 \begin{document}
 
 \section*{NYU Physics I---Problem Set 12}
 
-Due Thursday 2017 November 30 at the beginning of lecture.
+Due Thursday 2018 November 29 at the beginning of lecture.
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
 What is the most expensive ingredient of a typical, traditional
@@ -14,15 +16,36 @@ compare some ingredients). Don't forget the trace (that is, small
 in quantity) ingredients!
 What is the relevance of all this to world
 history? Keep it traditional---traditional food with traditional
-ingredients. You might want to discuss with someone who cooked
+ingredients, like you could have cooked in 1850.
+You might want to discuss with someone who cooked
 a Thanksgiving dinner (or did the shopping for it).
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
-Finish the argument we started in lecture on 2017-11-21: Figure out
+If all goes well in class on 2018-11-20, we will get a quadratic equation
+for the radii $r_\ap$ and $r_\peri$ of aphelion and perihelion. The argument
+goes like this: The total energy of an orbit can be written in terms of the
+angular momentum and the radial velocity
+\begin{eqnarray}
+E & = & \frac{1}{2}\,m\,v^2 - \frac{G\,M\,m}{r}
+\\
+E & = & \frac{1}{2}\,m\,v_r^2 + \frac{1}{2}\,m\,v_\perp^2 - \frac{G\,M\,m}{r}
+\\
+E & = & \frac{1}{2}\,m\,v_r^2 + \frac{L^2}{2\,m\,r^2} - \frac{G\,M\,m}{r}
+\label{foo}
+\end{eqnarray}
+where $E$ is the total energy of the orbit, $v_r$ is the radial component of the velocity,
+and $L$ is the angular momentum of the orbit.
+The radial velocity $v_r$ is exactly zero at aphelion and perihelion.
+So set it to zero in equation~(\ref{foo}),
+and solve the resulting quadratic equation! It will give two answers,
+which are $r_\ap$ and $r_\peri$.
+Use the definition of eccentricity
+\begin{equation}
+e \equiv \frac{r_\ap - r_\peri}{r_\ap + r_\peri}
+\end{equation}
+to figure out
 the relationship between eccentricity $e$ of an elliptical orbit and
-the total energy $E$ and the angular momentum $L$. Start with the
-quadratic equation we established for $r_{\mathrm ap}$ and $r_{\mathrm
-  peri}$ and work from there.
+the total energy $E$ and the angular momentum $L$.
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
 \textsl{(a)}
