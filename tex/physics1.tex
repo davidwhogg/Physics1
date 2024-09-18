@@ -1,3 +1,6 @@
+%% BUGS:
+%% - The \begin{problem} ... \end{problem} is only used in exams??
+
 \usepackage{url, graphicx, epstopdf}
 
 % page layout
@@ -7,9 +10,23 @@
 \setlength{\headsep}{0in}
 \setlength{\parindent}{1.1\baselineskip}
 
+% headers
+\newcommand{\examheader}[1]{
+\noindent
+Name:\rule[-1ex]{0.60\textwidth}{0.1pt}
+NetID:\rule[-1ex]{0.20\textwidth}{0.1pt}
+
+\section*{{NYU Physics I} --- {#1}}
+\setcounter{problem}{1}}
+
 % problem formatting
 \newcommand{\problemname}{Problem}
 \newcounter{problem}
+\newenvironment{problem}{%
+  \addvspace{\baselineskip}\noindent\textbf{Problem~\theproblem:}\refstepcounter{problem}
+}{%
+  \par\addvspace{\baselineskip}
+}
 
 % words
 \newcommand{\foreign}[1]{\textsl{#1}}
