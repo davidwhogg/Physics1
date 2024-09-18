@@ -2,3 +2,4 @@
 *.aux
 *.dvi
 .ipynb*
+.DS_Store*
