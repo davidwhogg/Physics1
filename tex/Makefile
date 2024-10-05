@@ -10,7 +10,7 @@ RM = /bin/rm -f
 
 # BUG: Manual listing of exam files
 # BUG: Doesn't make on one run of make all
-ALLFILES = physics1_exam1.tex physics1_exam2.tex \
+ALLFILES = physics1_exam1.pdf physics1_exam2.pdf \
 	$(patsubst physics1_ps%.tex,physics1_ps%.pdf,$(wildcard *.tex)) \
 	$(patsubst physics1_exam%.tex,physics1_exam%.pdf,$(wildcard *.tex)) \
 	$(patsubst worksheet_%.tex,worksheet_%.pdf,$(wildcard *.tex)) physics1_final.pdf
