@@ -16,11 +16,7 @@ ALLFILES = $(patsubst physics1_make_exam%.py,physics1_exam%.tex,$(wildcard *.py)
 	$(patsubst worksheet_%.tex,worksheet_%.pdf,$(wildcard *.tex)) physics1_final.pdf
 all: $(ALLFILES) clean
 
-physics1_exam1.tex: physics1_make_exam1.py
-	python3 $< > $@
-physics1_exam2.tex: physics1_make_exam2.py
-	python3 $< > $@
-physics1_exam3.tex: physics1_make_exam3.py
+physics1_exam%.tex: physics1_make_exam%.py
 	python3 $< > $@
 
 .tex.pdf: $<
