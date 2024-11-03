@@ -30,8 +30,8 @@ delivered to the ball from the floor? Give a numerical answer with clear units.
 r"""\begin{problem} (From Problem Set 7)
 A mass $M$ hangs from a spring of spring constant $k$ and natural length $\ell_0$ in
 a gravitational field with acceleration $g$. Because of gravity, even at equilibrium,
-the spring will be stretched to a new equilibrium length. Write an expression for this
-new equilibrium length.
+the spring will be stretched to a new equilibrium length $L>\ell_0$. Write an expression for this
+new equilibrium length $L$, in terms of the given quantities.
 \end{problem}
 """,
 r"""\begin{problem} (From Recitation)
