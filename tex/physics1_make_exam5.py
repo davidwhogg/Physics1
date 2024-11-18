@@ -32,7 +32,7 @@ Compare a point $A$ that is at the surface of the ocean
 to a point $B$ that is $10\,\m$ below the surface of the ocean.
 By how much is the pressure larger at point $B$ than at point $A$?
 That is, what is $P_B - P_A$?
-Give your answer in SI units.
+Give a numerical answer in SI units.
 \end{problem}
 """,
 r"""\begin{problem} (From Recitation)
