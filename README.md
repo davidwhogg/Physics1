@@ -11,5 +11,3 @@ mechanics teaching materials I have built and used over the years.
 ## License
 All content is copyright 1999-2024 David W. Hogg (NYU).
 All content is also licensed for re-use under the **Creative Commons Attribution 4.0 International** (CC BY 4.0) license.
-
-## To-do
