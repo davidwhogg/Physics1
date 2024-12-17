@@ -13,3 +13,4 @@ All content is copyright 1999-2024 David W. Hogg (NYU).
 All content is also licensed for re-use under the **Creative Commons Attribution 4.0 International** (CC BY 4.0) license.
 
 ## Bugs
+- The top-level Makefile is extremely brittle; it doesn't always work for me (it doesn't on my Chromebook).
