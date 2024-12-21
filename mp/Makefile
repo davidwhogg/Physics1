@@ -12,7 +12,8 @@ ALLFILES = $(patsubst %.mp,%.pdf,$(wildcard *.mp))
 all: $(ALLFILES)
 
 .eps.pdf:
-	epspdf $< $@
+	epstopdf $< $@
+#	epspdf $< $@
 
 .mp.eps:
 	./mp2eps $*

@@ -6,7 +6,11 @@
 **David W. Hogg** (New York University)
 
 This repository contains a large fraction of the introductory
-mechanics teaching materials I have used over the years.
+mechanics teaching materials I have built and used over the years.
 
 ## License
-All content is licensed for re-use under the **Creative Commons Attribution 4.0 International** (CC BY 4.0) license.
+All content is copyright 1999-2024 David W. Hogg (NYU).
+All content is also licensed for re-use under the **Creative Commons Attribution 4.0 International** (CC BY 4.0) license.
+
+## Bugs
+- The top-level Makefile is extremely brittle; it doesn't always work for me (it doesn't on my Chromebook).
