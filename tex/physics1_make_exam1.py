@@ -1,46 +1,41 @@
 import numpy as np
 np.random.seed(17)
 nproblem = 6 # magic
-nstudent = 65 # magic
+nstudent = 90 # magic
 
 problems = [
-r"""\begin{problem} (From Lecture 2024-09-05)
-If the radius of the Moon is about $1/4$ that of the Earth,
-and the Moon and Earth are made of similar things,
-what is the mass of the Moon?
-Give your answer in kg. No need to be precise!
+r"""\begin{problem} (From Lecture 2025-09-02)
+Which of the options (the options we gave in Lecture) for the mass of the Earth was closest to being correct?
+The options were $10^6\,\kg$, $10^{12}\,\kg$, $10^{18}\,\kg$, and $10^{24}\,\kg$.
 \end{problem}
 """,
-r"""\begin{problem} (From Recitation)
-In Recitation you did a numerical integration of an object falling.
-Name one change you could have made to make your numerical integration more accurate.
+r"""\begin{problem} (From Recitation on integration)
+If, in one row of your table (or spreadsheet), the time is $3.1\,\s$, the position is $0.9\,\m$, the velocity is $-2.0\,\m\,\s^{-1}$, and the acceleration is $-10.0\,\m\,\s^{-2}$, what is the \emph{position} at the next time step? Imagine that you are using a time step of $0.1\,\s$.
 \end{problem}
 """,
-r"""\begin{problem} (From Problem Set 1)
-Imagine having 1 million US dollars (USD) in the form of 10,000 \$100 bills.
-If you stack these bills on top of one another in one tall stack, how tall will the stack be?
-(\textsl{Note: In the US, \$100 bills are the same size as US \$20 bills.})
+r"""\begin{problem} (From Lecture 2025-09-16)
+One of the guesses for the acceleration $|\vec{a}|$ of the block down the inclined plane was
+$|\vec{g}| / \sin\theta$. Give a very simple verbal argument that this answer must be wrong.
+Give your answer in fewer than 40 words.
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 1)
-Imagine you have a mass $M$, a length $h$, a velocity $v$, and an
-acceleration $g$. What is a combination of these that you can make that will
-have units of energy?
+Imagine you have a mass $M$, a length $h$, and a velocity $v$.
+What is a combination of these that you can make that will
+have units of force?
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 1)
-If a motorcycle gets 54~miles to the gallon, how many liters of fuel
+If a truck gets 13.5~miles to the gallon, how many liters of fuel
 does it take to go 100~km?
 (\textsl{Hint:
-You don't have to completely re-do the calculation you did for the Problem Set, since the number in the Problem Set was 27 instead of 54!})
+You don't have to completely re-do the calculation you did for the Problem Set, since the number in the Problem Set was $27=2\times 13.5$.})
 \end{problem}
 """,
-r"""\begin{problem} (From Lecture 2024-09-17)
-You considered a block on a plane, inclined at an angle $\theta$ to the horizontal.
-Now consider the limiting cases of a horizontal or vertical plane:
-What is the magnitude $|\mathbf{N}|$ of the normal force if we set $\theta=0$?
-What if we set $\theta=\pi/2$~radians?
-Give both answers in $N$, assuming that the gravitational force on the block is $10$~N.
+r"""\begin{problem} (From Recitation on pulleys)
+Why do we approximate the strings as \emph{inextensible}?
+How does that simplify problems with blocks and pulleys?
+Give your answer in fewer than 40 words.
 \end{problem}
 """]
 assert len(problems) == nproblem
