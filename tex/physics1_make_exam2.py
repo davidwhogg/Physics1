@@ -1,7 +1,7 @@
 import numpy as np
 np.random.seed(17)
 nproblem = 6 # magic
-nstudent = 65 # magic
+nstudent = 75 # magic
 
 header = r"""
 \examheader{Term Exam 2}
@@ -10,44 +10,49 @@ header = r"""
 
 problems = [
 r"""\begin{problem} (From Problem Set 2)
+A drag racer accelerates constantly in a straight line,
+starting at rest, for $4\,\s$.
+In that time, they go a distance of $400\,\m$.
+What is the magnitude $a$ of the acceleration?
+\end{problem}
+""",
+r"""\begin{problem} (From Problem Set 2)
 Consider a
-stone thrown at $t=0$ precisely upwards (in the $y$ direction)
-at $1.5\,\mps$.  Ignore air resistance!  Make a careful plot of the
-the vertical velocity $v_y$
-of the stone as a function of time for the duration
-$0<t<0.4\,\s$.  Carefully label the time at which the stone reaches
-the peak of the trajectory (the highest point it goes).
-Be very careful to include units with your
+stone thrown at $t=0$ precisely upwards (in the $y$ direction, for
+definiteness) at $1.5\,\mps$, with an initial position (launch point)
+at $y=0$.  Ignore air resistance!  Make exactly one very careful plot of the
+vertical velocity $v_y$ of the stone as a function of time for the duration
+$0<t<0.4\,\s$.  Carefully label the time of
+the peak of the trajectory.
+Be very careful to include units with all of your
 numbers and labels!
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 3)
-In lecture Prof Hogg did a stunt with a coffee cup and a
-quarter. Draw the free-body diagram for the quarter when it was at the
-top of the arc (that is, when it was directly overhead).
-Assume that there is no air resistance.
+Draw the free-body diagram for the pulley.
+
+\noindent~\hfill\includegraphics{../mp/pulley_table.pdf}\hfill~
 \end{problem}
 """,
-r"""\begin{problem} (From Problem Set 2)
-Draw the free-body diagram for the turning airplane (banking at 30\,deg).
-Make sure your diagram clearly shows the directions of all the forces in three-dimensional space.
+r"""\begin{problem} (From Problem Set 3)
+A package of mass $M$ sits on the floor of an elevator that is accelerating upwards at
+acceleration $a$. What is the magnitude $N$ of the normal force on the package?
+The acceleration due to gravity is $g$.
 \end{problem}
 """,
-r"""\begin{problem} (From Recitation)
-A block of mass $M$ sits on an inclined plane, inclined at $\theta=20$\,deg to the horizontal.
-There is a coeffient of friction of $\mu = 0.9$ between the block and the plane (both static and kinetic friction coefficients are 0.9).
-What is the magnitude of the frictional force on the block?
-Give your answer in terms of any combination of the symbols $M$, $g$, $\theta$, and $\mu$.
-\end{problem}
-""",
-r"""\begin{problem} (From Lecture 2024-09-19)
-We described a car sliding perfectly around a banked turn.
-Describe, as accurately and unambiguously as possible, the \emph{direction} of the car's acceleration.
+r"""\begin{problem} (From Lecture)
+This figure appeared in class; in the end, most students voted for either C or D.
+Which is correct? C or D? Imagine that the angle is about $\theta=45\,\deg$
+
+\noindent~\hfill\includegraphics[width=4in]{./delete_me.png}\hfill~
 \end{problem}
 """,
 r"""\begin{problem} (From Recitation)
-Why do we assume that strings are inextensible?
-Why do we assume that strings are low in mass?
+A block of mass $M$ is on an inclined plane, inclined at an angle $\theta$ to the horizontal.
+There is a coefficient of friction $\mu=0.9$ between the block and the plane.
+If the plane is angled at something close to 20\,deg, what is the magnitude of the force of friction on the block?
+Give your answer as a symbolic answer;
+that is, give your answer in terms of $M$, $g$, $\theta$, and $\mu$ (or whatever subset of those you need).
 \end{problem}
 """]
 assert len(problems) == nproblem
