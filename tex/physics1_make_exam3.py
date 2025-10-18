@@ -40,7 +40,7 @@ mass $m$, swinging in a gravitational field of strength (acceleration) $g$?
 \end{problem}
 """,
 r"""\begin{problem} (From Recitation)
-If, in the $x$ direction, the potential is $U=(1/2)\,k\,x^2$, what is the corresponding $x$-component $F_x(x)$ of the force?
+If, in the $x$ direction, the potential is $U=(1/2)\,k\,(x-x_0)^2$, what is the corresponding $x$-component $F_x(x)$ of the force?
 \end{problem}
 """]
 assert len(problems) == nproblem
