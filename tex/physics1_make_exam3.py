@@ -10,42 +10,37 @@ header = r"""
 
 problems = [
 r"""\begin{problem} (From Problem Set 4)
-A typical, healthy NYU student climbs 10 stories of stairs.
-What is the potential-energy gain of the student?
+When Prof Hogg bounced a ball in lecture, did it lose more or less than
+10 percent of its kinetic energy on the bounce?
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 4)
-A car is going around a banked curve (banked at $15\,\deg$) at $70\,\mph$, which is faster than the ``natural'' speed for the banked turn.
-The car is held to the road by static friction.
-Draw a free-body diagram showing the forces on the car while it's in the turn.
+What is the potential energy gain of a typical NYU student who climbs 3 flights of stairs?
+Give an answer with units.
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 5)
 A student of mass $m_\mathrm{student}=80\,\kg$ stands at rest next to
-a block of ice of mass $m_\mathrm{ice}=320\,\kg$, also at rest, on a
-frictionless frozen lake. The student pushes on the block until the
+a block of ice of mass $m_\mathrm{ice}=160\,\kg$, also at rest, on a
+frictionless frozen lake.  The student pushes on the block until the
 block is moving away from the student at $1.5\,\mps$ (that is, until
 $\left|\vec{v}_\mathrm{ice}-\vec{v}_\mathrm{student}\right|=1.5\,\mps$).
-How much work did the student do?  Give your answer in $\J$.
+What are the final velocities $\vec{v}_\mathrm{ice}, \vec{v}_\mathrm{student}$ \emph{with respect to the lake}?
+Note that, on your Problem Set, the ice block was more massive.
+\end{problem}
+""",
+r"""\begin{problem} (From Problem Set 5)
+There was a problem about a softball and a bowling ball.
+Were they closer in linear momentum or in kinetic energy?
+\end{problem}
+""",
+r"""\begin{problem} (From Lecture)
+What is the period of oscillation a simple pendulum consisting of a string of length $\ell$ holding a mass
+mass $m$, swinging in a gravitational field of strength (acceleration) $g$?
 \end{problem}
 """,
 r"""\begin{problem} (From Recitation)
-If a ball bounces off of a wall, the angle of incidence equals the angle
-of reflection. What do you have to assume to make that true?
-\end{problem}
-""",
-r"""\begin{problem} (From Lecture 2024-10-03)
-A block of mass $4\,M$ is moving at speed $u$ in the $+\hat{x}$ direction,
-and a block of mass $M$ is moving at speed $u$ in the $-\hat{x}$ direction.
-What is the velocity of the center of mass of this two-block system?
-\end{problem}
-""",
-r"""\begin{problem} (From Recitation)
-Consider a mass $M$ on a spring of spring constant $k$, released from
-rest at $t=0$ but from a distance $X$ (in the $x$-direction, which is
-parallel to the spring) away from the equilibrium position for the
-mass.  Assume there are no other forces acting!
-What is the total mechanical energy (kinetic plus potential) of this system?
+If, in the $x$ direction, the potential is $U=(1/2)\,k\,x^2$, what is the corresponding $x$-component $F_x(x)$ of the force?
 \end{problem}
 """]
 assert len(problems) == nproblem
