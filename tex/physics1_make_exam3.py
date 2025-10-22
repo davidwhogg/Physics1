@@ -22,6 +22,7 @@ Give an answer with units.
 r"""\begin{problem} (From Problem Set 4)
 In the block-and-pulley system shown here, let's say that the tension in the long string is $T$.
 What is the tension in each of the two shorter strings? Important: \emph{Give your answer in terms of $T$.}
+If you need anything other than $T$ for your answer, explain why.
 \marginpar{\includegraphics[width=\marginparwidth]{../mp/tackle_blocks.pdf}}
 \end{problem}
 """,
