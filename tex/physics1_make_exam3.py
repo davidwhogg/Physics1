@@ -19,14 +19,10 @@ What is the potential energy gain of a typical NYU student who climbs 3 flights 
 Give an answer with units.
 \end{problem}
 """,
-r"""\begin{problem} (From Problem Set 5)
-A student of mass $m_\mathrm{student}=80\,\kg$ stands at rest next to
-a block of ice of mass $m_\mathrm{ice}=160\,\kg$, also at rest, on a
-frictionless frozen lake.  The student pushes on the block until the
-block is moving away from the student at $1.5\,\mps$ (that is, until
-$\left|\vec{v}_\mathrm{ice}-\vec{v}_\mathrm{student}\right|=1.5\,\mps$).
-What are the final velocities $\vec{v}_\mathrm{ice}, \vec{v}_\mathrm{student}$ \emph{with respect to the lake}?
-Note that, on your Problem Set, the ice block was more massive.
+r"""\begin{problem} (From Problem Set 4)
+In the block-and-pulley system shown here, let's say that the tension in the long string is $T$.
+What is the tension in each of the two shorter strings? Important: \emph{Give your answer in terms of $T$.}
+\marginpar{\includegraphics[width=\marginparwidth]{../mp/tackle_blocks.pdf}}
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 5)
@@ -40,7 +36,7 @@ mass $m$, swinging in a gravitational field of strength (acceleration) $g$?
 \end{problem}
 """,
 r"""\begin{problem} (From Recitation)
-If, in the $x$ direction, the potential is $U=(1/2)\,k\,(x-x_0)^2$, what is the corresponding $x$-component $F_x(x)$ of the force?
+If, in the $x$ direction, the potential is $$U=\frac{1}{2}\,k\,(x-x_0)^2~,$$ what is the corresponding $x$-component $F_x(x)$ of the force?
 \end{problem}
 """]
 assert len(problems) == nproblem
