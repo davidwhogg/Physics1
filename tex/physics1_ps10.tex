@@ -4,9 +4,10 @@
 
 \section*{NYU Physics I---Problem Set 10}
 
-Due Thursday 2024 November 14 at 23:59 NYC time. Be sure to cite your sources and helpers.
+Due Tuesday 2025 November 11 at 23:59 NYC time. Be sure to cite your sources and helpers,
+consistent with our credit policy and our LLM policy.
 
-\paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
+\paragraph{\problemname~\theproblem:}\refstepcounter{problem}\label{cartorque}%
 \textsl{(a)}~A car of mass $M$ is moving at speed $v$ in the $x$
 direction. Its center of mass is a height $h$ above the ground.  What
 is the angular momentum of the car with respect to a reference point
@@ -17,6 +18,17 @@ in the $x$ direction, then its angular momentum is changing with time,
 right? If so, there must be a net torque on the car? What must be
 the magnitude of that net torque? Again, answer this with respect
 to a reference point \emph{on the ground}.
+
+\paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
+In Lecture we considered an ice cube floating in a glass of water at
+0\,C.  The ice cube melts at constant temperature, such that you end
+up with a glass of water at 0\,C. As it melts, does the water level go
+up, or go down, or stay the same? Give an explanation in words (not
+equations) that is \emph{shorter than 100 words}.
+
+\textsl{For this problem, you ought to ignore any pressure gradient in
+  the air above the water. There is a tiny correction from this air
+  gradient, but it is (a) very tiny, and (b) complicating.}
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
 \textsl{(a)}~A figure skater spins in place on frictionless ice at
@@ -48,30 +60,35 @@ compute) the moment of inertia $I$ for a uniform sphere.
 dimensions.}  Clearly label $t_\mathrm{r}$ on your diagram.
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
-HOGG: THIS PROBLEM IS TOO ARTIFICIAL. DROP IT AND REPLACE IT.
+A sticky ball (assume a uniform solid sphere) of mass $m$ and radius
+$R$ is moving initially in the $x$ direction at speed $v_0$. It
+collides with an identical sticky ball of mass $m$ and radius $R$ that
+is initially at rest.  Neither of the two balls is spinning prior to
+the collision.  After the collision, the two balls are stuck together
+and moving together as one object of mass $2\,m$ and a weird shape.
 
-\textsl{(a)}~A hockey puck (a uniform disk of mass $m$, radius $r$,
-and thickness $t$), slides without friction on ice with initial speed
-$v_0$.  It strikes an identical puck tangentially, as shown in the
-figure, and sticks to it.  The second puck is initially at rest and
-also can slide without friction.  What is the final (linear) velocity
-(speed $v$ and direction) of the stuck-together pucks?  What is the
-moment of inertia $I_f$ and final angular speed of rotation $\omega$
-of the system around its center of mass?  What fraction of the initial
-kinetic energy (if any) is lost; \textit{ie,} what is $[K_i-K_f]/K_i$?
-\\ \rule{0.25\textwidth}{0pt}
-\resizebox{0.50\textwidth}{!}{\includegraphics{tangpucks.eps}}
-\\
+\textsl{(a)} What is the moment of inertia of an object made up of two
+spherical balls of mass $m$ and radius $R$ stuck together at their
+surfaces (the ``stuck-together object'')?
 
-\emph{Draw a clear diagram with a clearly labeled reference point used
-to compute the angular momentum; recall that any angular momentum
-calculation is with respect to your chosen origin.}
+\textsl{(b)} Imagine that the two balls collide exactly head on.  What
+is the final speed $v$ and rotation rate $\omega$ of the
+stuck-together object?
 
-\textsl{(b)}~If the pucks had hit dead-on, the stuck-together pucks,
-after the collision, would not be rotating.  Which of your answers
-($v$, $\omega$, and $[K_i-K_f]/K_i$) will be different in this case?
-If the fractional loss in kinetic energy is different, explain where
-the difference in energy went.
+\textsl{(c)} Now imagine that they collide \emph{not} head-on, but at
+a $y$-direction offset of $b$. That is, they have an \emph{impact
+parameter} of $b$. What is the final speed $v$ and rotation rate
+$\omega$ of the stuck-together object both as a function of $b$?
+\textsl{Important: In answering this part, be sure to choose clearly
+  your reference point (around which angular momenta are calculated),
+  and be very clear about what spin direction corresponds to positive
+  angular momentum.}
+
+\textsl{(d)} What is the total kinetic energy ``lost'' in the
+collision? That is, if you total up linear and spin kinetic energy
+before, and linear and spin kinetic energy after, what is the
+fractional difference (before minus after, all divided by after) as a
+function of $b$.  Does your answer make sense?
 
 \paragraph{Extra Problem (will not be graded for credit):}%
 In \problemname~\ref{cue}, between the initial hit of the cue ball by the cue (that is, when the
@@ -79,7 +96,13 @@ cue ball wasn't rotating at all) and the end of the cue ball
 slide (that is, when the cue ball switches to rolling without
 slipping), how much rotational kinetic energy ($I\,\omega^2 / 2$) was
 created? How much linear kinetic energy ($m\,v^2 / 2$) was lost? How
-much heat was generated? This extra problem refers to the pool problem
-above.
+much heat was generated? Do these energies relate in any geometric way
+to the graph you ended up drawing?
+
+\paragraph{Extra Problem (will not be graded for credit):}%
+Take your answer to \problemname~\ref{cartorque}, plug in reasonable
+numbers for a good car accelerating from rest, and compare to
+published torques from car manufacturers. Makes sense?
+
 
 \end{document}
