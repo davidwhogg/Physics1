@@ -10,39 +10,40 @@ header = r"""
 
 problems = [
 r"""\begin{problem} (From Problem Set 6)
-In the static ``hanging sign'' problem, what is the tension $T_1$ in
-the upper string? Give your answer as a symbolic expression.
+What is the tension in the cable marked $T_1$ in this problem?
+Make the same assumptions that we made in the original problem,
+and give your answer in terms of quantities labeled in the diagram (and the acceleration $g$ due to gravity).
 \marginpar{\includegraphics[width=\marginparwidth]{../mp/hanging_sign.pdf}}
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 7)
-We considered a typical adult holding a
-$6\,\kg$ grocery bag by its handle in the hand, with the arm bent at $90\,\deg$.
-Roughly what tension did you find in the tendon? Give your answer with clear units.
-\end{problem}
-""",
-r"""\begin{problem} (From Problem Set 6)
-In Lecture we dropped a pool ball from a height of about $1\,\m$. It
-bounced off of the cement floor. Roughly what was the impulse
-delivered to the ball from the floor? Give a numerical answer with clear units.
+We asked you to compute the length of a pendulum that has an oscillation period of $2\,\s$.
+What would you have gotten if we had asked you for $8\,\s$?
+\textsl{Hint:} That's a factor of 4 longer.
 \end{problem}
 """,
 r"""\begin{problem} (From Problem Set 7)
-A mass $M$ hangs from a spring of spring constant $k$ and natural length $\ell_0$ in
-a gravitational field with acceleration $g$. Because of gravity, even at equilibrium,
-the spring will be stretched to a new equilibrium length $L>\ell_0$. Write an expression for this
-new equilibrium length $L$, in terms of the given quantities.
+What tension did you get for the tendon in the arm, holding up the $6\,\kg$ bag?
 \end{problem}
 """,
 r"""\begin{problem} (From Recitation)
-What---in SI base units---are the units of the product $P\,V$ of a pressure $P$ times a volume $V$?
-Recall that the base units are $\kg$, $\m$, and $\s$.
+A mass on a spring oscillates in position $x$ according to $x(t) = A\,\cos(\omega t)$.
+Plot the \emph{$x$ velocity} of this mass as a function of time for two full periods.
+Label your plot with the amplitude and period of the oscillation.
+That is, make it clear that you know what the amplitude and period are, in terms of $A$ and $\omega$.
+Now make a similar plot of the kinetic energy vs time for that same mass, over
+the same time interval.
+Again, label it with the amplitude and the period.
+\end{problem}
+""",
+r"""\begin{problem} (From Recitation)
+Chemists write $P\,V = n\,R\,T$, where $n$ is the number of moles.
+Physicists write $P\,V = N\,k\,T$, where $N$ is the number of molecules.
+What is the ratio $R/k$?
 \end{problem}
 """,
 r"""\begin{problem} (From Lecture)
-An ice cube floats in a glass of water.
-When the ice cube melts, does the water level go up or down or stay the same?
-Explain why.
+Explain, in fewer than 51 words, why buildings in New York City have water towers?
 \end{problem}
 """,
 ]
