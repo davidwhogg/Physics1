@@ -4,16 +4,43 @@
 
 \section*{NYU Physics I---Problem Set 13}
 
-Due Thursday 2024 December 5 by 23:59 NYC time on Brightspace.
-Be sure to cite all your sources.
+Due Tuesday 2025 December 2 by 23:59 NYC time on Brightspace.
+Be sure to cite all your sources as per course policies.
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
 Get a sense of the speed of light by computing two things:
 
-\textsl{(a)} How many times could light go around the equator of the Earth
+\textsl{(a)} If you laid out a fiber-optic cable (and we do have many cables that are longer than 1000\,km laid out under oceans),
+how many times could light go around the equator of the Earth
 in a time interval of $1\,\s$?
+If you want to be \emph{extra}, account for the speed of light in glass;
+or just use the speed of light in vacuum; we'll take either answer.
 
 \textsl{(b)} How long (in ns) does it take light to go $1\,\ft$?
+
+\paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
+Relativity matters most in physics in particle physics experiments (for small things),
+and in cosmology (for big things).
+
+\textsl{(a)}
+Look up the per-proton energy of the particles in the Large Hadron Collider and divide by the
+rest energy ($m\,c^2$) for the proton. That ratio (energy over rest energy) is $\gamma$.
+What do you get for $\gamma$, and, for that $\gamma$, what is the corresponding speed $\beta=v/c$ for the
+protons? Do you see why we use $\gamma$ and not $\beta$ to describe highly relativistic particles?
+
+\textsl{(b)}
+The Universe is $1.4\times 10^{10}\,\yr$ old.
+Roughly how far away are the most distant things you can possibly see?
+(Note: Distances is cosmology are weird, so this is only approximate.)
+Give your answer in SI units and also megaparsecs (Mpc; the units astronomers use).
+
+\textsl{(c)}
+The nearest known planet around another star is 4.2\,pc away.
+How long would it take for us to get there if we can travel at $30\,\km\,s^{-1}$ (the Earth's orbital speed around the Sun)?
+How fast would we have to go to get there in 1~year?
+For this question, what I want you to answer is:
+At what speed $\beta=v/c$ do you have to travel to make the
+(squared) \emph{interval} between the departure event and the arrival event $(\Delta s)^2=(1\,\yr)^2$?
 
 \paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
 From the notes at \url{http://cosmo.nyu.edu/hogg/sr/},
@@ -24,7 +51,7 @@ problem: It is the Earth that replies, not the station.
 From the notes at \url{http://cosmo.nyu.edu/hogg/sr/},
 Problem 2--14.
 
-\paragraph{\problemname~\theproblem:}\refstepcounter{problem}%
+\paragraph{\problemname~\theproblem:}\refstepcounter{problem}\label{taylor}%
 \textsl{(a)} What is $\gamma$ to first order in $\beta^2$ for $\beta
 << 1$? That is, construct a Taylor Series for $\gamma$ in terms of
 $\beta^2$ and give the zeroth-order term (1) and then the first-order
@@ -44,7 +71,7 @@ much younger is the astronaut than the homebody?
 
 \paragraph{Extra Problem (will not be graded for credit):}%
 If the total energy (rest mass plus kinetic) of a point particle is
-$\gamma\,m\,c^2$, use the result from \problemname~3 above to get an
+$\gamma\,m\,c^2$, use the result from \problemname~\ref{taylor} above to get an
 approximate expression for the kinetic energy at low speeds.
 
 \end{document}
